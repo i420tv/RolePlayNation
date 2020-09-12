@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(128, 128, 128, 0);﻿
+}
+.jumbotron {
+    max-width: 20%;
+    margin-left: 80%;
+    margin-top: 5%;
+    padding: 25px 20px 15px 20px;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align:center;
+    font-size:250%;
+
+}
+
+.align{
+    align-items: center;
+}
+li {
+    font-weight:bold;
+    font-size:110%;
+}
+
+button {
+    margin-top:2.5%;
+}
+.alert {
+    margin-top: 1.5%;
+}
+.input-group {
+    margin-top:1%;
+}
+.center-block {
+  float:none;
+}
+
+
+.picker{
+    margin: auto;
+    width: 360upx;
+    height: 180px;
+}
+#display{
+
+    height: 50px;
+    background: #000000;
+    transition: background 100ms;
+    margin-top: 15px;
+    border: 1px solid #000;
+}
+input{
+    display: block;
+    width: 100%;
+}
+
+#preview {
+    border:1px #000 solid;
+    box-shadow:2px 3px 3px #444444;
+    height:80px;
+    width:80px;
+    border-radius:3px;
+}

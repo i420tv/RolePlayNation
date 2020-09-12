@@ -1,0 +1,11 @@
+ATM:          amb@prop_human_atm@male@idle_a idle_b
+Bumsearching:          amb@prop_human_bum_bin@base base
+Pickingappletree:          amb@prop_human_movie_bulb@base base
+appletreeinstead:          amb@prop_human_movie_bulb@idle_a idle_a
+Lockpickingdoor:          amb@prop_human_movie_studio_light@idle_a idle_b
+pullups:          amb@prop_human_muscle_chin_ups@male@base base
+LABSdrugs:          amb@prop_human_parking_meter@female@base base_female
+Druglabsinstead:          amb@prop_human_parking_meter@male@idle_a idle_a
+sitfemale1:          amb@prop_human_seat_chair@female@legs_crossed@idle_a idle_a
+sitmale1:          amb@prop_human_seat_chair@male@elbows_on_knees@enter enter_forward
+sitmale2:          amb@prop_human_seat_chair@male@generic@enter enter_forward

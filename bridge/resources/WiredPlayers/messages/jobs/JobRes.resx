@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="none_m" xml:space="preserve">
+    <value>Civilian</value>
+  </data>
+  <data name="none_f" xml:space="preserve">
+    <value>Civilian</value>
+  </data>
+  <data name="lspd_0_m" xml:space="preserve">
+    <value>Snitch</value>
+  </data>
+  <data name="lspd_0_f" xml:space="preserve">
+    <value>Snitch</value>
+  </data>
+  <data name="lspd_1_m" xml:space="preserve">
+    <value>Cadet</value>
+  </data>
+  <data name="lspd_1_f" xml:space="preserve">
+    <value>Cadet</value>
+  </data>
+  <data name="lspd_2_m" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="lspd_2_f" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="lspd_3_m" xml:space="preserve">
+    <value>Sergeant</value>
+  </data>
+  <data name="lspd_3_f" xml:space="preserve">
+    <value>Sergeant</value>
+  </data>
+  <data name="lspd_4_m" xml:space="preserve">
+    <value>Lieutenant</value>
+  </data>
+  <data name="lspd_4_f" xml:space="preserve">
+    <value>Lieutenant</value>
+  </data>
+  <data name="lspd_5_m" xml:space="preserve">
+    <value>Captain</value>
+  </data>
+  <data name="lspd_5_f" xml:space="preserve">
+    <value>Captain</value>
+  </data>
+  <data name="lspd_6_m" xml:space="preserve">
+    <value>Commissar</value>
+  </data>
+  <data name="lspd_6_f" xml:space="preserve">
+    <value>Commissar</value>
+  </data>
+  <data name="lspd_7_m" xml:space="preserve">
+    <value>Internal Affairs</value>
+  </data>
+  <data name="lspd_7_f" xml:space="preserve">
+    <value>Internal Affairs</value>
+  </data>
+  <data name="ems_1_m" xml:space="preserve">
+    <value>Auxiliary</value>
+  </data>
+  <data name="ems_1_f" xml:space="preserve">
+    <value>Auxiliary</value>
+  </data>
+  <data name="ems_2_m" xml:space="preserve">
+    <value>Nurse</value>
+  </data>
+  <data name="ems_2_f" xml:space="preserve">
+    <value>Nurse</value>
+  </data>
+  <data name="ems_3_m" xml:space="preserve">
+    <value>Adjunct surgeon</value>
+  </data>
+  <data name="ems_3_f" xml:space="preserve">
+    <value>Adjunct surgeon</value>
+  </data>
+  <data name="ems_4_m" xml:space="preserve">
+    <value>Paramedic</value>
+  </data>
+  <data name="ems_4_f" xml:space="preserve">
+    <value>Paramedic</value>
+  </data>
+  <data name="ems_5_m" xml:space="preserve">
+    <value>First class surgeon</value>
+  </data>
+  <data name="ems_5_f" xml:space="preserve">
+    <value>First class surgeon</value>
+  </data>
+  <data name="ems_6_m" xml:space="preserve">
+    <value>Medic</value>
+  </data>
+  <data name="ems_6_f" xml:space="preserve">
+    <value>Medic</value>
+  </data>
+  <data name="ems_7_m" xml:space="preserve">
+    <value>Chief surgeon</value>
+  </data>
+  <data name="ems_7_f" xml:space="preserve">
+    <value>Chief surgeon</value>
+  </data>
+  <data name="ems_8_m" xml:space="preserve">
+    <value>Head of emergency</value>
+  </data>
+  <data name="ems_8_f" xml:space="preserve">
+    <value>Head of emergency</value>
+  </data>
+  <data name="ems_9_m" xml:space="preserve">
+    <value>Vice principal</value>
+  </data>
+  <data name="ems_9_f" xml:space="preserve">
+    <value>Vice principal</value>
+  </data>
+  <data name="ems_10_m" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="ems_10_f" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="news_1_m" xml:space="preserve">
+    <value>Scholar</value>
+  </data>
+  <data name="news_1_f" xml:space="preserve">
+    <value>Scholar</value>
+  </data>
+  <data name="news_2_m" xml:space="preserve">
+    <value>Journalist</value>
+  </data>
+  <data name="news_2_f" xml:space="preserve">
+    <value>Journalist</value>
+  </data>
+  <data name="news_3_m" xml:space="preserve">
+    <value>Broadcaster</value>
+  </data>
+  <data name="news_3_f" xml:space="preserve">
+    <value>Broadcaster</value>
+  </data>
+  <data name="news_4_m" xml:space="preserve">
+    <value>Vice principal</value>
+  </data>
+  <data name="news_4_f" xml:space="preserve">
+    <value>Vice principal</value>
+  </data>
+  <data name="news_5_m" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="news_5_f" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="town_1_m" xml:space="preserve">
+    <value>Scholar</value>
+  </data>
+  <data name="town_1_f" xml:space="preserve">
+    <value>Scholar</value>
+  </data>
+  <data name="town_2_m" xml:space="preserve">
+    <value>Official</value>
+  </data>
+  <data name="town_2_f" xml:space="preserve">
+    <value>Official</value>
+  </data>
+  <data name="town_3_m" xml:space="preserve">
+    <value>Head of department</value>
+  </data>
+  <data name="town_3_f" xml:space="preserve">
+    <value>Head of department</value>
+  </data>
+  <data name="town_4_m" xml:space="preserve">
+    <value>Mayor</value>
+  </data>
+  <data name="town_4_f" xml:space="preserve">
+    <value>Mayor</value>
+  </data>
+  <data name="lstd_1_m" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="lstd_1_f" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="lstd_2_m" xml:space="preserve">
+    <value>Veteran</value>
+  </data>
+  <data name="lstd_2_f" xml:space="preserve">
+    <value>Veteran</value>
+  </data>
+  <data name="lstd_3_m" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="lstd_3_f" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="lstd_4_m" xml:space="preserve">
+    <value>Vice president</value>
+  </data>
+  <data name="lstd_4_f" xml:space="preserve">
+    <value>Vice president</value>
+  </data>
+  <data name="lstd_5_m" xml:space="preserve">
+    <value>President</value>
+  </data>
+  <data name="lstd_5_f" xml:space="preserve">
+    <value>President</value>
+  </data>
+  <data name="unemployed_m" xml:space="preserve">
+    <value>Unemployed</value>
+  </data>
+  <data name="unemployed_f" xml:space="preserve">
+    <value>Unemployed</value>
+  </data>
+  <data name="fastfood_m" xml:space="preserve">
+    <value>Delivery man</value>
+  </data>
+  <data name="fastfood_f" xml:space="preserve">
+    <value>Delivery woman</value>
+  </data>
+  <data name="thief_m" xml:space="preserve">
+    <value>Thief</value>
+  </data>
+  <data name="thief_f" xml:space="preserve">
+    <value>Thief</value>
+  </data>
+  <data name="mechanic_m" xml:space="preserve">
+    <value>Mechanic</value>
+  </data>
+  <data name="mechanic_f" xml:space="preserve">
+    <value>Mechanic</value>
+  </data>
+  <data name="gargage_m" xml:space="preserve">
+    <value>Garbage man</value>
+  </data>
+  <data name="gargage_f" xml:space="preserve">
+    <value>Garbage woman</value>
+  </data>
+  <data name="hooker_m" xml:space="preserve">
+    <value>Gigolo</value>
+  </data>
+  <data name="hooker_f" xml:space="preserve">
+    <value>Prostitute</value>
+  </data>
+  <data name="trucker_f" xml:space="preserve">
+    <value>Trucker</value>
+  </data>
+  <data name="trucker_m" xml:space="preserve">
+    <value>Trucker</value>
+  </data>
+  <data name="lssd_1_f" xml:space="preserve">
+    <value>Ayudante del Sheriff</value>
+  </data>
+  <data name="lssd_1_m" xml:space="preserve">
+    <value>Ayudante del Sheriff</value>
+  </data>
+  <data name="lssd_2_f" xml:space="preserve">
+    <value>Ayudante del Sheriff 2</value>
+  </data>
+  <data name="lssd_2_m" xml:space="preserve">
+    <value>Ayudante del Sheriff 2</value>
+  </data>
+  <data name="lssd_3_f" xml:space="preserve">
+    <value>Detective</value>
+  </data>
+  <data name="lssd_3_m" xml:space="preserve">
+    <value>Detective</value>
+  </data>
+  <data name="lssd_4_f" xml:space="preserve">
+    <value>Sargento</value>
+  </data>
+  <data name="lssd_4_m" xml:space="preserve">
+    <value>Sargento</value>
+  </data>
+  <data name="lssd_5_f" xml:space="preserve">
+    <value>Teniente</value>
+  </data>
+  <data name="lssd_5_m" xml:space="preserve">
+    <value>Teniente</value>
+  </data>
+  <data name="lssd_6_f" xml:space="preserve">
+    <value>Sheriff</value>
+  </data>
+  <data name="lssd_6_m" xml:space="preserve">
+    <value>Sheriff</value>
+  </data>
+  <data name="lawer_f" xml:space="preserve">
+    <value>Lawyer</value>
+  </data>
+  <data name="lawer_m" xml:space="preserve">
+    <value>Lawyer</value>
+  </data>
+  <data name="rank1" xml:space="preserve">
+    <value>Recruit</value>
+  </data>
+  <data name="rank10" xml:space="preserve">
+    <value>Boss</value>
+  </data>
+  <data name="rank2" xml:space="preserve">
+    <value>Soldier</value>
+  </data>
+  <data name="rank3" xml:space="preserve">
+    <value>Sergant</value>
+  </data>
+  <data name="rank4" xml:space="preserve">
+    <value>Lieutenant</value>
+  </data>
+  <data name="rank5" xml:space="preserve">
+    <value>Enforcer</value>
+  </data>
+  <data name="rank6" xml:space="preserve">
+    <value>Street boss</value>
+  </data>
+  <data name="rank7" xml:space="preserve">
+    <value>Caporegime</value>
+  </data>
+  <data name="rank8" xml:space="preserve">
+    <value>Consigilere</value>
+  </data>
+  <data name="rank9" xml:space="preserve">
+    <value>Underboss</value>
+  </data>
+  <data name="doc_0_f" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="doc_0_m" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="doc_1_f" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_1_m" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_2_f" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_2_m" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_3_f" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_3_m" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_4_f" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_4_m" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_5_f" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_5_m" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_6_f" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_6_m" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_7_f" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="doc_7_m" xml:space="preserve">
+    <value>Prison Guard</value>
+  </data>
+  <data name="lsc_0_f" xml:space="preserve">
+    <value>Trainee</value>
+  </data>
+  <data name="lsc_0_m" xml:space="preserve">
+    <value>Trainee</value>
+  </data>
+  <data name="lsc_1_f" xml:space="preserve">
+    <value>Repair woman</value>
+  </data>
+  <data name="lsc_1_m" xml:space="preserve">
+    <value>Repair man</value>
+  </data>
+  <data name="lsc_2_f" xml:space="preserve">
+    <value>Bodyworker</value>
+  </data>
+  <data name="lsc_2_m" xml:space="preserve">
+    <value>Bodyworker</value>
+  </data>
+  <data name="lsc_3_f" xml:space="preserve">
+    <value>Mechanic</value>
+  </data>
+  <data name="lsc_3_m" xml:space="preserve">
+    <value>Mechanic</value>
+  </data>
+  <data name="lsc_4_f" xml:space="preserve">
+    <value>Roadside Assistance</value>
+  </data>
+  <data name="lsc_4_m" xml:space="preserve">
+    <value>Roadside Assistance</value>
+  </data>
+  <data name="lsc_5_f" xml:space="preserve">
+    <value>Assistant Manager</value>
+  </data>
+  <data name="lsc_5_m" xml:space="preserve">
+    <value>Assistant Manager</value>
+  </data>
+  <data name="lsc_6_f" xml:space="preserve">
+    <value>CEO</value>
+  </data>
+  <data name="lsc_6_m" xml:space="preserve">
+    <value>CEO</value>
+  </data>
+</root>

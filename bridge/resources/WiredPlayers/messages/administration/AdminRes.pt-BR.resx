@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="god_mode_on" xml:space="preserve">
+    <value>Voce esta agora no modo Deus.</value>
+  </data>
+  <data name="god_mode_off" xml:space="preserve">
+    <value>Voce desativou o modo Deus.</value>
+  </data>
+  <data name="bring_player" xml:space="preserve">
+    <value>O membro da equipe {0} trouxe voce para sua posição.</value>
+  </data>
+  <data name="goto_player" xml:space="preserve">
+    <value>Voce se teletransportou para a posição de {0}.</value>
+  </data>
+  <data name="vehicle_dimension_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' a dimensão do veículo.</value>
+  </data>
+  <data name="vehicle_faction_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' a facção do veículo.</value>
+  </data>
+  <data name="vehicle_owner_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' o proprietario do veículo.</value>
+  </data>
+  <data name="vehicle_pos_updated" xml:space="preserve">
+    <value>Voce atualizou a posição do veículo.</value>
+  </data>
+  <data name="player_revived" xml:space="preserve">
+    <value>Voce reviveu {0}.</value>
+  </data>
+  <data name="parking_info" xml:space="preserve">
+    <value>Estacionamento {0} - Informações:</value>
+  </data>
+  <data name="parking_created" xml:space="preserve">
+    <value>Voce criou um estacionamento na sua posição.</value>
+  </data>
+  <data name="parking_deleted" xml:space="preserve">
+    <value>Voce excluiu o estacionamento mais próximo.</value>
+  </data>
+  <data name="player_bank_modified" xml:space="preserve">
+    <value>Voce mudou o dinheiro do banco do jogador {1} para {0} R$.</value>
+  </data>
+  <data name="player_money_modified" xml:space="preserve">
+    <value>Voce mudou o dinheiro da mão do jogador {1} para {0} R$.</value>
+  </data>
+  <data name="player_faction_modified" xml:space="preserve">
+    <value>Voce mudou a facção do jogador '{1}' para '{0}'.</value>
+  </data>
+  <data name="player_job_modified" xml:space="preserve">
+    <value>Voce mudou o cargo de emprego do jogador '{1}' para '{0}'.</value>
+  </data>
+  <data name="player_rank_modified" xml:space="preserve">
+    <value>Voce mudou o cargo da facção do jogador {1} para '{0}'.</value>
+  </data>
+  <data name="player_dimension_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' {1} 's dimension.</value>
+  </data>
+  <data name="house_created" xml:space="preserve">
+    <value>Voce criou uma casa em sua posição.</value>
+  </data>
+  <data name="house_deleted" xml:space="preserve">
+    <value>Voce eliminou a casa mais próxima.</value>
+  </data>
+  <data name="house_interior_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' a dimensão da casa.</value>
+  </data>
+  <data name="house_price_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' o preço da casa.</value>
+  </data>
+  <data name="house_owner_modified" xml:space="preserve">
+    <value>{0} e o novo proprietario desta casa.</value>
+  </data>
+  <data name="house_name_modified" xml:space="preserve">
+    <value>{0} e o novo endereço desta casa.</value>
+  </data>
+  <data name="house_status_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' o estado da casa.</value>
+  </data>
+  <data name="house_rental_modified" xml:space="preserve">
+    <value>Voce mudou para {0} R $ o preço do aluguel da casa.</value>
+  </data>
+  <data name="business_name_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' o nome da empresa.</value>
+  </data>
+  <data name="business_type_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' o tipo de negócio '.</value>
+  </data>
+  <data name="parking_house_modified" xml:space="preserve">
+    <value>Voce ligou a casa {0} para este estacionamento.</value>
+  </data>
+  <data name="parking_slots_modified" xml:space="preserve">
+    <value>Voce mudou para {0} slots maximos deste estacionamento.</value>
+  </data>
+  <data name="parking_type_modified" xml:space="preserve">
+    <value>Voce mudou para '{0}' o tipo de estacionamento.</value>
+  </data>
+  <data name="save_start" xml:space="preserve">
+    <value>Salvando todas as entidades no mundo ...</value>
+  </data>
+  <data name="save_business" xml:space="preserve">
+    <value>{0} negócios foram atualizados.</value>
+  </data>
+  <data name="save_parkings" xml:space="preserve">
+    <value>{0} estacionamentos foram atualizados.</value>
+  </data>
+  <data name="save_finish" xml:space="preserve">
+    <value>Salvamento de entidade com sucesso.</value>
+  </data>
+  <data name="new_admin_ticket" xml:space="preserve">
+    <value>Ha um novo bilhete assistente incomparavel.</value>
+  </data>
+  <data name="ticket_answered" xml:space="preserve">
+    <value>Voce respondeu o número do ticket '{0}'.</value>
+  </data>
+  <data name="vehicle_bring" xml:space="preserve">
+    <value>Voce trouxe o {0} veículo para sua posição.</value>
+  </data>
+  <data name="vehicle_goto" xml:space="preserve">
+    <value>Voce se teletransporta para o veículo {0}.</value>
+  </data>
+  <data name="vehicle_repaired" xml:space="preserve">
+    <value>Voce reparou o veículo.</value>
+  </data>
+  <data name="spectating_player" xml:space="preserve">
+    <value>Voce esta observando {0}.</value>
+  </data>
+  <data name="spect_stopped" xml:space="preserve">
+    <value>Voce parou de observar.</value>
+  </data>
+  <data name="player_jailed" xml:space="preserve">
+    <value>{0} foi preso por {1} minutos. Motivo: {2}</value>
+  </data>
+  <data name="kicked_all" xml:space="preserve">
+    <value>Todos os jogadores foram expulsos do servidor.</value>
+  </data>
+  <data name="weapon_event_started" xml:space="preserve">
+    <value>O evento das arma começou.</value>
+  </data>
+  <data name="role_points_given" xml:space="preserve">
+    <value>Voce deu {0} pontos de função para {1}.</value>
+  </data>
+  <data name="role_points_received" xml:space="preserve">
+    <value>{0} deu-lhe {1} pontos de função.</value>
+  </data>
+  <data name="role_points_removed" xml:space="preserve">
+    <value>Voce removeu {0} pontos de função para {1}.</value>
+  </data>
+  <data name="role_points_lost" xml:space="preserve">
+    <value>{0} removeu voce {1} pontos de função.</value>
+  </data>
+  <data name="role_points_set" xml:space="preserve">
+    <value>Voce configurou para {0} {1} os pontos de função de.</value>
+  </data>
+  <data name="role_points_established" xml:space="preserve">
+    <value>{0} configurado para {1} seus pontos de função.</value>
+  </data>
+  <data name="weather_changed" xml:space="preserve">
+    <value>{0} alterou o valor do clima para '{1}'.</value>
+  </data>
+  <data name="player_kicked" xml:space="preserve">
+    <value>{0} chutou {1} do servidor. Motivo: {2}</value>
+  </data>
+  <data name="player_banned" xml:space="preserve">
+    <value>{0} baniu {1} do servidor. Motivo: {2}</value>
+  </data>
+  <data name="player_health" xml:space="preserve">
+    <value>Voce mudou a vida de {0} para {1}.</value>
+  </data>
+  <data name="target_health" xml:space="preserve">
+    <value>{0} alterou sua vida para {1}.</value>
+  </data>
+  <data name="characters_saved" xml:space="preserve">
+    <value>Todos os personagens foram salvos.</value>
+  </data>
+  <data name="vehicles_saved" xml:space="preserve">
+    <value>Todos os veículos foram salvos.</value>
+  </data>
+</root>

@@ -1,0 +1,103 @@
+﻿* {
+    outline: none;
+    color: white;
+	text-align: center;
+	text-decoration: none;
+    box-sizing: border-box;
+    font-family: Myriad Pro, Open Sans, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.player-panel {
+	width: 34vw;
+	height: 30vw;
+	top: 25%;
+	left: 28%;
+	overflow: hidden;
+	background-color: #5a5a5a57;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading-right img {
+	position: absolute;
+	right: 3%;
+	top: 1%;
+	width: 1.5vw;
+}
+
+.heading-left {
+	width: 34vw;
+	height: 39px;
+	padding: 10px;
+	vertical-align: middle;
+    background-image: url('../img/ui/bg.jpg');
+    background-color: rgba(255, 255, 255, 0.041);
+    background-position: 1000px 800px;
+	background-color: rgba(255, 255, 255, 0.048);
+	border-radius: 15px 15px 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.player-heading {
+	
+	height: 0.15vh;
+}
+
+
+
+.player-fields {
+	height: 4vh;
+	font-weight: bolder;
+	border-bottom: 1px black solid;
+}
+
+.player-fields div {
+		text-align: center;
+		color: white;
+		line-height: 4vh;
+		background-color: aquamarine;
+		
+}
+
+.player-id,
+.player-ping {
+	display: inline-block;
+	color: white;
+	width: 4.2vw;
+	
+	
+}
+
+.player-name {
+	display: inline-block;
+	color: white;
+	width: 20vw;
+	
+	
+}
+
+.player-container {
+	padding: 5px;
+	height: 57vh;
+	overflow-y: auto !important;
+	background-color: rgba(85, 85, 85, 0.089);
+
+}
+
+	.player-container > div {
+		height: 4vh;
+		padding: 5px 0px;
+		border-bottom: 1px solid black;
+		color: white;
+		line-height: 25px;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	}

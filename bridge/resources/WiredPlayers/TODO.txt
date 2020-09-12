@@ -1,0 +1,174 @@
+
+Garbage job
+
+-322,0652,-1545,77,31,01992   Coolshape for start of the job.
+
+-329,3123,-1516,58,27,5372    Spawn for truck
+-325,7192,-1516,983,27,53913  Second Spawn for Truck
+-352,2358,-1560,054,25,21113  Dumping spot
+
+
+
+Garbage List
+-171,7899,-1459,556,31,68153
+-167,9957,-1662,631,33,46659
+-161,5029,-1669,776,33,16794
+-99,96844,-1580,326,31,67161
+-12,36437,-1541,766,29,56568
+-9,69629,-1529,385,29,81476
+-8,714257,-1528,479,29,8106
+8,941128,-1596,9,29,29402
+
+
+prop_veg_crop_01 : 3287520828 5758
+
+           player.PlayAnimation("amb@world_human_gardener_plant@male@idle_a", "idle_a", (int)(Constants.AnimationFlags.AllowPlayerControl | Constants.AnimationFlags.Loop));
+
+prop_veg_corn_01 : 2196914828
+
+Trucking job location
+-44.04705f, -2519.901f, 7.394626f
+Trucking Destinations
+3480,402,3666,252,33,569
+2701,99,3449,729,55,47878
+2661,982,3275,165,54,91982
+1834,417,2542,03,45,5595
+768,5526,-1866,732,28,97363
+
+A /roll system
+do /roll 20 
+random number 1-20
+
+Plane mail delivery job
+Level 10? Mail delivery man
+Mail delivery job
+
+npc for first missions.
+299,728,-1204,4,38,8926
+
+New Farming job
+2046.344, 4966.132, 41.07947
+2051.014, 4961.396, 41.06622
+2055.824, 4956.469, 41.03296
+2061.681, 4950.714, 41.06129
+2067.595, 4945.038, 41.05199
+2065.048, 4942.143, 41.10296
+2062.402, 4939.196, 41.10839
+2059.709, 4936.383, 41.11107
+2056.854, 4933.475, 41.07724
+2053.888, 4930.686, 41.07146
+2051.254, 4927.843, 41.13422
+2048.445, 4924.925, 41.09797
+2045.851, 4922.027, 41.12156
+2042.598, 4918.922, 41.05925
+
+
+NPC farming
+2005,259,4983,563,41,42204
+
+grass different states
+955777091 Finished
+
+Middle stage 
+3911344281
+
+Cabage
+3660027849
+
+New Bike Shop
+268,7436,-1155,322,29,29108  Catalog
+262,6624,-1161,951,29,1885   Spawn purchased bikes
+256,4384,-1161,814,29,17914  Spawn2 Purchased bikes
+253,2458,-1161,473,29,14883  Spawn3 Purchased Bikes
+253,1926,-1150,37,29,27608	 Spawn Test car
+310,226,-1164,383,29,29191   Return test 
+
+Bike Shop Sandy
+2134,277,4782,895,40,97028
+
+New spawn
+-1356,546,-465,3847,22,79196
+
+Weed seed sell place
+1908.658f, 4921.891f, 48.83039f
+
+Sodium sell point
+172,8786,-1000,055,-98,99995
+
+Acetone and Sulfuric acid etc sell point
+3513,004,3752,995,30,11738
+
+
+
+New login screens
+
+758,839,1273,53,446,1914
+1444,931,2439,198,1377,062 Very high up in the air
+-1810,409,-1233,199,71,72489  Pier with music <3
+-1925,423,-954,1877,27,05645  Pier without music looking at boat
+
+
+New Prison
+459,6779,-1001,487,24,91488  cell 3 Mission Row
+459,643,-998,004,24,91484    cell 2 Mission Row
+460,329,-994,4046,24,91479   cell 1 Mission Row
+
+
+Weazel News
+-1082,236,-247,6301,37,76331 Ads spot public access
+
+Stop people from using numpad + to stop animations when doing certain stuff
+player.SetData(EntityData.PLAYER_ANIMATION, true);
+
+New interiors?
+1005,808,-3161,07,-38,90778  Warehouse
+
+Bank Heist
+Doors
+256,8028,220,3016,106,2852 - First door to picklock
+261,7234,222,0408,106,2837 - Second door to Hack on the terminal
+253,2881,228,4585,101,6833 - 
+
+258,4438,214,1481,101,6833 - Bank box 1 outside the main boxes
+259,4916,218,1196,101,6833 - Bank box 2 outside the main boxes
+Heist up in paleto
+-105,4835,6471,919,31,62672 Terminal to hack
+-105,9478,6475,01,31,62672 Door that needs lockpicking
+
+
+Oceanway bankheist
+-2957,867,481,9294,15,69705 Vault door
+-2956,563,481,6994,15,69709  Terminal to hack
+-2956,591,484,5359,15,67531 Door into vault
+-2956,854,483,4644,15,67529 Terminal to hack
+
+Bank boxes
+-2958,502,484,0262,15,67529 
+-2957,343,485,9573,15,67533
+-2954,298,482,4786,15,6753
+-2952,594,484,2762,15,67538
+-2954,02,486,2813,15,67541
+
+Bank boxes paleto
+-107,0286,6473,499,31,62672
+-107,6794,6475,671,31,62672
+-102,8615,6475,573,31,62674
+-103,2876,6478,302,31,62673
+-105,868,6478,51,31,62714
+
+Bugs to fix.
+
+Player freeze when he gets something in right hand. ?? (CRUCIAL)
+if you leave city and log back in your still on duty.
+Uniform for police
+PlayerModel or Skillmodel for saving skills? also start storing stuff untill player leaves server. So that db dont get ddos.
+When order is delivered but you are on return to job, change text when /orders
+/vehicle info on test vehicle crashes server.
+female clothing for subjob is messed up
+/getsub brings 2?
+playerdata doesnt give info when in factions..
+
+
+attachTo()	Void	GTANetworkShared.NetHandle entity, String bone, GTANetworkShared.Vector3 offset, GTANetworkShared.Vector3 rotation	?
+detach()	Void		?
+detach()	Void	Boolean resetCollision

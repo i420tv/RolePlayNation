@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/uiMain.css">
+  <link rel="stylesheet" href="../css/scrollbar.css" />
+  <link rel="stylesheet" href="../css/farbtastic.css">
+</head>
+<body>
+  <div class="divHolder-vehiclePre">
+      <header class="data-header">
+        <div class="heading-center" data-i18n="data.title">Vehicle Preview</div>
+      </header>
+
+      <div class="centerbuttons">
+        <div class="centerdiv" data-toggle="buttons">
+          <label class="btn btn-primary active ">
+
+            <input style="position: absolute; left: -9999px;" id="color-main" type="radio" name="options" autocomplete="off" checked>
+            <span data-i18n="tunning.primary-color"></span>
+
+          </label>
+
+          <label class="btn btn-primary centerdiv" >
+            <input style="position: absolute; left: -9999px;" id="color-secondary" type="radio" name="options" autocomplete="off">
+            <span data-i18n="tunning.secondary-color"></span>
+          </label>
+        </div>
+      </div>
+    </br>
+      <input type="hidden" id="buttonvalue"/>
+
+      <div id="colorpicker" class="centerdiv"></div>
+    </br>
+    <div class="col-lg-12 height-10 centerdiv" style="background-color: none;">
+    </br>
+      Vehicle Rotation
+      <input style="width: 330px; height: 70px;" type="range" id="vehicle-slider" min="0" max="360" oninput="rotatePreviewVehicle();" />
+
+    </div>
+  </br>
+      <div class="centerbuttons" role="group">
+        <button id="catalog-back" type="button" class="btn btn-primary" data-i18n="general.back" onclick="goBackToCatalog();"></button>
+        <button id="catalog-test" type="button" class="btn btn-primary" data-i18n="cardealer.test" onclick="testVehicle();"></button>
+        <button id="catalog-purchase" type="button" class="btn btn-primary" data-i18n="general.purchase" onclick="purchaseVehicle();"></button>
+       
+      </div>
+      
+    </br>
+    </br>
+
+  </br>
+  </div>
+</body>
+
+<script src="../lib/jquery-3.4.0.min.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script src="../lib/farbtastic.js"></script>
+<script src="../lib/i18next.min.js"></script>
+<script src="../lib/jquery-i18next.min.js"></script>
+<script src="../lib/i18nextXHRBackend.min.js"></script>
+<script src="../js/functions.js"></script>
+
+</html>

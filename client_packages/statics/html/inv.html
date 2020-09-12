@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Inventar</title>
+    <link rel="stylesheet" href="css/inventory.css" />
+    <link rel="stylesheet" href="../css/inventory.css">
+</head>
+
+<body>
+    <div class="sidebar">
+            <ul>
+                <li class="sidebaritem" onclick="switchSite('foodClass')"><img class="sideicon1" src="img/backpack/1.png"><p class="bartext">Food</p></li>
+                <li class="sidebaritem" onclick="switchSite('drinkClass')"><img class="sideicon2" src="img/backpack/2.png"><p class="bartext">Raw materials</p></li>
+                <li class="sidebaritem" onclick="switchSite('clothClass')"><img class="sideicon3" src="img/backpack/3.png"><p class="bartext">Clothing</p></li>
+                <li class="sidebaritem" onclick="switchSite('weaponClass')"><img class="sideicon4" src="img/backpack/4.png"><p class="bartext">Weapons</p></li>
+                <li class="sidebaritem" onclick="switchSite('consumClass')"><img class="sideicon5" src="img/backpack/5.png"><p class="bartext">Konsummittel</p></li>
+                <li class="sidebaritem" onclick="switchSite('somethingClass')"><img class="sideicon6" src="img/backpack/6.png"><p class="bartext">Others</p></li>
+            </ul>
+        </div>
+    <div id="inventory" class="inventory-container"></div>
+    <div name="foodClass" class="food">
+		<div class="main">
+			<div class="title"><div class="titlecount"><span id="count">0</span> / 40 Kilogramm</div><div class="titletext">Rucksack</div></div>
+			<div class="items">
+				<ul id="List0">
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div name="drinkClass" class="drink hidden">
+        <div class="main">
+            <div class="title"><div class="titlecount"><span id="count">0</span> / 40 Kilogramm</div><div class="titletext">Rucksack</div></div>
+            <div class="items">
+                <ul id="List3">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div name="clothClass" class="cloth hidden">
+            <div class="main">
+                <div class="title"><div class="titlecount"><span id="count">0</span> / 40 Kilogramm</div><div class="titletext">Rucksack</div></div>
+                <div class="items">
+                    <ul id="List2">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <div name="weaponClass" class="weapon hidden">
+            <div class="main">
+                <div class="title"><div class="titlecount"><span id="count">0</span> / 40 Kilogramm</div><div class="titletext">Rucksack</div></div>
+                <div class="items">
+                    <ul id="List4">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <div name="consumClass" class="consum hidden">
+            <div class="main">
+                <div class="title"><div class="titlecount"><span id="count">0</span> / 40 Kilogramm</div><div class="titletext">Rucksack</div></div>
+                <div class="items">
+                    <ul id="List3">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <div name="somethingClass" class="something hidden">
+            <div class="main">
+                <div class="title"><div class="titlecount"><span id="count">0</span> / 40 Kilogramm</div><div class="titletext">Rucksack</div></div>
+                <div class="items">
+                    <ul id="List5">
+                    </ul>
+                </div>
+            </div>
+        </div>
+<div id="invisible" style="display:none"></div>
+<div class="inventory-exit" data-i18n="general.exit" onclick="mp.trigger('closeInventory')"></div>
+
+</body>
+<script src="../lib/jquery-3.4.0.min.js"></script>
+<script src="../lib/i18next.min.js"></script>
+<script src="../lib/jquery-i18next.min.js"></script>
+<script src="../lib/i18nextXHRBackend.min.js"></script>
+<script src="../js/inventory.js"></script>
+</html>

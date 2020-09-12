@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/scrollbar.css" />
+		<link rel="stylesheet" href="../css/jobs.css" />
+	</head>
+	<body>
+		<div id="data-container" class="data-panel">
+			<header class="data-header">
+				<div class="heading-center" data-i18n="data.title">Ocean Cleaner</div>
+				<div class="heading-right"><img src="../img/close.png" width="20" height="15" onclick="mp.trigger('closePlayerData')"/></div>
+			</header>
+			<div class="inside-text">We've got so much rubbish in the ocean that needs to be cleaned.</div>
+		</br>
+			<div class="inside-text">We'll provide you the equipment and vehicles to get the job done.</div>
+
+			<div class="inside-text">Are you able to help out?</div>
+			<div class="bottons">
+				<button class="botton-job btn-green" onclick="mp.trigger('joinJobOcean')">Join</button>
+				<button class="botton-job btn-yellow" onclick="mp.trigger('dutyJobOcean')">Duty</button>
+				<button class="botton-job btn-blue" onclick="mp.trigger('spawnJobOcean')">Spawn Vehicle</button>
+				<button class="botton-job btn-red" onclick="mp.trigger('quitJobOcean')">Quit Job</button>
+			</div>
+		</div>
+  	</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="../lib/jquery-3.4.0.min.js"></script>
+  <script src="../lib/i18next.min.js"></script>
+  <script src="../lib/jquery-i18next.min.js"></script>
+  <script src="../lib/i18nextXHRBackend.min.js"></script>
+  <script src="../js/playerData.js"></script>
+
+</html>

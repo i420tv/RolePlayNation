@@ -1,0 +1,14 @@
+/* Copyright © 2019 by CommanderDonkey */
+/* Read README.md for using */
+
+.hud {
+    position: absolute;
+	top: 4.5%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+::selection {
+	color: none;
+	background: none;
+}

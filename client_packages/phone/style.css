@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* colours*/
+/*fonts*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	overflow: hidden;
+}
+html, body::selection{
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.application {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Open Sans';
+}
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fade2 {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		 opacity: 1;
+	}
+}
+.application .phone::before, .application .phone::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 35px;
+	z-index: 1;
+	pointer-events: none;
+}
+.application .phone__controls__power, .application .phone__controls__volume, .application .phone__controls__annoying-button-nobody-likes {
+	position: absolute;
+	height: 70px;
+	width: 8px;
+	border-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #000;
+}
+.application .phone {
+	position: relative;
+	box-sizing: border-box;
+	padding: 40px 10px;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-radius: 35px;
+	background: #000;
+	border: 3px solid #404040;
+	cursor: pointer;
+	zoom:1.1;
+}
+.application .phone--landscape {
+	transform: rotatez(90deg);
+}
+.application .phone--landscape .content, .application .phone--landscape .status-bar {
+	box-sizing: border-box;
+	transform: rotatez(-90deg);
+	width: 200%;
+	height: 50%;
+	top: 25%;
+	left: -50%;
+	padding-left: 0px;
+	padding-bottom: 0;
+}
+.application .phone--landscape .app-grid {
+	animation: fade2 2s linear forwards;
+}
+.application .phone__hardware__speaker, .application .phone__hardware__camera {
+	position: absolute;
+	background: #333;
+	border: 1px solid #262626;
+}
+.application .phone__hardware__speaker {
+	top: 15px;
+	left: 50%;
+	height: 8px;
+	width: 55px;
+	transform: translateX(-50%);
+	border-radius: 25px;
+	background-image: url('data:image/svg+xml,%3Csvg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z" fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"/%3E%3C/svg%3E');
+	background-size: 4px;
+}
+.application .phone__hardware__camera {
+	top: 14px;
+	width: 13px;
+	height: 13px;
+	left: 65%;
+	border-radius: 50%;
+	background: radial-gradient(closest-side, rgba(246, 157, 60, 0.4), #333);
+}
+.application .phone__hardware__camera--sensor {
+	left: 23%;
+	background: radial-gradient(closest-side, rgba(34, 0, 255, 0.4), #1a1a1a);
+}
+.application .phone__hardware__camera--sensor2 {
+	top: 17px;
+	width: 7px;
+	height: 7px;
+	left: 17%;
+	background: radial-gradient(closest-side, rgba(34, 0, 255, 0.4), #1a1a1a);
+}
+.application .phone__controls__power {
+	top: 33%;
+	left: 100%;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+.application .phone__controls__volume {
+	height: 120px;
+	top: 20%;
+	right: 100%;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+.application .phone__controls__annoying-button-nobody-likes {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	top: 40%;
+	right: 100%;
+}
+.application .phone__screen {
+	position: relative;
+	box-sizing: border-box;
+	width: 300px;
+	height: 560px;
+	background: #000;
+	border-radius: 35px;
+	overflow: hidden;
+}
+.application .content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	padding-bottom: 50px;
+	border-radius: inherit;
+	display: none;
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-position: center center;
+	cursor: auto;
+	color: #fff;
+}
+.application .content:not([disabled]) {
+	display: block;
+}
+.application .navigation {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: none;
+	z-index: 999;
+}
+.application .navigation:not([disabled]) {
+	display: block;
+}
+.application .navigation__buttons {
+	height: 100%;
+	display: block;
+	grid-template-columns: repeat(auto-fit, 50px);
+	font-size: 45px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+ol{
+	padding: 0;
+	margin: 0;
+}
+.application .navigation__buttons__button:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+.application .status-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: grid;
+	grid-template-columns: 0.3fr 0.7fr;
+	color: #fff;
+	font-size: 13px;
+	z-index: 1;
+	font-family: "Courier New", Courier, monospace;
+	pointer-events: none;
+	padding-top: 5px;
+}
+.application .status-bar > * {
+	margin-right: 25px;
+}
+.application .status-bar > *:first-child {
+	margin-right: 0;
+	margin-left: 25px;
+}
+.application .status-bar > * > * {
+	margin: 0 2px;
+}
+.application .status-bar > *:last-child {
+	text-align: right;
+}
+.application .app-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+	grid-auto-columns: 1fr;
+	margin: 25px;
+	grid-gap: 33.33px;
+	opacity: 0;
+	animation: fade 2s linear forwards;
+}
+.application .app-grid__app {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 55px;
+	height: 55px;
+	font-size: 55px;
+	border-radius: 15px;
+	cursor: pointer;
+	position: relative;
+}
+.application .app-grid__app--phone {
+	background: #2ECC71;
+	font-size: 35px;
+}
+.application .app-grid__app--msg {
+	background-color: #1ABC9C;
+	font-size: 35px;
+}
+.application .app-grid__app--wapp {
+	background-color: #2ECC71;
+	font-size: 35px;
+}
+.application .app-grid__app--contacts {
+	background-color: #aeb2b4;
+	font-size: 35px;
+}
+.application .app-grid__app--bank {
+	background-color: #3498DB;
+	font-size: 35px;
+}
+.application .app-grid__app--settings {
+	background-color: #95A5A6;
+	font-size: 35px;
+}
+.application .app-grid__app--weazel {
+	background-color: #003780;
+	font-size: 35px;
+}
+.application .app-grid__app--notes{
+	background-color: #FFCF4B;
+	font-size: 35px;
+}
+.app-title{
+	position: absolute;
+	font-size: 12px;
+	bottom: -20px;
+}
+p{
+	margin: 0;
+}
+.hidden{
+	display: none;
+}
+.whatsup{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;	
+	background-color: #fff;
+	height: 100%;
+}
+.whatsup .banner{
+	text-align: center;
+	padding: 25px 10px 10px 10px;
+	background-color: #2ECC71;
+}
+.whatsup .app{
+	color: black;
+}
+.whatsup .app ul{
+	list-style-type: none;
+}
+.whatsup .app ul .group-item {
+	padding: 15px 5px;
+	border-bottom: 2px solid #C4C4C4;
+	font-size: 24px;
+	font-weight: bold;
+}
+.whatsup .app ul .group-item:hover {
+	cursor: pointer;
+}
+.bank{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;	
+	background-color: #fff;
+	height: 100%;
+}
+.bank .banner{
+	text-align: center;
+	padding: 25px 10px 10px 10px;
+	background-color: #3498DA;
+}
+.bank .app{
+	color: black;
+}
+.bank .app .balance{
+	margin: 25px;
+	height: 155px;
+	text-align: center;
+	-webkit-box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
+}
+.bank .app .balance h3 {
+	padding-top: 10px;
+}
+.bank .app .balance #bal{
+	padding-top: 20px;
+}
+.bank .app .transactions{
+	margin: 25px;
+	height: 215px;
+	-webkit-box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
+	padding: 10px;
+}
+.bank .app .transactions p{
+	font-weight: bold;
+}
+.bank .app .transactions input{
+	width: 100%;
+	border: none;
+	background-color: #dadbdb;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.bank .app .transactions input:focus{
+	border: none;
+	outline: none;
+}
+.bank .app .transactions button{
+	border: none;
+	width: 100%;
+	background-color: #3498DA;
+	color: white;
+	padding: 10px;
+	outline: none;
+	cursor: pointer;
+}
+.bank .app .transactions h3{
+	text-align: center;
+}
+.settings{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;	
+	background-color: #fff;
+	height: 100%;
+	color: black;
+}
+.settings .banner{
+	text-align: center;
+	padding: 25px 10px 10px 10px;
+	background-color: #95A5A6;
+	color: white;
+}
+.settings .settings_content{
+	list-style-type: none;
+	margin: 25px;
+	height: 215px;
+	-webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.4);
+	padding: 10px;
+}
+.slidecontainer {
+	width: 100%;
+}
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 25px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+.slider:hover {
+	opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: #95A5A6;
+	cursor: pointer;
+}
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #95A5A6;
+	cursor: pointer;
+}
+.urlinput{
+	width: 100%;
+	background-color: #E0E0E0;
+	border: none;
+	padding: 10px;
+}
+.savebutton{
+	border: none;
+	width: 100%;
+	background-color: #95A5A6;
+	color: white;
+	padding: 10px;
+	outline: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.notesapp{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;	
+	background-color: #fff;
+	height: 100%;
+	color: black;
+	overflow: scroll;
+}
+.notesapp .banner{
+	text-align: center;
+	padding: 25px 10px 10px 10px;
+	background-color: #FFCF4B;
+	color: white;
+}
+#addnote{
+	float: right;	
+}
+.note-list{
+	list-style-type: none;
+	position: relative;
+}
+.note-item{
+	padding: 10px;
+	border-bottom: 2px solid rgb(202, 202, 202);
+}

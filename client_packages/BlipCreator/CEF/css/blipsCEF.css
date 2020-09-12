@@ -1,0 +1,44 @@
+body {
+    background: 0 !important;
+    margin:0;}
+.createMenu {
+    display: none;
+    width: 800px; 
+    margin:0 auto;
+    position: relative;    
+    top: 50vh;
+    transform: translateY(-50%);}
+.blipInfo{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 600px;}
+.itensPanel{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;}
+.selectable .ui-selecting { background: #FECA40; }
+.selectable .ui-selected { background: #F39814; color: white; }
+.selectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+.selectable li { margin: 3px; padding: 1px; float: left; width: 55px; height: 50px; text-align: center; }
+
+#slider-opacity{
+    max-width: 330px;}
+#slider-scale{
+    max-width: 300px;}
+#value-opacity,#value-scale {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+}
+.buttons-div{
+    float: right;}
+
+.editorMenu{    
+    margin-top: 15vh;}
+.listBlips{
+    max-height: 450;
+    overflow: hidden;
+    overflow-y: scroll;}

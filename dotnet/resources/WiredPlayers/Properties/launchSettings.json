@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "WiredPlayers": {
+      "commandName": "Executable",
+      "executablePath": "C:\\RP TEST SERVER\\RAGEMP\\server-files\\server.exe",
+      "workingDirectory": "C:\\RP TEST SERVER\\RAGEMP\\server-files"
+    },
+    "OceanicRPDizo": {
+      "commandName": "Executable",
+      "executablePath": "C:\\RP TEST SERVER\\RAGEMP\\server-files\\server.exe",
+      "workingDirectory": "C:\\RP TEST SERVER\\RAGEMP\\server-files\\"
+    },
+    "OceanicRPZuljen": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Ruben\\Documents\\gtav-rp-server\\RAGEMP\\server-files\\server.exe",
+      "workingDirectory": "C:\\Users\\Ruben\\Documents\\gtav-rp-server\\RAGEMP\\server-files\\"
+    }
+  }
+}

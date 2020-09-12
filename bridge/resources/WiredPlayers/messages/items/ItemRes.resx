@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beer_bottle" xml:space="preserve">
+    <value>Beer bottle</value>
+  </data>
+  <data name="beer_pack" xml:space="preserve">
+    <value>Beer pack</value>
+  </data>
+  <data name="sandwich" xml:space="preserve">
+    <value>Sandwich</value>
+  </data>
+  <data name="cigarettes" xml:space="preserve">
+    <value>RedWood cigarettes</value>
+  </data>
+  <data name="cola" xml:space="preserve">
+    <value>FunCola</value>
+  </data>
+  <data name="candy" xml:space="preserve">
+    <value>Candies</value>
+  </data>
+  <data name="jerrycan" xml:space="preserve">
+    <value>Jerrycan</value>
+  </data>
+  <data name="coffee" xml:space="preserve">
+    <value>Coffee</value>
+  </data>
+  <data name="burger" xml:space="preserve">
+    <value>Burger</value>
+  </data>
+  <data name="hotdog" xml:space="preserve">
+    <value>Hot dog</value>
+  </data>
+  <data name="juice" xml:space="preserve">
+    <value>Juice</value>
+  </data>
+  <data name="energy_drink" xml:space="preserve">
+    <value>Energy drink</value>
+  </data>
+  <data name="cava_bottle" xml:space="preserve">
+    <value>Cava bottle</value>
+  </data>
+  <data name="smartphone" xml:space="preserve">
+    <value>Smartphone</value>
+  </data>
+  <data name="walkie" xml:space="preserve">
+    <value>Walkie-Talkie</value>
+  </data>
+  <data name="camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="crowbar" xml:space="preserve">
+    <value>Crowbar</value>
+  </data>
+  <data name="hammer" xml:space="preserve">
+    <value>Hammer</value>
+  </data>
+  <data name="flashlight" xml:space="preserve">
+    <value>Flashlight</value>
+  </data>
+  <data name="hatchet" xml:space="preserve">
+    <value>Hatchet</value>
+  </data>
+  <data name="wrench" xml:space="preserve">
+    <value>Wrench</value>
+  </data>
+  <data name="knucle_duster" xml:space="preserve">
+    <value>Knuckle duster</value>
+  </data>
+  <data name="knife" xml:space="preserve">
+    <value>Knife</value>
+  </data>
+  <data name="switchblade" xml:space="preserve">
+    <value>Switchblade</value>
+  </data>
+  <data name="bat" xml:space="preserve">
+    <value>Bat</value>
+  </data>
+  <data name="golf_club" xml:space="preserve">
+    <value>Golf club</value>
+  </data>
+  <data name="pistol" xml:space="preserve">
+    <value>Pistol</value>
+  </data>
+  <data name="bullpup_shotgun" xml:space="preserve">
+    <value>Bullpup shotgun</value>
+  </data>
+  <data name="compact_rifle" xml:space="preserve">
+    <value>Compact rifle</value>
+  </data>
+  <data name="carbine_rifle" xml:space="preserve">
+    <value>Carbine</value>
+  </data>
+  <data name="heavy_shotgun" xml:space="preserve">
+    <value>Heavy shotgun</value>
+  </data>
+  <data name="sawn_off_shotgun" xml:space="preserve">
+    <value>Sawn-off shotgun</value>
+  </data>
+  <data name="bullpup_rifle" xml:space="preserve">
+    <value>Bullpup rifle</value>
+  </data>
+  <data name="assault_rifle" xml:space="preserve">
+    <value>Assault rifle</value>
+  </data>
+  <data name="ap_pistol" xml:space="preserve">
+    <value>AP Pistol</value>
+  </data>
+  <data name="double_barrel_shotgun" xml:space="preserve">
+    <value>Double barrel shotgun</value>
+  </data>
+  <data name="machine_pistol" xml:space="preserve">
+    <value>Machine pistol</value>
+  </data>
+  <data name="sniper_rifle" xml:space="preserve">
+    <value>Sniper rifle</value>
+  </data>
+  <data name="assault_smg" xml:space="preserve">
+    <value>Assault SMG</value>
+  </data>
+  <data name="combat_pdw" xml:space="preserve">
+    <value>Combat PDW</value>
+  </data>
+  <data name="revolver" xml:space="preserve">
+    <value>Revolver</value>
+  </data>
+  <data name="heavy_pistol" xml:space="preserve">
+    <value>Heavy pistol</value>
+  </data>
+  <data name="pump_shotgun" xml:space="preserve">
+    <value>Pump shotgun</value>
+  </data>
+  <data name="special_carbine" xml:space="preserve">
+    <value>Special carbine</value>
+  </data>
+  <data name="pistol_50" xml:space="preserve">
+    <value>Pistol 50</value>
+  </data>
+  <data name="advanced_rifle" xml:space="preserve">
+    <value>Advanced rifle</value>
+  </data>
+  <data name="heavy_sniper" xml:space="preserve">
+    <value>Heavy sniper rifle</value>
+  </data>
+  <data name="micro_smg" xml:space="preserve">
+    <value>Micro SMG</value>
+  </data>
+  <data name="assault_shotgun" xml:space="preserve">
+    <value>Assault shotgun</value>
+  </data>
+  <data name="marksman_rifle" xml:space="preserve">
+    <value>Marksman rifle</value>
+  </data>
+  <data name="smg" xml:space="preserve">
+    <value>SMG</value>
+  </data>
+  <data name="pistol_ammo" xml:space="preserve">
+    <value>Pistol ammunition</value>
+  </data>
+  <data name="smg_ammo" xml:space="preserve">
+    <value>Machine gun ammunition</value>
+  </data>
+  <data name="shotgun_ammo" xml:space="preserve">
+    <value>Shotgun ammunition</value>
+  </data>
+  <data name="rifle_ammo" xml:space="preserve">
+    <value>Assault rifle ammunition</value>
+  </data>
+  <data name="sniper_ammo" xml:space="preserve">
+    <value>Sniper rifle ammunition</value>
+  </data>
+  <data name="fishing_rod" xml:space="preserve">
+    <value>Fishing rod</value>
+  </data>
+  <data name="bait" xml:space="preserve">
+    <value>Bait</value>
+  </data>
+  <data name="fish" xml:space="preserve">
+    <value>Fish</value>
+  </data>
+  <data name="products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="stolen_items" xml:space="preserve">
+    <value>Stolen items</value>
+  </data>
+  <data name="jackhammer" xml:space="preserve">
+    <value>Jackhammer</value>
+  </data>
+  <data name="pickaxe" xml:space="preserve">
+    <value>Pickaxe</value>
+  </data>
+  <data name="bandage" xml:space="preserve">
+    <value>Bandage</value>
+  </data>
+  <data name="cocain" xml:space="preserve">
+    <value>Cocain</value>
+  </data>
+  <data name="copper" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="iron" xml:space="preserve">
+    <value>Iron</value>
+  </data>
+  <data name="lead" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="medkit" xml:space="preserve">
+    <value>Medkit</value>
+  </data>
+  <data name="meth" xml:space="preserve">
+    <value>Meth</value>
+  </data>
+  <data name="weed" xml:space="preserve">
+    <value>Weed</value>
+  </data>
+  <data name="acetone" xml:space="preserve">
+    <value>Acetone</value>
+  </data>
+  <data name="dufflebag" xml:space="preserve">
+    <value>Dufflebag</value>
+  </data>
+  <data name="extacy" xml:space="preserve">
+    <value>Extacy</value>
+  </data>
+  <data name="hemp" xml:space="preserve">
+    <value>Hemp</value>
+  </data>
+  <data name="leaf" xml:space="preserve">
+    <value>Cocain Leaf</value>
+  </data>
+  <data name="maureticacid" xml:space="preserve">
+    <value>Mauretic Acid</value>
+  </data>
+  <data name="sodium" xml:space="preserve">
+    <value>Sodium</value>
+  </data>
+  <data name="sufluricacid" xml:space="preserve">
+    <value>Sulfuric Acid</value>
+  </data>
+  <data name="copperbar" xml:space="preserve">
+    <value>Copper bar</value>
+  </data>
+  <data name="goldbar" xml:space="preserve">
+    <value>Gold bar</value>
+  </data>
+  <data name="ironbar" xml:space="preserve">
+    <value>Iron Bar</value>
+  </data>
+  <data name="weedpot" xml:space="preserve">
+    <value>Planting Pot</value>
+  </data>
+  <data name="weedseed" xml:space="preserve">
+    <value>Weed Seeds</value>
+  </data>
+  <data name="leadbar" xml:space="preserve">
+    <value>Lead Bar</value>
+  </data>
+  <data name="tin" xml:space="preserve">
+    <value>Tin ore</value>
+  </data>
+  <data name="tinbar" xml:space="preserve">
+    <value>Tin Bar</value>
+  </data>
+  <data name="bronzebar" xml:space="preserve">
+    <value>Bronze Bar</value>
+  </data>
+</root>

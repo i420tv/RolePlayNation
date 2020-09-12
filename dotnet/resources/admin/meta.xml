@@ -1,0 +1,4 @@
+﻿<meta>
+  <info name="Administration Utilities" author="Guadmaz" type="script" />        
+  <script src="admin.cs"/>
+</meta>

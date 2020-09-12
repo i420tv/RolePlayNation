@@ -1,0 +1,187 @@
+{
+	"menu": [
+		{
+			"id": "btn-faction",
+			"icon": "ic_faction",
+			"name": "Fraction",
+			"factions": {
+				"police": [
+					{
+						"id": "btn-cuff",
+						"event": "circular_cuff",
+						"name": "Handcuffs"
+					},
+					{
+						"id": "btn-lead",
+						"event": "circular_lead",
+						"name": "Lead"
+					},
+					{
+						"id": "btn-cput",
+						"event": "circular_cput",
+						"name": "In the car"
+					},
+					{
+						"id": "btn-eject",
+						"event": "circular_eject",
+						"name": "From the car"
+					},
+					{
+						"id": "btn-takelic",
+						"event": "circular_takelic",
+						"name": "Иъять ВУ"
+					},
+					{
+						"id": "btn-take",
+						"event": "circular_take",
+						"name": "Take"
+					},
+					{
+						"id": "btn-frisk",
+						"event": "circular_frisk",
+						"name": "Frisk"
+					},
+					{
+						"id": "btn-arrest",
+						"event": "circular_arrest",
+						"name": "Arrest"
+					},
+					{
+						"id": "btn-lic-weapon",
+						"event": "circular_lic_weapon",
+						"name": "Persons. Weapon"
+					},
+					{
+						"id": "btn-clear",
+						"event": "circular_clear",
+						"name": "Remove wanted"
+					},
+					{
+						"id": "btn-uninvite-police",
+						"event": "circular_uninvite",
+						"name": "Dismiss"
+					},
+					{
+						"id": "btn-repr-police",
+						"event": "circular_repr",
+						"name": "Rebuke"
+					},
+					{
+						"id": "btn-giveminus-police",
+						"event": "circular_giveminus",
+						"name": "Понизить"
+					},
+					{
+						"id": "btn-giveplus-police",
+						"event": "circular_giveplus",
+						"name": "Повысить"
+					},
+					{
+						"id": "btn-invite-police",
+						"event": "circular_invite",
+						"name": "Принять"
+					}
+				],
+				"all": [
+					{
+						"id": "btn-uninvite",
+						"event": "circular_uninvite",
+						"name": "Уволить"
+					},
+					{
+						"id": "btn-repr",
+						"event": "circular_repr",
+						"name": "Выговор"
+					},
+					{
+						"id": "btn-giveminus",
+						"event": "circular_giveminus",
+						"name": "Понизить"
+					},
+					{
+						"id": "btn-giveplus",
+						"event": "circular_giveplus",
+						"name": "Повысить"
+					},
+					{
+						"id": "btn-invite",
+						"event": "circular_invite",
+						"name": "Принять"
+					}
+				]
+			}
+		},
+		{
+			"id": "btn-property",
+			"icon": "ic_property", 
+			"name": "Имущество",
+			"submenu": [
+				{
+					"id": "btn-business",
+					"event": "circular_business",
+					"name": "Бизнес"
+				},
+				{
+					"id": "btn-vehicle",
+					"event": "circular_vehicle",
+					"name": "Автомобиль"
+				},
+				{
+					"id": "btn-house",
+					"event": "circular_house",
+					"name": "Дом"
+				}
+			]
+		},
+		{
+			"id": "btn-money",
+			"icon": "ic_money", 
+			"event": "circular_money",
+			"name": "Дать денег"
+		},
+		{
+			"id": "btn-friend",
+			"icon": "ic_friend",
+			"event": "circular_friend", 
+			"name": "Friend"
+		},
+		{
+			"id": "btn-document",
+			"icon": "ic_document", 
+			"name": "Documents",
+			"submenu": [
+				{
+					"id": "btn-identity",
+					"event": "circular_identity", 
+					"name": "Identity papers"
+				},
+				{
+					"id": "btn-passport",
+					"event": "circular_passport", 
+					"name": "Passport"
+				},
+				{
+					"id": "btn-weapon",
+					"event": "circular_weapon", 
+					"name": "Weapon License"
+				},
+				{
+					"id": "btn-driving",
+					"event": "circular_driving", 
+					"name": "Driving license"
+				}
+			]
+		},
+		{
+			"id": "btn-trade",
+			"icon": "ic_trade", 
+			"event": "circular_trade", 
+			"name": "Trade"
+		},
+		{
+			"id": "btn-doing",
+			"icon": "ic_doing", 
+			"name": "Действие"
+		}
+	]
+}

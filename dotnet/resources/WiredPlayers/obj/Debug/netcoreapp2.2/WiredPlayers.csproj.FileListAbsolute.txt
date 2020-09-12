@@ -1,0 +1,145 @@
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.deps.json
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.pdb
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\pt-BR\WiredPlayers.resources.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Colorful.Console.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.CSharp.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Ben.Demystifier.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\NeoSmart.Hashing.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\xxHash.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.pdb
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.xml
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csprojAssemblyReference.cache
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.administration.AdminRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.DescRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.description.DescRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.error.ErrRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.factions.FacRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.general.GenRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.InfoRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.information.InfoRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.items.ItemRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.jobs.JobRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.success.SuccRes.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.administration.AdminRes.pt-BR.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.description.DescRes.pt-BR.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.error.ErrRes.pt-BR.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.general.GenRes.pt-BR.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.information.InfoRes.pt-BR.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.success.SuccRes.pt-BR.resources
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.GenerateResource.cache
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.CoreCompileInputs.cache
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.AssemblyInfoInputs.cache
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.AssemblyInfo.cs
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\pt-BR\WiredPlayers.resources.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.CopyComplete
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.dll
+C:\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.pdb
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csprojAssemblyReference.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.administration.AdminRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.DescRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.description.DescRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.error.ErrRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.factions.FacRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.general.GenRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.InfoRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.information.InfoRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.items.ItemRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.jobs.JobRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.success.SuccRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.administration.AdminRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.description.DescRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.error.ErrRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.general.GenRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.information.InfoRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.success.SuccRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.GenerateResource.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.CoreCompileInputs.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.AssemblyInfoInputs.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.AssemblyInfo.cs
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.pdb
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.deps.json
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.pdb
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\pt-BR\WiredPlayers.resources.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Colorful.Console.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Ben.Demystifier.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\NeoSmart.Hashing.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\xxHash.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.pdb
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.xml
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\pt-BR\WiredPlayers.resources.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.CopyComplete
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.deps.json
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\WiredPlayers.pdb
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\pt-BR\WiredPlayers.resources.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Colorful.Console.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.CSharp.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Ben.Demystifier.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\NeoSmart.Hashing.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\xxHash.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.pdb
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\bin\Debug\netcoreapp2.2\Bootstrapper.xml
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csprojAssemblyReference.cache
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.administration.AdminRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.DescRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.description.DescRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.error.ErrRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.factions.FacRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.general.GenRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.InfoRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.information.InfoRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.items.ItemRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.jobs.JobRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.success.SuccRes.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.administration.AdminRes.pt-BR.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.description.DescRes.pt-BR.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.error.ErrRes.pt-BR.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.general.GenRes.pt-BR.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.information.InfoRes.pt-BR.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.success.SuccRes.pt-BR.resources
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.GenerateResource.cache
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.AssemblyInfoInputs.cache
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.AssemblyInfo.cs
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\pt-BR\WiredPlayers.resources.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.CopyComplete
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.dll
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.pdb
+C:\RP TEST SERVER\RAGEMP\server-files\bridge\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.CoreCompileInputs.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csprojAssemblyReference.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.administration.AdminRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.DescRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.description.DescRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.error.ErrRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.factions.FacRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.general.GenRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.InfoRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.information.InfoRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.items.ItemRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.jobs.JobRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.success.SuccRes.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.administration.AdminRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.description.DescRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.error.ErrRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.general.GenRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.information.InfoRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.messages.success.SuccRes.pt-BR.resources
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.GenerateResource.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.csproj.CoreCompileInputs.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.AssemblyInfoInputs.cache
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.AssemblyInfo.cs
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.dll
+C:\Users\Ruben\Documents\gtav-rp-server\RAGEMP\server-files\dotnet\resources\WiredPlayers\obj\Debug\netcoreapp2.2\WiredPlayers.pdb

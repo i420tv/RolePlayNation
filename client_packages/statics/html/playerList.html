@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/scrollbar.css" />
+    <link rel="stylesheet" href="../css/playerList.css" />
+  </head>
+  <body>
+      <div class="player-panel">
+        <div class="player-heading">
+          <div id="online" class="heading-left" data-i18n="players.online"></div>
+          <div class="heading-right"><img src="../img/close.png" onclick="mp.trigger('hideConnectedPlayers')"/></div>
+        </div>
+        <div class="player-fields">
+          <div class="player-id" data-i18n="players.id"></div>
+          <div class="player-name" data-i18n="players.name"></div>
+          <div class="player-ping" data-i18n="players.ping"></div>
+        </div>
+        <div id="player-container" class="player-container"></div>
+      </div>
+  </body>
+
+  <script src="../lib/jquery-3.4.0.min.js"></script>
+  <script src="../lib/i18next.min.js"></script>
+  <script src="../lib/jquery-i18next.min.js"></script>
+  <script src="../lib/i18nextXHRBackend.min.js"></script>
+  <script src="../js/playerList.js"></script>
+
+</html>

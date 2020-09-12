@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="../css/scrollbar.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body class="background col-lg-12">
+  <div class="col-lg-3 center-block card card-body vertical-center text-center">
+    <form class="row justify-content-center">
+      <div class="col-lg-8 row justify-content-center">
+        <input id="number" class="form-control center-block" type="text" data-i18n="[placeholder]phone.number" required="required" autofocus/>
+      </div>
+      <div class="col-lg-8 row justify-content-center">
+        <input id="name" class="form-control center-block" type="text" data-i18n="[placeholder]general.name" required="required" autofocus/>
+      </div>
+      <div class="col-lg-6 row justify-content-center">
+        <button type="button" class="btn btn-primary form-control center-block" data-i18n="general.add" onclick="setContactData();"></button>
+      </div>
+    </form>
+  </div>
+</body>
+
+<script src="../lib/jquery-3.4.0.min.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script src="../lib/i18next.min.js"></script>
+<script src="../lib/jquery-i18next.min.js"></script>
+<script src="../lib/i18nextXHRBackend.min.js"></script>
+<script src="../js/functions.js"></script>
+
+</html>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="../css/scrollbar.css" />
+  </head>
+<body>
+  <div class="data-panel">
+      <header class="data-header">
+        <div class="heading-center" data-i18n="data.title">Player Quiz</div>
+      </header>
+
+
+
+
+      
+        <div id="question" class="question-header"></div>
+        <div id="answers" class="answers-content"></div>
+
+        <div class="buttons"> 
+            <div id="previous" class="cancel" onclick="previousQuestion()" data-i18n="application.previous" disabled>Back</div>
+            <div id="next" class="accept" onclick="nextQuestion()" data-i18n="application.next">Next</div>
+            <div id="finish" class="accept hidden" onclick="submitApplication()" data-i18n="application.finish">Finish</div>
+        </div>
+      
+
+
+      <div id="failure" class="failure hidden">
+        <img src="../img/fail.png" />
+        <div id="" class="mistakes">You have failed the test!</div>
+        <div class="retry" onclick="mp.trigger('retryApplication')" data-i18n="application.retry">Retry</div>
+      </div>
+
+  </div>
+</body>
+
+  <script src="../lib/jquery-3.4.0.min.js"></script>
+  <script src="../lib/i18next.min.js"></script>
+  <script src="../lib/jquery-i18next.min.js"></script>
+  <script src="../lib/i18nextXHRBackend.min.js"></script>
+  <script src="../js/test.js"></script>
+
+</html>

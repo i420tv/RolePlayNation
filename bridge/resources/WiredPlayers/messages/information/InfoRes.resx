@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="license_vehicle_exit" xml:space="preserve">
+    <value>Get back into the vehicle within {0} seconds or you'll fail the license exam.</value>
+  </data>
+  <data name="enter_license_car_vehicle" xml:space="preserve">
+    <value>Get into a car from the driving school to start the license exam. Don't forget to keep the speed under 100 km/h.</value>
+  </data>
+  <data name="enter_license_bike_vehicle" xml:space="preserve">
+    <value>Get into a motorcycle from the driving school to start the license exam. Don't forget to keep the speed under 100 km/h.</value>
+  </data>
+  <data name="player_can_die" xml:space="preserve">
+    <value>If the emergency service is not still on its way, you can use /die to be teleported to the hospital.</value>
+  </data>
+  <data name="emergency_warn" xml:space="preserve">
+    <value>A report has been sent to the emergency department.</value>
+  </data>
+  <data name="account_new" xml:space="preserve">
+    <value>You need to be registered in https://oceanicroleplay.com/ to log into the server.</value>
+  </data>
+  <data name="account_disabled" xml:space="preserve">
+    <value>Your account is locked, head to the forums if you want more detailed information.</value>
+  </data>
+  <data name="seatbelt_fasten" xml:space="preserve">
+    <value>has fasten his seatbelt.</value>
+  </data>
+  <data name="seatbelt_unfasten" xml:space="preserve">
+    <value>has unfasten his seatbelt.</value>
+  </data>
+  <data name="house_buy" xml:space="preserve">
+    <value>You bought the house named {0} for {1}$.</value>
+  </data>
+  <data name="house_rent" xml:space="preserve">
+    <value>You rented the house {0} paying a fee of {1}$.</value>
+  </data>
+  <data name="house_rent_stop" xml:space="preserve">
+    <value>You canceled your rent for the house {0}.</value>
+  </data>
+  <data name="house_state_rent" xml:space="preserve">
+    <value>You set a rental price of {0}$.</value>
+  </data>
+  <data name="house_rent_cancel" xml:space="preserve">
+    <value>You removed house's rental price.</value>
+  </data>
+  <data name="job_accepted" xml:space="preserve">
+    <value>You have a new job. Use /duty to start working.</value>
+  </data>
+  <data name="job_left" xml:space="preserve">
+    <value>You left your current job.</value>
+  </data>
+  <data name="deliver_order" xml:space="preserve">
+    <value>You've got {0} seconds to deliver the order. You can cancel it using /cancel.</value>
+  </data>
+  <data name="job_vehicle_left" xml:space="preserve">
+    <value>Get back into the vehicle within {0} seconds or you'll get a penalty.</value>
+  </data>
+  <data name="deliver_completed" xml:space="preserve">
+    <value>You delivered the order, go back to your job in order to get paid.</value>
+  </data>
+  <data name="job_won" xml:space="preserve">
+    <value>You won {0}$ for the successful job.</value>
+  </data>
+  <data name="cuffed" xml:space="preserve">
+    <value>You hancuffed {0}.</value>
+  </data>
+  <data name="cuffed_by" xml:space="preserve">
+    <value>The officer {0} has handcuffed you.</value>
+  </data>
+  <data name="uncuffed" xml:space="preserve">
+    <value>You removed the handcuffs from {0}.</value>
+  </data>
+  <data name="uncuffed_by" xml:space="preserve">
+    <value>The officer {0} has removed your handcuffs.</value>
+  </data>
+  <data name="fine_given" xml:space="preserve">
+    <value>You set a fine to {0}.</value>
+  </data>
+  <data name="fine_received" xml:space="preserve">
+    <value>The officer {0} has set a fine on you.</value>
+  </data>
+  <data name="veh_locked" xml:space="preserve">
+    <value>You locked the vehicle.</value>
+  </data>
+  <data name="veh_unlocked" xml:space="preserve">
+    <value>You unlocked the vehicle.</value>
+  </data>
+  <data name="too_far_veh" xml:space="preserve">
+    <value>You are too far away from the vehicle.</value>
+  </data>
+  <data name="veh_already_unlocked" xml:space="preserve">
+    <value>This vehicle is already unlocked.</value>
+  </data>
+  <data name="hood_opened" xml:space="preserve">
+    <value>You opened the vehicle's hood.</value>
+  </data>
+  <data name="trunk_opened" xml:space="preserve">
+    <value>You opened the vehicle's trunk.</value>
+  </data>
+  <data name="hood_closed" xml:space="preserve">
+    <value>You closed the vehicle's hood.</value>
+  </data>
+  <data name="trunk_closed" xml:space="preserve">
+    <value>You closed the vehicle's trunk.</value>
+  </data>
+  <data name="police_control_cleared" xml:space="preserve">
+    <value>You removed all the elements in the police control.</value>
+  </data>
+  <data name="hotwire_started" xml:space="preserve">
+    <value>You started hotwiring the vehicle.</value>
+  </data>
+  <data name="player_pawned_items" xml:space="preserve">
+    <value>You received {0}$ for pawning some items.</value>
+  </data>
+  <data name="business_item_purchased" xml:space="preserve">
+    <value>You paid {0}$ for your purchase.</value>
+  </data>
+  <data name="player_waiting_partner" xml:space="preserve">
+    <value>Wait for the partner to get into the truck.</value>
+  </data>
+  <data name="wait_garbage_driver" xml:space="preserve">
+    <value>Wait for the driver to get into the truck.</value>
+  </data>
+  <data name="garbage_route_canceled" xml:space="preserve">
+    <value>You canceled the garbage collecting route.</value>
+  </data>
+  <data name="route_canceled" xml:space="preserve">
+    <value>You canceled your route, get the vehicle back to the dump.</value>
+  </data>
+  <data name="route_finished" xml:space="preserve">
+    <value>You finished your route, get the vehicle back to the dump.</value>
+  </data>
+  <data name="garbage_collected" xml:space="preserve">
+    <value>You picked up the garbage bag.</value>
+  </data>
+  <data name="garbage_earnings" xml:space="preserve">
+    <value>You won {0}$ for successfully completing the route.</value>
+  </data>
+  <data name="player_inventory_equip" xml:space="preserve">
+    <value>You withdrew your {0} from the inventory.</value>
+  </data>
+  <data name="player_inventory_consume" xml:space="preserve">
+    <value>You consumed your {0}.</value>
+  </data>
+  <data name="player_inventory_open" xml:space="preserve">
+    <value>You opened your {0}.</value>
+  </data>
+  <data name="player_inventory_drop" xml:space="preserve">
+    <value>You dropped your {0}.</value>
+  </data>
+  <data name="wz_offer_onair" xml:space="preserve">
+    <value>You offered an interview to another player.</value>
+  </data>
+  <data name="wz_accept_onair" xml:space="preserve">
+    <value>A Weazel News journalista has offered you an interview.</value>
+  </data>
+  <data name="player_unjailed" xml:space="preserve">
+    <value>Time's over, you're no longer in jail.</value>
+  </data>
+  <data name="parking_cost" xml:space="preserve">
+    <value>You parked your vehicle, there's a {0}$ fee per hour spent.</value>
+  </data>
+  <data name="parking_empty" xml:space="preserve">
+    <value>This parking is empty.</value>
+  </data>
+  <data name="vehicle_garage_parked" xml:space="preserve">
+    <value>You parked your vehicle in the garage.</value>
+  </data>
+  <data name="vehicle_deposit_parked" xml:space="preserve">
+    <value>You parked the vehicle in the police depot.</value>
+  </data>
+  <data name="mechanic_repair_offer" xml:space="preserve">
+    <value>You sent a repair offer to {0} for {1}$, wait for him to accept it.</value>
+  </data>
+  <data name="mechanic_repair_accept" xml:space="preserve">
+    <value>{0} wants to repair your vehicle for {1}$. Use /accept repair to accept it.</value>
+  </data>
+  <data name="mechanic_repaint_offer" xml:space="preserve">
+    <value>You sent a repaint offer to {0} for {1}$, wait for him to accept it.</value>
+  </data>
+  <data name="mechanic_repaint_accept" xml:space="preserve">
+    <value>{0} wants to repaint your vehicle for {1}$. Use /accept repaint to accept it.</value>
+  </data>
+  <data name="player_robbed" xml:space="preserve">
+    <value>You stole {0} items.</value>
+  </data>
+  <data name="player_on_duty" xml:space="preserve">
+    <value>You're now on duty.</value>
+  </data>
+  <data name="player_admin_on_duty" xml:space="preserve">
+    <value>You're now on duty as an Admin.</value>
+  </data>
+  <data name="player_admin_free_time" xml:space="preserve">
+    <value>You're not on duty as an Admin anymore.</value>
+  </data>
+  <data name="player_free_time" xml:space="preserve">
+    <value>Your workshift has come to its end.</value>
+  </data>
+  <data name="police_retired_items_to" xml:space="preserve">
+    <value>You requised suspicious material from {0}.</value>
+  </data>
+  <data name="police_retired_items_from" xml:space="preserve">
+    <value>The officer {0} has requised your stolen items.</value>
+  </data>
+  <data name="equip_basic_received" xml:space="preserve">
+    <value>You took your basic equipment.</value>
+  </data>
+  <data name="equip_ammo_received" xml:space="preserve">
+    <value>You took ammunition for each of your weapons.</value>
+  </data>
+  <data name="equip_weap_received" xml:space="preserve">
+    <value>You took a weapon.</value>
+  </data>
+  <data name="player_has_indentification" xml:space="preserve">
+    <value>You paid {0}$ for the identification card.</value>
+  </data>
+  <data name="player_has_medical_insurance" xml:space="preserve">
+    <value>You paid {0}$ for the medical insurance.</value>
+  </data>
+  <data name="player_has_taxi_license" xml:space="preserve">
+    <value>You paid {0}$ for the taxi license.</value>
+  </data>
+  <data name="player_no_fines" xml:space="preserve">
+    <value>You don't have any fine pending to be paid.</value>
+  </data>
+  <data name="player_fines_paid" xml:space="preserve">
+    <value>You paid {0}$ for your fines.</value>
+  </data>
+  <data name="vehicle_keys_given" xml:space="preserve">
+    <value>You lent {0} the keys of your vehicle.</value>
+  </data>
+  <data name="vehicle_keys_received" xml:space="preserve">
+    <value>{0} has lent you his vehicle keys.</value>
+  </data>
+  <data name="vehicle_keys_thrown" xml:space="preserve">
+    <value>You dropped vehicle's keys.</value>
+  </data>
+  <data name="vehicle_keys_info" xml:space="preserve">
+    <value>The vehicle {0} with model {1} is owned by {2}</value>
+  </data>
+  <data name="already_on_air" xml:space="preserve">
+    <value>You're already on air.</value>
+  </data>
+  <data name="reporter_on_air_cutted" xml:space="preserve">
+    <value>You stopped interviewing the guest.</value>
+  </data>
+  <data name="player_on_air_cutted" xml:space="preserve">
+    <value>The interview has been stopped by the journalist.</value>
+  </data>
+  <data name="player_accept_on_air" xml:space="preserve">
+    <value>The guest has accepted the interview. You can use /n to speak on air with him.</value>
+  </data>
+  <data name="player_picked_item" xml:space="preserve">
+    <value>You picked up an item from the ground.</value>
+  </data>
+  <data name="channel_created" xml:space="preserve">
+    <value>You have created the radio frequency channel {0}.</value>
+  </data>
+  <data name="channel_updated" xml:space="preserve">
+    <value>You updated channel's password.</value>
+  </data>
+  <data name="channel_deleted" xml:space="preserve">
+    <value>You deleted the radio frequency channel.</value>
+  </data>
+  <data name="channel_disconnected" xml:space="preserve">
+    <value>You have been disconnected from the radio frequency channel.</value>
+  </data>
+  <data name="channel_connected" xml:space="preserve">
+    <value>You have been connected to the channel {0}.</value>
+  </data>
+  <data name="trunk_stored_items" xml:space="preserve">
+    <value>You placed an item into the vehicle's trunk.</value>
+  </data>
+  <data name="trunk_withdraw_items" xml:space="preserve">
+    <value>You withdrew something from the vehicle's trunk.</value>
+  </data>
+  <data name="trunk_item_withdraw" xml:space="preserve">
+    <value>withdrew something from his vehicle's trunk.</value>
+  </data>
+  <data name="player_reanimated" xml:space="preserve">
+    <value>You reanimated {0}.</value>
+  </data>
+  <data name="vehicle_turned_off" xml:space="preserve">
+    <value>You turned the engine off.</value>
+  </data>
+  <data name="vehicle_turned_on" xml:space="preserve">
+    <value>You turned the engine on.</value>
+  </data>
+  <data name="medic_healed_player" xml:space="preserve">
+    <value>You healed {0}.</value>
+  </data>
+  <data name="player_healed_medic" xml:space="preserve">
+    <value>Doctor {0} healed your wounds.</value>
+  </data>
+  <data name="player_test_vehicle" xml:space="preserve">
+    <value>You can test this vehicle freely, when you are finished get it back.</value>
+  </data>
+  <data name="central_call" xml:space="preserve">
+    <value>There's a new incoming call.</value>
+  </data>
+  <data name="call_from" xml:space="preserve">
+    <value>{0} is calling you. Use /answer to respond and /hang when you're finished.</value>
+  </data>
+  <data name="calling" xml:space="preserve">
+    <value>You're calling {0}.</value>
+  </data>
+  <data name="phone_disconnected" xml:space="preserve">
+    <value>The phone you're calling at is not responding.</value>
+  </data>
+  <data name="line_occupied" xml:space="preserve">
+    <value>All telephone lines are busy at this moment.</value>
+  </data>
+  <data name="contact_created" xml:space="preserve">
+    <value>You added '{0}' with number {1} to your contacts list.</value>
+  </data>
+  <data name="contact_modified" xml:space="preserve">
+    <value>You modified a contact in your contacts list.</value>
+  </data>
+  <data name="contact_deleted" xml:space="preserve">
+    <value>You deleted '{0}' with number {1} from your contacts list.</value>
+  </data>
+  <data name="sms_sent" xml:space="preserve">
+    <value>You sent an SMS successfully.</value>
+  </data>
+  <data name="license_list" xml:space="preserve">
+    <value>Player licenses:</value>
+  </data>
+  <data name="player_phone" xml:space="preserve">
+    <value>Your new phone number is: {0}.</value>
+  </data>
+  <data name="phone_number" xml:space="preserve">
+    <value>Your current phone number is: {0}.</value>
+  </data>
+  <data name="on_air_canceled" xml:space="preserve">
+    <value>You finished the interview.</value>
+  </data>
+  <data name="hooker_service_canceled" xml:space="preserve">
+    <value>You canceled the service.</value>
+  </data>
+  <data name="payment_canceled" xml:space="preserve">
+    <value>You rejected the payment.</value>
+  </data>
+  <data name="prize_given" xml:space="preserve">
+    <value>You gave a {0}$ prize to {1}.</value>
+  </data>
+  <data name="prize_received" xml:space="preserve">
+    <value>{0} gave you a {1}$ prize. Reason: {2}.</value>
+  </data>
+  <data name="call_received" xml:space="preserve">
+    <value>You answered the call, type /hang when you're finished.</value>
+  </data>
+  <data name="call_taken" xml:space="preserve">
+    <value>Somebody answered your call, type /hang when you're finished.</value>
+  </data>
+  <data name="how_to_start_engine" xml:space="preserve">
+    <value>You entered a vehicle, press K to toggle the engine on or off.</value>
+  </data>
+  <data name="player_recruited" xml:space="preserve">
+    <value>You recruited {0} into your faction.</value>
+  </data>
+  <data name="faction_recruited" xml:space="preserve">
+    <value>You were recuited in the '{0}' faction.</value>
+  </data>
+  <data name="player_dismissed" xml:space="preserve">
+    <value>You kicked {0} out of the faction.</value>
+  </data>
+  <data name="faction_dismissed" xml:space="preserve">
+    <value>{0} kicked you out of the faction.</value>
+  </data>
+  <data name="player_rank_changed" xml:space="preserve">
+    <value>You changed {0}'s rank to {1}.</value>
+  </data>
+  <data name="faction_rank_changed" xml:space="preserve">
+    <value>{0} changed your rank to {1}.</value>
+  </data>
+  <data name="emergency_warning" xml:space="preserve">
+    <value>There's a new emergency report. Use /attend {0}.</value>
+  </data>
+  <data name="police_warning" xml:space="preserve">
+    <value>There's a new robbery report. Use /attend.</value>
+  </data>
+  <data name="deliverer_order_canceled" xml:space="preserve">
+    <value>You canceled the delivery order, now you can take a new one.</value>
+  </data>
+  <data name="ticket_list" xml:space="preserve">
+    <value>Ticket list:</value>
+  </data>
+  <data name="ticket_answer" xml:space="preserve">
+    <value>Answer to your ticket: {0}</value>
+  </data>
+  <data name="vehicle_parked" xml:space="preserve">
+    <value>The vehicle's position has been marked on your GPS.</value>
+  </data>
+  <data name="vehicle_refueling" xml:space="preserve">
+    <value>You're refueling your vehicle, wait for it to finish.</value>
+  </data>
+  <data name="vehicle_refueled" xml:space="preserve">
+    <value>Your vehicle has been refueled.</value>
+  </data>
+  <data name="vehicle_refilled" xml:space="preserve">
+    <value>You've refilled your vehicle.</value>
+  </data>
+  <data name="player_reinforces_asked" xml:space="preserve">
+    <value>You've requested reinforces in your position.</value>
+  </data>
+  <data name="target_reinforces_asked" xml:space="preserve">
+    <value>The officer {0} has requested reinforces in his position.</value>
+  </data>
+  <data name="player_reinforces_canceled" xml:space="preserve">
+    <value>You've canceled the reinforces request.</value>
+  </data>
+  <data name="target_reinforces_canceled" xml:space="preserve">
+    <value>The officer {0} has canceled his reinforces request.</value>
+  </data>
+  <data name="faction_warning_taken" xml:space="preserve">
+    <value>You attended the report and the position has been marked in your GPS.</value>
+  </data>
+  <data name="faction_warning_deleted" xml:space="preserve">
+    <value>You removed the report with identifier {0}.</value>
+  </data>
+  <data name="faction_warn_canceled" xml:space="preserve">
+    <value>The report you were attending has been canceled.</value>
+  </data>
+  <data name="player_rob_pressure" xml:space="preserve">
+    <value>You need to rest before starting a new robbery.</value>
+  </data>
+  <data name="finished_call" xml:space="preserve">
+    <value>The call has ended.</value>
+  </data>
+  <data name="incoming_call" xml:space="preserve">
+    <value>You're receiving an incoming call. Use /answer and /hang when you are finished.</value>
+  </data>
+  <data name="about_complements" xml:space="preserve">
+    <value>You can unequip complements using /complement.</value>
+  </data>
+  <data name="paramedic_on_way" xml:space="preserve">
+    <value>The emergency department has received the report and it's on its way.</value>
+  </data>
+  <data name="death_time_not_passed" xml:space="preserve">
+    <value>Wait for the emergency department to reach your position.</value>
+  </data>
+  <data name="player_texting" xml:space="preserve">
+    <value>{0} gets his phone out and types something on it.</value>
+  </data>
+  <data name="for_avoid_clipping1" xml:space="preserve">
+    <value>Use the 'no gloves' option in torso section in order to correctly show your upper clothes</value>
+  </data>
+  <data name="for_avoid_clipping2" xml:space="preserve">
+    <value>and to avoid texture clipping.</value>
+  </data>
+  <data name="vehicle_sell" xml:space="preserve">
+    <value>You're selling your {0} to {1} for {2}$.</value>
+  </data>
+  <data name="vehicle_sold" xml:space="preserve">
+    <value>{0} is trying to sell you his {1} for {2}$. Use /accept vehicle to buy it.</value>
+  </data>
+  <data name="house_sell_state" xml:space="preserve">
+    <value>Use /accept house to sell your house for ${0}</value>
+  </data>
+  <data name="house_sell" xml:space="preserve">
+    <value>You're selling you house to {0} for {1}$</value>
+  </data>
+  <data name="house_sold" xml:space="preserve">
+    <value>{0} is trying to sell you his house for {1}$. Use /accept house to buy it.</value>
+  </data>
+  <data name="vehicle_buy" xml:space="preserve">
+    <value>You bought {0}'s {1} for {2}$.</value>
+  </data>
+  <data name="vehicle_bought" xml:space="preserve">
+    <value>{0} bought your {1} for {2}$.</value>
+  </data>
+  <data name="house_buyto" xml:space="preserve">
+    <value>You bought {0}'s house for {1}$.</value>
+  </data>
+  <data name="house_bought" xml:space="preserve">
+    <value>{0} bought your house for {1}$.</value>
+  </data>
+  <data name="house_opened" xml:space="preserve">
+    <value>You unlocked your house.</value>
+  </data>
+  <data name="house_locked" xml:space="preserve">
+    <value>You locked your house.</value>
+  </data>
+  <data name="business_opened" xml:space="preserve">
+    <value>You unlocked your business.</value>
+  </data>
+  <data name="business_locked" xml:space="preserve">
+    <value>You locked your business.</value>
+  </data>
+  <data name="weapon_prewarn" xml:space="preserve">
+    <value>Some boats have been seen on the high seas.</value>
+  </data>
+  <data name="weapon_spawn_island" xml:space="preserve">
+    <value>A ship unloaded some material on an island to the north-east.</value>
+  </data>
+  <data name="weapon_position_mark" xml:space="preserve">
+    <value>Head to the place marked in your GPS to open the boxes.</value>
+  </data>
+  <data name="wait_for_weapons" xml:space="preserve">
+    <value>Wait for weapons to be unloaded from their boxes.</value>
+  </data>
+  <data name="weapons_unpacked" xml:space="preserve">
+    <value>The boxes are opened, you can take the weapons to a safe place.</value>
+  </data>
+  <data name="weapon_license_given" xml:space="preserve">
+    <value>You issued a weapon license to {0}.</value>
+  </data>
+  <data name="weapon_license_received" xml:space="preserve">
+    <value>The chief {0} issued you a weapon license.</value>
+  </data>
+  <data name="weapon_license_removed" xml:space="preserve">
+    <value>You removed the weapon license from {0}.</value>
+  </data>
+  <data name="weapon_license_lost" xml:space="preserve">
+    <value>The chief {0} removed your weapon license.</value>
+  </data>
+  <data name="car_license_removed" xml:space="preserve">
+    <value>You removed the car license from {0}.</value>
+  </data>
+  <data name="car_license_lost" xml:space="preserve">
+    <value>The chief {0} removed your car license.</value>
+  </data>
+  <data name="moto_license_removed" xml:space="preserve">
+    <value>You removed the motorcycle license from {0}.</value>
+  </data>
+  <data name="moto_license_lost" xml:space="preserve">
+    <value>The chief {0} removed your motorcycle license.</value>
+  </data>
+  <data name="haircut_purchased" xml:space="preserve">
+    <value>You paid {0}$ for your new look.</value>
+  </data>
+  <data name="tattoo_purchased" xml:space="preserve">
+    <value>You paid {0}$ for your tattoo.</value>
+  </data>
+  <data name="repair_price" xml:space="preserve">
+    <value>The repair will consume {0} products.</value>
+  </data>
+  <data name="vehicle_repaired_by" xml:space="preserve">
+    <value>{0} repaired your vehicle for {1}$.</value>
+  </data>
+  <data name="vehicle_repaired_to" xml:space="preserve">
+    <value>You repaired {0}'s vehicle for {1}$.</value>
+  </data>
+  <data name="vehicle_repainted_by" xml:space="preserve">
+    <value>{0} repainted your vehicle for {1}$.</value>
+  </data>
+  <data name="vehicle_repainted_to" xml:space="preserve">
+    <value>You repainted {0}'s vehicle for {1}$.</value>
+  </data>
+  <data name="repaint_canceled" xml:space="preserve">
+    <value>You canceled the repaint request.</value>
+  </data>
+  <data name="tunning_products" xml:space="preserve">
+    <value>You need {0} products for this modification.</value>
+  </data>
+  <data name="products_bought" xml:space="preserve">
+    <value>You bought {0} products for {1}$.</value>
+  </data>
+  <data name="vehicle_tunning" xml:space="preserve">
+    <value>You successfully modified the vehicle.</value>
+  </data>
+  <data name="unpark_money" xml:space="preserve">
+    <value>You paid {0}$ for having the car in this parking.</value>
+  </data>
+  <data name="medic_reanimated" xml:space="preserve">
+    <value>{0} reanimated {1}.</value>
+  </data>
+  <data name="player_fishing_rod_thrown" xml:space="preserve">
+    <value>You casted your fishing rod.</value>
+  </data>
+  <data name="something_baited" xml:space="preserve">
+    <value>You feel a bite on your rod! Reel it in.</value>
+  </data>
+  <data name="fished_weight" xml:space="preserve">
+    <value>The captured fish's weight is {0} grams.</value>
+  </data>
+  <data name="garbage_fished" xml:space="preserve">
+    <value>You fished worthless garbage.</value>
+  </data>
+  <data name="fishing_won" xml:space="preserve">
+    <value>You won {0}$ selling your fishes.</value>
+  </data>
+  <data name="alcoholimeter_test" xml:space="preserve">
+    <value>You performed an alcohol test on {0}, the result is {1} mg/l on exhaled air.</value>
+  </data>
+  <data name="alcoholimeter_receptor" xml:space="preserve">
+    <value>{0} performed an alcohol test on you, the result is {1} mg/l on exhaled air.</value>
+  </data>
+  <data name="item_given" xml:space="preserve">
+    <value>You gave your {0} to {1}.</value>
+  </data>
+  <data name="item_received" xml:space="preserve">
+    <value>{0} gave you his {1}.</value>
+  </data>
+  <data name="car_license_not_available" xml:space="preserve">
+    <value>Car: Not available.</value>
+  </data>
+  <data name="car_license_practical_pending" xml:space="preserve">
+    <value>Car: Practical pending.</value>
+  </data>
+  <data name="car_license_points" xml:space="preserve">
+    <value>Car: {0} points.</value>
+  </data>
+  <data name="motorcycle_license_not_available" xml:space="preserve">
+    <value>Motorcycle: Not available.</value>
+  </data>
+  <data name="motorcycle_license_practical_pending" xml:space="preserve">
+    <value>Motorcycle: Practical pending.</value>
+  </data>
+  <data name="motorcycle_license_points" xml:space="preserve">
+    <value>Motorcycle: {0} points.</value>
+  </data>
+  <data name="taxi_license_not_available" xml:space="preserve">
+    <value>Taxi: Not available.</value>
+  </data>
+  <data name="taxi_license_up_to_date" xml:space="preserve">
+    <value>Taxi: Valid.</value>
+  </data>
+  <data name="blood_extracted" xml:space="preserve">
+    <value>You drew some blood to {0}.</value>
+  </data>
+  <data name="blood_given" xml:space="preserve">
+    <value>The doctor {0} drew some of your blood.</value>
+  </data>
+  <data name="oral_service_offer" xml:space="preserve">
+    <value>You offered {0} oral sex for {1}$, wait for them to accept.</value>
+  </data>
+  <data name="oral_service_receive" xml:space="preserve">
+    <value>{0} offered you oral sex for {1}$, type /accept service to start with it.</value>
+  </data>
+  <data name="sex_service_offer" xml:space="preserve">
+    <value>You offered {0} sex for {1}$, wait for them to accept.</value>
+  </data>
+  <data name="sex_service_receive" xml:space="preserve">
+    <value>{0} offered you sex for {1}$, type /accept service to start with it.</value>
+  </data>
+  <data name="check_vehicle_plate" xml:space="preserve">
+    <value>{0} checks the plate of the {1}.</value>
+  </data>
+  <data name="player_frisk" xml:space="preserve">
+    <value>{0} frisks {1}.</value>
+  </data>
+  <data name="searching_value_items" xml:space="preserve">
+    <value>You're now searching for valuable items.</value>
+  </data>
+  <data name="announce_published" xml:space="preserve">
+    <value>You published an announce, the cost of the service raises to 500$.</value>
+  </data>
+  <data name="payday_title" xml:space="preserve">
+    <value>Movements details of the account's balance</value>
+  </data>
+  <data name="basic_data" xml:space="preserve">
+    <value>Basic data:</value>
+  </data>
+  <data name="job_data" xml:space="preserve">
+    <value>Job data:</value>
+  </data>
+  <data name="properties" xml:space="preserve">
+    <value>Properties:</value>
+  </data>
+  <data name="additional_data" xml:space="preserve">
+    <value>Additional data:</value>
+  </data>
+  <data name="player_disconnected" xml:space="preserve">
+    <value>{0} disconnected ({1})</value>
+  </data>
+  <data name="licenses_show" xml:space="preserve">
+    <value>shows his licenses to {0}.</value>
+  </data>
+  <data name="insurance_show" xml:space="preserve">
+    <value>shows his medical insurance to {0}.</value>
+  </data>
+  <data name="identification_show" xml:space="preserve">
+    <value>shows his identification card to {0}.</value>
+  </data>
+  <data name="payment_offer" xml:space="preserve">
+    <value>You offered a {0}$ payment to {1}.</value>
+  </data>
+  <data name="payment_received" xml:space="preserve">
+    <value>{0} offered you a {1}$ payment. Type /accept money or /cancel money.</value>
+  </data>
+  <data name="service_paid" xml:space="preserve">
+    <value>You paid {0}$ for the service.</value>
+  </data>
+  <data name="service_received" xml:space="preserve">
+    <value>Client paid you {0}$ for the service.</value>
+  </data>
+  <data name="player_paid" xml:space="preserve">
+    <value>{0} gave you {1}$.</value>
+  </data>
+  <data name="target_paid" xml:space="preserve">
+    <value>You gave {0}$ to {1}.</value>
+  </data>
+  <data name="application_passed" xml:space="preserve">
+    <value>Application passed.</value>
+  </data>
+  <data name="commands_from" xml:space="preserve">
+    <value>Commands for {0}</value>
+  </data>
+  <data name="vehicle_unparked" xml:space="preserve">
+    <value>You have taken your vehicle out.</value>
+  </data>
+  <data name="lawyer_service_offer" xml:space="preserve">
+    <value>You offered {0} lawyer services for {1}$, wait for the person to accept.</value>
+  </data>
+  <data name="lawyer_service_receive" xml:space="preserve">
+    <value>{0} offered you lawyer services for {1}$, type /accept service to make a deal.</value>
+  </data>
+  <data name="law_service_paid" xml:space="preserve">
+    <value>You paid {0}$ for the lawyer.</value>
+  </data>
+  <data name="law_service_received" xml:space="preserve">
+    <value>Client paid you {0}$ for the service.</value>
+  </data>
+  <data name="business_buy" xml:space="preserve">
+    <value>You bought the business named {0} for ${1}.</value>
+  </data>
+  <data name="growth" xml:space="preserve">
+    <value>Growth {0}%</value>
+  </data>
+  <data name="plant_collected" xml:space="preserve">
+    <value>You have collected {0} leaves of weed.</value>
+  </data>
+  <data name="bandage" xml:space="preserve">
+    <value>Bandage</value>
+  </data>
+  <data name="copper" xml:space="preserve">
+    <value>Copper</value>
+  </data>
+  <data name="gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="iron" xml:space="preserve">
+    <value>Iron</value>
+  </data>
+  <data name="lead" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="medkit" xml:space="preserve">
+    <value>Medkit</value>
+  </data>
+  <data name="player_lockpicked_exp" xml:space="preserve">
+    <value>You gained 1 Exp for lockpicking.</value>
+  </data>
+  <data name="player_cocain_sold" xml:space="preserve">
+    <value>You sold Cocain for {0}$</value>
+  </data>
+  <data name="str" xml:space="preserve">
+    <value />
+  </data>
+  <data name="player_bronzebar_sold" xml:space="preserve">
+    <value>You sold Bronze bars for {0}$</value>
+  </data>
+  <data name="player_copperbar_sold" xml:space="preserve">
+    <value>You sold Copper bars for {0}$</value>
+  </data>
+  <data name="player_goldbar_sold" xml:space="preserve">
+    <value>You sold Gold bars for {0}$</value>
+  </data>
+  <data name="player_ironbar_sold" xml:space="preserve">
+    <value>You sold Iron bars for {0}$</value>
+  </data>
+  <data name="player_leadbar_sold" xml:space="preserve">
+    <value>You sold Lead bars for {0}$</value>
+  </data>
+  <data name="player_tinbar_sold" xml:space="preserve">
+    <value>You sold Tin bars for {0}$</value>
+  </data>
+</root>

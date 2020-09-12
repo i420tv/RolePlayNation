@@ -1,0 +1,265 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/blipsCEF.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script src="./data.js"></script>
+        <div class='createMenu'>
+            <div class="card">
+                <div class="card-header" style='background:blue; color: white;'>
+                  Blip creator
+                </div>
+                <div class="card-body blipInfo">
+                    <h2>Blip <small>(selected: <img id='selected-blips' src='https://wiki.rage.mp/images/5/5f/Blip_456.png'>)</small></h2>
+                    <div class='itensPanel'>
+                        <ol id="blips" class="selectable">
+                        </ol>
+                    </div>
+                    <h2 id='cs'>Color <small>(selected: <img id='selected-colors' src='https://wiki.rage.mp/images/5/5f/Blip_456.png'>)</small></h2>
+                    <div class='itensPanel'>
+                        <ol id="colors" class="selectable">
+                        </ol>
+                    </div>
+                    <hr>
+                    <form id="blipInfos" action="#">
+                        <div class="form-group">
+                            <label for="nameBlip">Blip name</label>
+                            <input type="text" class="form-control" id="nameBlip" placeholder="Blip name">
+                        </div>
+                        <div class="form-group">
+                            <div class='row'>
+                                <div class='col-md-6'>
+                                    <label>Opacity</label>
+                                    <div id="slider-opacity">
+                                        <div id="value-opacity" class="ui-slider-handle">255</div>
+                                    </div>
+                                </div>
+                                <div class='col-md-6'>
+                                    <label>Scale</label>
+                                    <div id="slider-scale">
+                                        <div id="value-scale" class="ui-slider-handle">1</div>
+                                    </div>
+                                </div>
+                            </div>                               
+                        </div>
+                        <div class="form-group">
+                            <div class='row'>
+                                <div class='col-md-6'>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="shortRange" value="shortRange" checked>
+                                        <label class="form-check-label" for="shortRange">Auto-hide on the minimap</label>
+                                    </div>                                       
+                                </div>
+                                <div class='col-md-6'>                                        
+                                    <label for="drawDistance">Draw distance</label>
+                                    <input type="number" class="form-control" id="drawDistance" value='0' min="0">
+                                </div>
+                            </div>                        
+                        </div>
+                        <div class="form-group">
+                            <label for="dimension">Dimension</label>
+                            <input type="number" class="form-control" id="dimension" value='0' min="0">
+                        </div>
+                        <div class='buttons-div'>
+                            <div class="btn-group btn-group-lg" role="group">
+                                <button type="submit" class="btn btn-success">Create</button>
+                                <button type="button" class="btn btn-secondary" id="resetToDefault">Reset to default</button>                                
+                            </div>
+                        </div> 
+                        <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-secondary" id="bind1">Bind to 1</button>
+                                <button type="button" class="btn btn-secondary" id="bind2">Bind to 2</button>                               
+                                <button type="button" class="btn btn-secondary" id="clearBinds">Clear Binds</button>
+                        </div>                       
+                    </form>
+                </div>
+              </div>
+        </div>
+        <script>
+            const rageWiki = 'https://wiki.rage.mp';
+            function showEditor()
+            {
+                $(".createMenu").show();
+                mp.invoke("focus", true);
+                mp.trigger("be:disableChat");
+                $("#nameBlip").focus();
+            }
+            function hideEditor()
+            {
+                $(".createMenu").hide();
+                mp.invoke("focus", false);
+                mp.trigger("be:enableChat");
+            }
+            function toggleCreator()
+            {
+                if($(".createMenu").is(':visible'))
+                    hideEditor();
+                else
+                    showEditor();
+            }
+            $(function() {                
+                loadIcons('colors');
+                loadIcons('blips');   
+
+                var valueOpacity = $( "#value-opacity" );
+                $( "#slider-opacity" ).slider({
+                    value: 255,
+                    min: 0,
+                    max: 255,
+                    create: function() {
+                        valueOpacity.text( $( this ).slider( "value" ) );
+                    },
+                    slide: function( event, ui ) {
+                        valueOpacity.text( ui.value );
+                    }
+                });
+        
+                var valueScale = $( "#value-scale" );
+                $( "#slider-scale" ).slider({
+                    value: 1.0,
+                    min: 0,                    
+                    max: 10.0,
+                    step: 0.01,
+                    create: function() {
+                        valueScale.text( $( this ).slider( "value" ) );
+                    },
+                    slide: function( event, ui ) {
+                        valueScale.text( ui.value );
+                    }
+                });
+
+                $("#resetToDefault").click(resetToDefault);
+                $("#blipInfos").submit((e) =>
+                {
+                    e.preventDefault();
+                    mp.trigger("be:blipCreate", getJson());
+                    $("#nameBlip").val('');
+                    toastr.success("Blip created with successful","Success");
+                    hideEditor();
+                });
+                $("#bind1").click(()=>{
+                    mp.trigger("be:bind1", getJson());
+                    hideEditor();
+                    toastr.warning("Key 1 binded with this configs. Press to create a blip","Warning");
+                });
+                $("#bind2").click(()=>{
+                    mp.trigger("be:bind2", getJson());
+                    hideEditor();
+                    toastr.warning("Key 2 binded with this configs. Press to create a blip","Warning");
+                });
+                $("#clearBinds").click(()=>{
+                    mp.trigger("be:clear");
+                    hideEditor();
+                    toastr.success("Key 1 and 2 been cleaned","Success");
+                });
+            });
+            function getJson()
+            {
+                let blipInfos = {};
+                let sprint = getIdSelected('blips');
+                let color = getIdSelected('colors');      
+                let alpha = parseInt($('#slider-opacity').slider("option", "value"));
+                let scale = parseFloat($('#slider-scale').slider("option", "value"));
+                let nameBlip = $("#nameBlip").val();
+                let drawDistance = parseFloat($("#drawDistance").val());
+                let shortRange = $("#shortRange").prop('checked');
+                let dimension = $("#dimension").val();
+
+                blipInfos.sprint = isNaN(sprint) ? 1 : sprint;                    
+                blipInfos.name = nameBlip;
+                blipInfos.scale = isNaN(scale) ? 1.0 : scale;
+                blipInfos.color = isNaN(color) ? 1 : color;
+                blipInfos.alpha = isNaN(alpha) ? 1 : alpha;
+                blipInfos.drawDistance = isNaN(drawDistance) ? 0 : drawDistance;
+                blipInfos.shortRange = shortRange;
+                blipInfos.dimension = isNaN(dimension) ? 0 : dimension;
+                return JSON.stringify(blipInfos);
+            }
+            function resetToDefault()
+            {
+                var list = $('#blips li');
+                list.removeClass('ui-selected');
+                list.children().removeClass('ui-selected');
+                $('#blips li:first').addClass('ui-selected');
+                $('#selected-blips').attr('src', getSrcSelected( 'blips' ));
+
+                list = $('#colors li');
+                list.removeClass('ui-selected');
+                list.children().removeClass('ui-selected');     
+                $('#colors li:first').addClass('ui-selected');           
+                $('#selected-colors').attr('src', getSrcSelected( 'colors' ));
+
+                $("#shortRange").prop('checked', true);
+                $("#nameBlip").val('');
+                $("#drawDistance").val('0');
+                $("#dimension").val('0');
+
+                $('#slider-opacity').slider("option", "value", 255);
+                $("#value-opacity").html('255');
+                $('#slider-scale').slider("option", "value", 1.0);
+                $("#value-scale").html('1');
+
+                $(".blipInfo").animate({scrollTop:0},500);
+                $(".itensPanel").animate({scrollTop:0},500);
+                $("#nameBlip").focus();
+            }         
+            function loadIcons(whichIcons)
+            {
+                let selector = "";
+                switch (whichIcons)
+                {
+                    case 'blips':
+                        selector = "#blips";
+                        for(let l in blips)
+                        {
+                            $(selector).append(`<li id='${blips[l].id}' class="ui-state-default"><img src='${rageWiki}${blips[l].src}'/></li>`);
+                        }
+                        break;     
+
+                    case 'colors':
+                        selector = "#colors";
+                        for(let l in colors)
+                        {
+                            $(selector).append(`<li id='${colors[l].id}' class="ui-state-default"><img src='${rageWiki}${colors[l].src}'/></li>`);
+                        }
+                        break;
+                }                
+                $( selector ).children().first().addClass('ui-selected');
+                $( selector ).selectable({
+                    stop:function(event, ui)
+                    {
+                        let targets = $(event.target).children('.ui-selected').not(':first');
+                        targets.removeClass('ui-selected');
+                        targets.children().removeClass('ui-selected');
+                        $('#selected-'+whichIcons).attr('src', getSrcSelected( whichIcons ));
+                    },                    
+                });
+
+                $('#selected-'+whichIcons).attr('src', getSrcSelected( whichIcons ));
+            }            
+            function getIdSelected(which)
+            {
+                return parseInt($( "#"+which+" li.ui-selected" ).attr('id'));
+            }
+            function getSrcSelected(which)
+            {                
+                let objFinded = undefined;
+                let id = getIdSelected(which);            
+                switch(which)
+                {
+                    case 'blips': objFinded = blips.find(p => p.id === id); break;
+                    case 'colors': objFinded = colors.find(p => p.id === id); break;
+                }
+                return typeof objFinded === undefined ? '' : rageWiki + objFinded.src;
+            }           
+            // $(".gallery.mw-gallery-traditional").first().find("li").children().children().children().children().children().attr('src');
+        </script>
+    </body>    
+</html>

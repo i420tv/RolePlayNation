@@ -1,0 +1,500 @@
+.circular {
+    position: absolute;
+    width: 530px;
+    height: 530px;
+    background: #5e7dac;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 275px;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+
+#circular .cursor {
+    width: 8px;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+  
+#circular  .cursor.focus {
+background: rgba(255, 0, 0, 0.5)!important;
+}
+
+.circular .close {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background: #788fae;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 231;
+    cursor: pointer;
+}
+
+.circular .close:hover {
+    background: #607592;
+}
+
+.circular-menu, .circular-sub-menu {
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    background: transparent;
+    position: fixed;
+    cursor: default;
+    overflow: hidden;
+    display: block;
+    pointer-events: none;
+}
+
+.circular-menu {
+    width: 506px;
+    height: 501px;
+    margin-top: -250.5px;
+    margin-left: -250.5px;
+}
+
+.circular-sub-menu {
+    width: 716.648px;
+    height: 711.648px;
+    margin-top: -355.824px;
+    margin-left: -355.824px;
+}
+
+.circular-menu:after, .circular-sub-menu:after {
+    content: ".";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    z-index: 10;
+    color: transparent;
+    box-sizing: border-box;
+}
+
+.circular-sub-menu:after {
+    width: 530.3393711213618px;
+    height: 529.3393711213618px;
+    margin-left: -264.6696855606809px;
+    margin-top: -264.6696855606809px;
+    border: 3px solid transparent;
+}
+
+.circular-menu ul, .circular-sub-menu ul {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.circular-menu ul li, .circular-sub-menu ul li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+    border: 3px solid transparent;
+    transform-origin: 100% 100%;
+}
+
+.circular-menu ul li {
+    width: 250.5px;
+    height: 250.5px;
+}
+
+.circular-sub-menu ul li {
+    width: 355.824px;
+    height: 355.824px;
+}
+
+.circular-menu ul li a, .circular-sub-menu ul li a {
+    pointer-events: auto;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    backface-visibility: hidden;
+}
+
+.circular-menu ul li a {
+    width: 502px;
+    height: 501px;
+    right: -250.5px;
+    bottom: -250.5px;
+    background: radial-gradient(transparent 20%, #788fae 20%);
+    transform: skew(-38.5714deg) rotate(-64.2857deg) scale(1);
+}
+
+.circular-sub-menu ul li a {
+    width: 712.648px;
+    height: 711.648px;
+    right: -355.824px;
+    bottom: -355.824px;
+    background: radial-gradient(transparent 52%, #788fae 52%);
+    transform: skew(-70.4571deg) rotate(-80.2286deg) scale(1);
+}
+
+.circular-menu ul li a:hover,
+.circular-menu ul li a.active {
+    background: radial-gradient(transparent 20%, #607592 20%)
+}
+
+.circular-sub-menu ul li a:hover {
+    background: radial-gradient(transparent 52%, #607592 52%)
+}
+
+.circular-menu ul li a span.circular-icon {
+    display: inline-block;
+    background-size: cover;
+    width: 102.486px;
+    height: 102.486px;
+    margin-top: 10.3296px;
+    margin-bottom: 5px;
+}
+
+.circular-menu ul li a span.text, .circular-sub-menu ul li a span.text {
+    display: block;
+    font-size: 13px;
+    line-height: 1;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "STHeitiSC-Light", "Microsoft YaHei", Arial, sans-serif;
+    margin-top: 3px;
+    top: -6px;
+}
+
+.circular-sub-menu ul li a span.text {
+    margin-top: 37.3732px;
+    top: 0px;
+}
+
+.circular .btn-business {
+    transform: rotate(-42.1714deg) skew(70.4571deg);
+}
+
+.circular .btn-business div {
+    transform: rotate(122.4deg);
+}
+
+.circular .btn-vehicle {
+    transform: rotate(-22.6286deg) skew(70.4571deg);
+}
+
+.circular .btn-vehicle div {
+    transform: rotate(102.857deg);
+}
+
+.circular .btn-house {
+    transform: rotate(-3.08571deg) skew(70.4571deg);
+}
+
+.circular .btn-house div {
+    transform: rotate(83.3143deg);
+}
+
+.circular .btn-identity {
+    transform: rotate(102.343deg) skew(70.4571deg);
+}
+
+.circular .btn-identity div {
+    transform: rotate(-22.1143deg);
+}
+
+.circular .btn-passport {
+    transform: rotate(121.886deg) skew(70.4571deg);
+}
+
+.circular .btn-passport div {
+    transform: rotate(-41.6571deg);
+}
+
+.circular .btn-weapon {
+    transform: rotate(141.429deg) skew(70.4571deg);
+}
+
+.circular .btn-weapon div {
+    transform: rotate(-61.2deg);
+}
+
+.circular .btn-driving {
+    transform: rotate(160.971deg) skew(70.4571deg);
+}
+
+.circular .btn-driving div {
+    transform: rotate(-80.7429deg);
+}
+
+.circular .btn-faction {
+    transform: rotate(-90deg) skew(38.5714deg);
+}
+
+.circular .btn-faction div {
+    transform: rotate(154.286deg);
+}
+
+.circular .btn-property {
+    transform: rotate(-38.5714deg) skew(38.5714deg);
+}
+
+.circular .btn-property div {
+    transform: rotate(102.857deg);
+}
+
+.circular .btn-money {
+    transform: rotate(12.8571deg) skew(38.5714deg);
+}
+
+.circular .btn-money div {
+    transform: rotate(51.4286deg);
+}
+
+.circular .btn-friend {
+    transform: rotate(64.2857deg) skew(38.5714deg);
+}
+
+.circular .btn-friend div {
+    transform: rotate(0deg);
+}
+
+.circular .btn-document {
+    transform: rotate(115.714deg) skew(38.5714deg);
+}
+
+.circular .btn-document div {
+    transform: rotate(-51.4286deg);
+}
+
+.circular .btn-trade {
+    transform: rotate(167.143deg) skew(38.5714deg);
+}
+
+.circular .btn-trade div {
+    transform: rotate(-102.857deg);
+}
+
+.circular .btn-doing {
+    transform: rotate(218.571deg) skew(38.5714deg);
+}
+
+.circular .btn-doing div {
+    transform: rotate(-154.286deg);
+}
+
+.circular-icon.ic_property {
+    background: url("../img/circular_menu/icons/property.png");
+}
+
+.circular-icon.ic_money {
+    background: url("../img/circular_menu/icons/money.png");
+    background-size: 90px;
+}
+
+.circular-icon.ic_document {
+    background: url("../img/circular_menu/icons/document.png");
+}
+
+.circular-icon.ic_friend {
+    background: url("../img/circular_menu/icons/friend.png");
+}
+
+.circular-icon.ic_faction {
+    background: url("../img/circular_menu/icons/faction.png");
+}
+
+.circular-icon.ic_trade {
+    background: url("../img/circular_menu/icons/trade.png");
+}
+
+.circular-icon.ic_doing {
+    background: url("../img/circular_menu/icons/doing.png");
+}
+
+.circular-icon.ic_close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: url(../img/circular_menu/icons/close.png) no-repeat;
+    background-size: 65px;
+    width: 65px;
+    height: 65px;
+}
+
+.circular .btn-cuff {
+    transform: rotate(-210.857deg) skew(70.4571deg);
+}
+
+.circular .btn-cuff div {
+    transform: rotate(291.086deg);
+}
+
+.circular .btn-lead {
+    transform: rotate(-191.314deg) skew(70.4571deg);
+}
+
+.circular .btn-lead div {
+    transform: rotate(271.543deg);
+}
+
+.circular .btn-cput {
+    transform: rotate(-171.771deg) skew(70.4571deg);
+}
+
+.circular .btn-cput div {
+    transform: rotate(252deg);
+}
+
+.circular .btn-eject {
+    transform: rotate(-152.229deg) skew(70.4571deg);
+}
+
+.circular .btn-eject div {
+    transform: rotate(232.457deg);
+}
+
+.circular .btn-takelic {
+    transform: rotate(-132.686deg) skew(70.4571deg);
+}
+
+.circular .btn-takelic div {
+    transform: rotate(212.914deg);
+}
+
+.circular .btn-take {
+    transform: rotate(-113.143deg) skew(70.4571deg);
+}
+
+.circular .btn-take div {
+    transform: rotate(193.371deg);
+}
+
+.circular .btn-frisk {
+    transform: rotate(-93.6deg) skew(70.4571deg);
+}
+
+.circular .btn-frisk div {
+    transform: rotate(173.829deg); 
+}
+
+.circular .btn-arrest {
+    transform: rotate(-74.0571deg) skew(70.4571deg);
+}
+
+.circular .btn-arrest div {
+    transform: rotate(154.286deg);
+}
+
+.circular .btn-lic-weapon {
+    transform: rotate(-54.5143deg) skew(70.4571deg);
+}
+
+.circular .btn-lic-weapon div {
+    transform: rotate(134.743deg); 
+}
+
+.circular .btn-clear { 
+    transform: rotate(-34.9714deg) skew(70.4571deg);
+}
+
+.circular .btn-clear div {
+    transform: rotate(115.2deg); 
+}
+
+.circular .btn-invite-police { 
+    transform: rotate(62.7429deg) skew(70.4571deg);
+}
+
+.circular .btn-invite-police div {
+    transform: rotate(17.4857deg);
+}
+
+.circular .btn-giveplus-police { 
+    transform: rotate(43.2deg) skew(70.4571deg);
+}
+
+.circular .btn-giveplus-police div {
+    transform: rotate(37.0286deg); 
+}
+
+.circular .btn-giveminus-police { 
+    transform: rotate(23.6571deg) skew(70.4571deg);
+}
+
+.circular .btn-giveminus-police div {
+    transform: rotate(56.5714deg);
+}
+
+.circular .btn-repr-police { 
+    transform: rotate(4.11429deg) skew(70.4571deg);
+}
+
+.circular .btn-repr-police div {
+    transform: rotate(76.1143deg);
+}
+
+.circular .btn-uninvite-police { 
+    transform: rotate(-15.4286deg) skew(70.4571deg);
+}
+
+.circular .btn-uninvite-police div {
+    transform: rotate(95.6571deg); 
+}
+
+.circular .btn-invite { 
+    transform: rotate(-34.9714deg) skew(70.4571deg);
+}
+
+.circular .btn-invite div {
+    transform: rotate(115.2deg);
+}
+
+.circular .btn-giveplus { 
+    transform: rotate(-54.5143deg) skew(70.4571deg);
+}
+
+.circular .btn-giveplus div {
+    transform: rotate(134.743deg);
+}
+
+.circular .btn-giveminus { 
+    transform: rotate(-74.0571deg) skew(70.4571deg);
+}
+
+.circular .btn-giveminus div {
+    transform: rotate(154.286deg);
+}
+
+.circular .btn-repr { 
+    transform: rotate(-93.6deg) skew(70.4571deg);
+}
+
+.circular .btn-repr div {
+    transform: rotate(173.829deg);
+}
+
+.circular .btn-uninvite { 
+    transform: rotate(-113.143deg) skew(70.4571deg);
+}
+
+.circular .btn-uninvite div {
+    transform: rotate(193.371deg);
+}

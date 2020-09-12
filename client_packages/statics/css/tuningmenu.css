@@ -1,0 +1,183 @@
+﻿body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	font-family: Myriad Pro, Open Sans, sans-serif;
+}
+
+.active-item {
+	background-color: white;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.menu-content {
+	position: absolute;
+	top: 15vh;
+	right: 2%;
+	width: 25%;
+	height: 70vh;
+	border: 1px solid black;
+}
+
+.menu-header {
+	height: 5vh;
+	line-height: 5vh;
+	font-weight: bold;
+	font-size: 1.15vmax;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+}
+
+.menu-body {
+	height: 60vh;
+	overflow-y: auto;
+	background-color: rgba(255, 255, 255, 0.4);
+	-moz-box-shadow: inset 0 0 20px #000000;
+	-webkit-box-shadow: inset 0 0 20px #000000;
+	box-shadow: inset 0 0 20px #000000;
+
+}
+
+.menu-options {
+	height: 34px;
+}
+
+.item-row {
+	margin-top: 5px;
+	padding: 5px;
+	width: 80%;
+	height: 25px;
+	vertical-align:middle;
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.item-image {
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin: 7px;
+}
+
+.item-content {
+	float: left;
+	margin-left: 120px;
+	line-height: 34px;
+	vertical-align: middle;
+	width: calc(80% - 80px);
+	text-align: center;
+	background-color: aquamarine;
+	border: 2px solid black;
+	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 25%;
+	box-shadow: rgba(0,0,0,0.4) 5px 0px inset;
+}
+
+.item-header {
+	width: 100%;
+	height: 30px;
+}
+
+.item-purchase {
+	display: inline-block;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+}
+
+.item-price-container {
+	float: left;
+	width: 65%;
+	line-height: 25px;
+	height: 25px; 
+	margin-left: 10px;
+
+
+}
+
+.item-amount-container {
+	float: right;
+	width: 35%;
+}
+
+.item-amount-desc-container {
+	float: left;
+	text-align: center;
+	padding-right: 0px;
+	width: calc(100% - 80px);
+}
+.item-add-substract-container {
+	float: right;
+	width: 50px;
+}
+
+.item-adder {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.item-substract {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.single-button {
+	display: inline;
+	float: left;
+	height: 5vh;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	line-height: 5vh;
+	vertical-align: middle;
+	color:white;
+}
+
+.double-button {
+	display: inline;
+	float: left;
+	height: 5vh;
+	width: 50%;
+	font-weight: bold;
+	text-align: center;
+	line-height: 5vh;
+	vertical-align: middle;
+	color:white;
+}
+
+.accept-button {
+	background-color: black;
+}
+
+.accept-button:hover {
+	background-color: #808080;
+}
+
+.cancel-button {
+	background-color: black;
+}
+
+.play-button {
+	background-color: #39B7CD;
+}
+
+.cancel-button:hover {
+	background-color: #808080;
+}
+
+.play-button:hover {
+	background-color: #0EBFE9;
+}

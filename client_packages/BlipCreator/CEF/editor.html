@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/blipsCEF.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <div class='content-fluid row' style='max-width: 100%'>
+            <div class='col-md-4'></div>
+            <div class='col-md-4'></div>
+            <div class='col-md-4'>
+                <div class='editorMenu'>
+                    <div class="card">
+                        <div class="card-header" style='background:orange; color: white;'>
+                        Blips edit
+                        <button id='closeEdit' type="button" class="btn btn-default" style='float:right;'><i class="fa fa-window-close"></i></button>
+                        </div>
+                        <div class="card-body"> 
+                            <div class='listBlips'>
+                                <ul class="list-group" id='blipList'>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div> 
+        <script>
+            var toastOpt = { "preventDuplicates": true };
+            $(function(){
+               $("#closeEdit").click(()=> {
+                    mp.invoke("focus", false);
+                    mp.trigger("be:enableChat");
+                    mp.trigger("be:closeEdit");
+               });
+            });
+            function showEditor(data)
+            {
+                try{
+                    mp.invoke("focus", true);
+                    mp.trigger("be:disableChat");
+                    var blips = JSON.parse(data);
+                    blips.forEach(blip => {
+                        $("#blipList").append(`<li id="${blip.blipid}" class="list-group-item">${blip.options.name}
+                            <div class='buttons-div'>
+                                <div class="btn-group btn-group-sm" role="group" aria-label="Second group">
+                                    <button type="button" class="btn btn-success btn-goto"><i class="fa fa-reply"></i></button>
+                                    <button type="button" class="btn btn-danger btn-del"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </li>`);
+                    });
+                    $(".btn-goto").click(function()
+                    {
+                        let id = parseInt($(this).parent().parent().parent().attr('id'));
+                        let i = blips.findIndex(b => b.blipid === id);
+                        if(i > -1)
+                        {
+                            mp.trigger('be:gotoPos', blips[i].position.x, blips[i].position.y, blips[i].position.z);
+                            toastr.success("Teleported at blip position","", toastOpt);
+                        }
+                        else
+                        {
+                            toastr.error("selected blip is invalid", "Invalid blip", toastOpt);
+                        }                  
+                    });
+                    $(".btn-del").click(function()
+                    {
+                        let id = parseInt($(this).parent().parent().parent().attr('id'));
+                        $(this).parent().parent().parent().remove();
+                        mp.trigger('be:delBlip', id);
+                        toastr.warning("blip been deleted","", toastOpt);
+                    });
+                }
+                catch(e){
+                    console.log("Fail parse json");
+                }
+            }
+            
+        </script>          
+    </body>    
+</html>

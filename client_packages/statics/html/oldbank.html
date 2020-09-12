@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="../css/scrollbar.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body class="background col-lg-12">
+  <div class="col-lg-6 center-block card card-body vertical-center text-center">
+    <div class="panel-heading col-lg-12"><img src="../img/bank/bank-logo.png" /></div>
+
+    <!-- ATM's main menu -->
+    <div id="bank-menu" class="panel-body">
+
+      <!-- Withdraw and deposit options -->
+      <div class="row">
+        <figure class="figure col-lg-6 pointer" onclick="withdrawMoney();">
+          <img src="../img/bank/withdraw.png" class="figure-img img-fluid rounded center-block"/>
+          <figcaption class="figure-caption" data-i18n="bank.withdraw"></figcaption>
+        </figure>
+        <figure class="figure col-lg-6 pointer center" onclick="depositMoney();">
+          <img src="../img/bank/deposit.png" class="figure-img img-fluid rounded center-block"/>
+          <figcaption class="figure-caption" data-i18n="bank.deposit"></figcaption>
+        </figure>
+      </div>
+
+      <!-- Spacer -->
+      <div style="height: 25px;"></div>
+
+      <!-- Transfer and balance options -->
+      <div class="row">
+        <figure class="figure col-lg-6 pointer" onclick="transferMoney();">
+          <img src="../img/bank/transfer.png" class="figure-img img-fluid rounded center-block"/>
+          <figcaption class="figure-caption" data-i18n="bank.transfer"></figcaption>
+        </figure>
+        <figure class="figure col-lg-6 pointer" onclick="showBalance();">
+          <img src="../img/bank/balance.png" class="figure-img img-fluid rounded center-block"/>
+          <figcaption class="figure-caption" data-i18n="bank.balance"></figcaption>
+        </figure>
+      </div>
+
+    </div>
+
+    <!-- Withdraw money option -->
+    <div id="bank-withdraw" class="panel-body d-none">
+      <div class="col-lg-5 col-lg-offset-2"><h1 data-i18n="bank.withdraw-money">1</h1></div>
+      <div class="col-lg-5 col-lg-offset-2"><label data-i18n="bank.available-balance"></label>2<span id="bank-withdraw-balance"></span></div>
+      <div class="col-lg-5 col-lg-offset-2"><input id="bank-withdraw-amount" type="number" value="0" min="0"/>3</div>
+      <div class="col-lg-5 col-lg-offset-2"><span id="bank-withdraw-error" class="d-none alert alert-danger"></span>4</div>
+    </div>
+
+    <!-- Deposit money option -->
+    <div id="bank-deposit" class="panel-body d-none">
+      <div class="col-lg-5 col-lg-offset-2"><h1 data-i18n="bank.deposit-money"></h1></div>
+      <div class="col-lg-5 col-lg-offset-2"><label data-i18n="bank.available-balance"></label><span id="bank-deposit-balance"></span></div>
+      <div class="col-lg-5 col-lg-offset-2"><input id="bank-deposit-amount" type="number" value="0" min="0"/></div>
+      <div class="col-lg-5 col-lg-offset-2"><span id="bank-deposit-error" class="d-none alert alert-danger"></span></div>
+    </div>
+
+    <!-- Transfer money option -->
+    <div id="bank-transfer" class="panel-body d-none">
+      <div class="col-lg-5 col-lg-offset-2"><h1 data-i18n="bank.transfer-money"></h1></div>
+      <div class="col-lg-5 col-lg-offset-2"><label data-i18n="bank.available-balance"></label><span id="bank-transfer-balance"></span></div>
+      <div class="col-lg-5 col-lg-offset-2"><input id="bank-transfer-person" type="text" data-i18n="[placeholder]bank.receiver"/></div>
+      <div class="col-lg-5 col-lg-offset-2"><input id="bank-transfer-amount" type="number" value="0" min="0"/></div>
+      <div class="col-lg-5 col-lg-offset-2"><span id="bank-transfer-error" class="d-none alert alert-danger"></span></div>
+    </div>
+
+    <!-- Bank account's balance option -->
+    <div id="bank-balance" class="panel-body d-none">
+      <div class="col-lg-8 col-lg-offset-2" data-i18n="bank.account-balance"></div>
+      <table class="col-lg-8 col-lg-offset-2">
+        <thead class="thead-default">
+          <tr>
+            <th data-i18n="bank.day"></th>
+            <th data-i18n="bank.operation"></th>
+            <th data-i18n="bank.from-to-account"></th>
+            <th data-i18n="bank.amount"></th>
+          </tr>
+        </thead>
+        <tbody id="bankBalanceTableBody">1</tbody>
+      </table>
+    </div>
+
+    <div class="btn-group panel-footer col-lg-12" role="group">
+      <button id="bank-accept" type="button" class="btn btn-secondary d-none" data-i18n="general.accept" onclick="bankAccept();"></button>
+      <button id="bank-exit" type="button" class="btn btn-secondary" data-i18n="general.exit" onclick="bankBack();"></button>
+    </div>
+
+  </div>
+</body>
+
+<script src="../lib/jquery-3.4.0.min.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script src="../lib/i18next.min.js"></script>
+<script src="../lib/jquery-i18next.min.js"></script>
+<script src="../lib/i18nextXHRBackend.min.js"></script>
+<script src="../js/functions.js"></script>
+
+</html>

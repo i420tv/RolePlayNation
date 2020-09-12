@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/test.css">
+		<link rel="stylesheet" href="uiMain.css" />
+	</head>
+	<body>
+		<div class="divHolder-anim-outer">
+			<div id="divHolder-anim" class="divHolder-anim">
+				<header class="data-header">
+					<div class="heading-center" data-i18n="data.title">Animations Menu (F6 to close)</div>
+				</header>
+
+				<nav class="navigation-menu-2">
+					<div onclick="openCity(event, 'Basic')">Basic</div>
+					<div onclick="openCity(event, 'RP')">RP</div>
+					<div onclick="openCity(event, 'Vehicles')">Other</div>
+				</nav>
+				
+				
+				<div id="Basic" class="tabcontent">
+					<div class="centerdiv-anim">
+						<h3>Basic Animations</h3>
+					</div>
+					<div class="button-holder">
+						<button class="btn-anim" onclick="mp.trigger('triggerbutton')">Lap Dance Girl</button>
+						<button class="btn-anim" onclick="mp.trigger('triggerbutton2')">Cry</button>
+					</div>
+				</div>
+				
+				<div id="RP" class="tabcontent">
+					<div class="centerdiv-anim">
+						<h3>RP Animations</h3>
+					</div>
+					<div class="button-holder">
+						<button class="btn-anim" >Anim 1</button>
+						<button class="btn-anim">Anim 4</button>
+					</div>
+				</div>
+				
+				<div id="Vehicles" class="tabcontent">
+					<div class="centerdiv-anim">
+						<h3>Other Animations</h3>
+					</div>
+					<div class="button-holder">
+						<button class="btn-anim">Anim 2</button>
+						<button class="btn-anim">Anim 3</button>
+					</div>
+				</div>
+			</div>
+			<div class="Stop-anim-box">
+				<button class="btn-anim-2" onclick="mp.trigger('stopAnim')">Stop All Animations</button>
+			</div>
+		</div>
+  </body>
+
+  <script src="animmenu.js"></script>
+
+
+</html>

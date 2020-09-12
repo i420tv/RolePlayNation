@@ -1,0 +1,274 @@
+﻿* {
+    outline: none;
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+    box-sizing: border-box;
+    font-family: Myriad Pro, Open Sans, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+label, h1 {
+	align-content: center;
+	font-size: 0.85vw;
+	font-weight: bold;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.invisible {
+	visibility: hidden !important;
+}
+
+.data-panel {
+	width: 550px;
+	height: 230px;
+	top: 25%;
+	left: 28%;
+	overflow: hidden;
+	background-color: #4b4b4b98;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.heading-center {
+	width: 100%;
+	height: 39px;
+	padding: 10px;
+	vertical-align: middle;
+    background-image: url('../img/ui/bg.jpg');
+    background-color: rgba(255, 255, 255, 0.13);
+    background-position: 1000px 800px;
+	background-color: rgba(255, 255, 255, 0.13);
+	border-radius: 15px 15px 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.heading-right {
+	position: absolute;
+	right: 5%;
+	top: -0.2vh;
+
+}
+
+.inside-text{
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+	display: flex; 
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.bottons{
+	justify-items: center;
+	flex-direction: row;
+	align-items: center;
+	display: flex; 
+	text-align: center;
+	padding-left: 20px;
+	padding-top:10px;
+}
+
+.botton-job{
+	background-color: #ffffff00; /* Green */
+	border: 1px solid rgb(255, 255, 255);
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	border-radius: 5px;
+}
+
+
+
+.btn-green{
+	background-color: #4ca800ce; /* Green */
+	color: white;
+}
+
+.btn-green:hover {
+
+	background-color: #316d00ce; /* Green */
+	
+	color: rgb(255, 255, 255);
+
+}
+
+.btn-yellow{
+	background-color: #aca900ce; /* Green */
+	color: white;
+}
+
+.btn-yellow:hover {
+
+	background-color: #757300ce; /* Green */
+	
+	color: rgb(255, 255, 255);
+
+}
+
+.btn-blue{
+	background-color: #001cbbce; /* Green */
+	color: white;
+}
+
+.btn-blue:hover{
+	background-color: #00127ace; /* Green */
+	
+}
+
+.btn-red{
+	background-color: #aa0000ce; /* Green */
+	color: white;
+}
+
+.btn-red:hover{
+	background-color: #630000ce; /* Green */
+	
+}
+
+
+
+.Infoinside{
+	padding-left:80px ;
+	
+	display: flex; 
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.data-header {
+	height: 45px;
+	
+}
+
+.data-header * {
+	display: inline-block;
+	color: seashell;
+	text-align: center;
+}
+
+.vehiclebox{
+	margin-top: 3px;
+	background-color: #4b4b4b98;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+	width: 800px;
+	height: 30px;
+	text-align: center;
+	line-height: 28px;
+	
+}
+
+.vehiclediv{
+	height: 250px;
+	overflow: auto;
+}
+
+.propbox{
+	background-color: #4b4b4b98;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.playerp {
+	color: seashell;
+	max-width: 20px;
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+	display: flex; 
+	text-align: center;
+}
+.playerph{
+	width: 150px;
+	color: seashell;
+	display: flex; 
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.playericon{
+	border-radius: 15px; 
+	background-color: rgba(85, 85, 85, 0.678);
+	display: flex;  
+
+
+}
+
+.header-logo img { 
+	max-height: 4vh;
+	padding: 0.5vh 0px 0.5vh 10px;
+}
+
+.heading-left {
+	width: 25vw;
+	height: 7vh;
+	padding: 10px;
+    vertical-align: middle;
+}
+
+
+
+
+.heading-right img {
+	margin-top: 15px;
+	height: 20px;
+	margin-left: 820px
+
+}
+
+.navigation-menu {
+	position: relative;
+	top: -61px;
+	width: 900px;
+	height: 50px;
+	display: table;
+	z-index: 10;
+	display: flex;  
+	flex-wrap: nowrap;
+	font-weight: bold;
+}
+
+.navigation-menu div {
+	vertical-align: center;
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+	background-color: rgba(41, 41, 41, 0.486);
+	color: rgb(255, 255, 255);
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	
+}
+
+.navigation-menu div:hover {
+	cursor: pointer;
+	background-color: rgba(40, 40, 40, 0.75);
+}

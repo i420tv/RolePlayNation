@@ -1,0 +1,117 @@
+body{
+
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background: url("https://images4.alphacoders.com/597/597933.jpg1");
+background-attachment: fixed;
+position: relative;
+
+top: 250px;
+
+
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  
+}
+
+section .box {
+  position: relative;
+  width: 700px;
+  height: 45px;
+  
+  overflow: hidden;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  
+}
+.b1{
+  border-top: 2px solid;
+}
+.b2{
+  border-bottom: 2px solid;
+}
+.bh{
+  height: 15px !important;
+  
+}
+
+section .box:before{
+content: '';
+position: absolute;
+top: -20px;
+left: -20px;
+right: -20px;
+bottom: -20px;
+background: url("https://images4.alphacoders.com/597/597933.jpg");
+background-attachment: fixed;
+background-color: rgba(255, 255, 255, 0.13);
+filter: blur(5px);
+outline: 1px;
+
+}
+
+section .box h2 {
+  position: relative;
+  margin: 0 0 0px;
+  padding: 0px;
+  font-size: 18px;
+  z-index: 3;
+  text-align: center;
+
+}
+
+section .box h1 {
+  position: relative;
+  margin: 0 0 0px;
+  padding: 0px;
+  font-size: 18px;
+  z-index: 3;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+section .box p {
+  position: relative;
+  margin: 0 0 10px;
+  padding: 0px;
+  font-size: 15px;
+  z-index: 2;
+  text-align: center;
+
+
+}
+
+section .box div {
+  position: relative;
+  font-size: 15px;
+  z-index: 3;
+  height: 40px;
+  width: 250px;
+  padding: 4px;
+  text-align: center;
+  align-content: center;
+  line-height: 20px;
+  
+}
+
+.icon{
+  position: absolute;
+  top: -70px;
+  width:"80";
+  height:"80";
+  z-index: 5;
+}

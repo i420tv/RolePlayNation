@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a" xml:space="preserve">
+    <value>USAGE: /a [Message]</value>
+  </data>
+  <data name="accept" xml:space="preserve">
+    <value>USAGE: /accept [Order|Service|Interview|Money|Repaint]</value>
+  </data>
+  <data name="admin" xml:space="preserve">
+    <value>USAGE: /admin [Message]</value>
+  </data>
+  <data name="ame" xml:space="preserve">
+    <value>USAGE: /ame [Message]</value>
+  </data>
+  <data name="announce" xml:space="preserve">
+    <value>USAGE: /announce [Announcement message]</value>
+  </data>
+  <data name="attend" xml:space="preserve">
+    <value>USAGE: /attend [Report id.]</value>
+  </data>
+  <data name="a_ticket" xml:space="preserve">
+    <value>USAGE: /aticket [Ticket id.] [Help answer message]</value>
+  </data>
+  <data name="ban" xml:space="preserve">
+    <value>USAGE: /ban [Player id./Player name] [Reason]</value>
+  </data>
+  <data name="breathalyzer" xml:space="preserve">
+    <value>USAGE: /breathalyzer [Player id./Player name]</value>
+  </data>
+  <data name="bring" xml:space="preserve">
+    <value>USAGE: /bring [Player id./Player name]</value>
+  </data>
+  <data name="business" xml:space="preserve">
+    <value>USAGE: /business [Info|Create|Modify|Remove]</value>
+  </data>
+  <data name="business_create" xml:space="preserve">
+    <value>USAGE: /business create [Business type] [Inner/Outer]</value>
+  </data>
+  <data name="business_modify" xml:space="preserve">
+    <value>USAGE: /business modify [Name|Type]</value>
+  </data>
+  <data name="business_modify_name" xml:space="preserve">
+    <value>USAGE: /business modify name [Text]</value>
+  </data>
+  <data name="business_modify_type" xml:space="preserve">
+    <value>USAGE: /business modify type [Value]</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>USAGE: /cancel [Order|Service|Interview|Money|Repaint]</value>
+  </data>
+  <data name="character" xml:space="preserve">
+    <value>USAGE: /character [Bank|Money|Faction|Rank|Job|Dimension] [Player id./Player name] [Value]</value>
+  </data>
+  <data name="clear_report" xml:space="preserve">
+    <value>USAGE: /clearreport [Report id.]</value>
+  </data>
+  <data name="complement" xml:space="preserve">
+    <value>USAGE: /complement [Mask|Bag|Accessory|Hat|Glasses|Earrings] [Wear|Remove]</value>
+  </data>
+  <data name="computer" xml:space="preserve">
+    <value>USAGE: /computer [Player id./Player name]</value>
+  </data>
+  <data name="contacts" xml:space="preserve">
+    <value>USAGE: /contacts [Number|View|Add|Modify|Remove|SMS]</value>
+  </data>
+  <data name="control" xml:space="preserve">
+    <value>USAGE: /control [Load|Save|Rename|Delete|Clear]</value>
+  </data>
+  <data name="coord" xml:space="preserve">
+    <value>USAGE: /coord [Pos. X] [Pos. Y] [Pos. Z]</value>
+  </data>
+  <data name="cut_interview" xml:space="preserve">
+    <value>USAGE: /cutinterview [Player id./Player name]</value>
+  </data>
+  <data name="dismiss" xml:space="preserve">
+    <value>USAGE: /dismiss [Player id./Player name]</value>
+  </data>
+  <data name="do" xml:space="preserve">
+    <value>USAGE: /do [Message]</value>
+  </data>
+  <data name="driving_school" xml:space="preserve">
+    <value>USAGE: /drivingschool [Car|Motorcycle]</value>
+  </data>
+  <data name="ed" xml:space="preserve">
+    <value>USAGE: /ed [Message]</value>
+  </data>
+  <data name="equipment" xml:space="preserve">
+    <value>USAGE: /equipment [Basic|Ammunition|Weapon] [Pistol|Assault|Machinegun|Sniper|Shotgun]</value>
+  </data>
+  <data name="extract" xml:space="preserve">
+    <value>USAGE: /extract [Player id./Player name]</value>
+  </data>
+  <data name="f" xml:space="preserve">
+    <value>USAGE: /f [Message]</value>
+  </data>
+  <data name="fine" xml:space="preserve">
+    <value>USAGE: /fine [Name] [Surname] [Price] [Reason]</value>
+  </data>
+  <data name="fr" xml:space="preserve">
+    <value>USAGE: /fr [Message]</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>USAGE: /frequency [Create|Modify|Remove|Connect|Disconnect]</value>
+  </data>
+  <data name="frequency_connect" xml:space="preserve">
+    <value>USAGE: /frequency connect [Frequency id.] [Password]</value>
+  </data>
+  <data name="frequency_create" xml:space="preserve">
+    <value>USAGE: /frequency create [Password]</value>
+  </data>
+  <data name="frequency_modify" xml:space="preserve">
+    <value>USAGE: /frequency modify [Password]</value>
+  </data>
+  <data name="frisk" xml:space="preserve">
+    <value>USAGE: /frisk [Player id./Player name]</value>
+  </data>
+  <data name="furniture" xml:space="preserve">
+    <value>USAGE: /furniture [Place|Move|Remove]</value>
+  </data>
+  <data name="garbage" xml:space="preserve">
+    <value>USAGE: /garbage [Route|Pickup|Cancel]</value>
+  </data>
+  <data name="give" xml:space="preserve">
+    <value>USAGE: /give [Player id./Player name]</value>
+  </data>
+  <data name="go" xml:space="preserve">
+    <value>USAGE: /go [Workshop | Electronics | Police | Townhall | License | Hospital | Mechanic | News | Bahama | Garbage]</value>
+  </data>
+  <data name="gun" xml:space="preserve">
+    <value>USAGE: /gun [Player id./Player name] [Weapon] [Bullets]</value>
+  </data>
+  <data name="handcuff" xml:space="preserve">
+    <value>USAGE: /handcuff [Player id./Player name]</value>
+  </data>
+  <data name="heal" xml:space="preserve">
+    <value>USAGE: /heal [Player id./Player name]</value>
+  </data>
+  <data name="health" xml:space="preserve">
+    <value>USAGE: /health [Player id./Player name] [Amount]</value>
+  </data>
+  <data name="house" xml:space="preserve">
+    <value>USAGE: /house [Info|Create|Modify|Remove|Tp]</value>
+  </data>
+  <data name="house_goto" xml:space="preserve">
+    <value>USAGE: /house tp [House id.]</value>
+  </data>
+  <data name="house_info" xml:space="preserve">
+    <value>USAGE: /house info [(Opt.) House id.]</value>
+  </data>
+  <data name="house_modify" xml:space="preserve">
+    <value>USAGE: /house modify [Interior|Price|State|Rent|Owner|Name]</value>
+  </data>
+  <data name="house_modify_int" xml:space="preserve">
+    <value>USAGE: /house modify [Interior|Price|State|Rent] [Value]</value>
+  </data>
+  <data name="house_modify_string" xml:space="preserve">
+    <value>USAGE: /house modify [Owner|Name] [Text]</value>
+  </data>
+  <data name="incriminate" xml:space="preserve">
+    <value>USAGE: /incriminate [Player id./Player name]</value>
+  </data>
+  <data name="info" xml:space="preserve">
+    <value>USAGE: /info [Player id./Player name]</value>
+  </data>
+  <data name="interview" xml:space="preserve">
+    <value>USAGE: /interview [Player id./Player name]</value>
+  </data>
+  <data name="jail" xml:space="preserve">
+    <value>USAGE: /jail [Player id./Player name] [Minutes] [Reason]</value>
+  </data>
+  <data name="job" xml:space="preserve">
+    <value>USAGE: /job [Info|Accept|Leave]</value>
+  </data>
+  <data name="keys" xml:space="preserve">
+    <value>USAGE: /keys [Lend|Drop] [Vehicle id.] [Player id./Player name]</value>
+  </data>
+  <data name="kick" xml:space="preserve">
+    <value>USAGE: /kick [Player id./Player name] [Reason]</value>
+  </data>
+  <data name="license" xml:space="preserve">
+    <value>USAGE: /license [Give|Remove] [Weapon|Car|Motorcycle] [Player id./Player name]</value>
+  </data>
+  <data name="locate" xml:space="preserve">
+    <value>USAGE: /locate [Vehicle id.]</value>
+  </data>
+  <data name="me" xml:space="preserve">
+    <value>USAGE: /me [Message]</value>
+  </data>
+  <data name="megaphone" xml:space="preserve">
+    <value>USAGE: /megaphone [Message]</value>
+  </data>
+  <data name="news" xml:space="preserve">
+    <value>USAGE: /n [News message]</value>
+  </data>
+  <data name="ooc" xml:space="preserve">
+    <value>USAGE: /ooc [Message]</value>
+  </data>
+  <data name="parking" xml:space="preserve">
+    <value>USAGE: /parking [Info|Create|Modify|Remove]</value>
+  </data>
+  <data name="parking_create" xml:space="preserve">
+    <value>USAGE: /parking create [0 Public parking | 1 Garage | 2 Scrapyard | 3 Police deposit]</value>
+  </data>
+  <data name="parking_modify" xml:space="preserve">
+    <value>USAGE: /parking modify [House|Places|Type] [Value]</value>
+  </data>
+  <data name="pay" xml:space="preserve">
+    <value>USAGE: /pay [Player id./Player name] [Amount]</value>
+  </data>
+  <data name="pd" xml:space="preserve">
+    <value>USAGE: /pd [Message]</value>
+  </data>
+  <data name="pm" xml:space="preserve">
+    <value>USAGE: /pm [Player id./Player name] [Message]</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>USAGE: /points [Give|Remove|Set] [Player id./Player name] [Amount]</value>
+  </data>
+  <data name="prize" xml:space="preserve">
+    <value>USAGE: /prize [Player id./Player name] [Amount] [Reason]</value>
+  </data>
+  <data name="purchase" xml:space="preserve">
+    <value>USAGE: /purchase [Amount]</value>
+  </data>
+  <data name="put" xml:space="preserve">
+    <value>USAGE: /put [Cone|Beacon|Barrier|Spikes]</value>
+  </data>
+  <data name="r" xml:space="preserve">
+    <value>USAGE: /r [Message]</value>
+  </data>
+  <data name="rank" xml:space="preserve">
+    <value>USAGE: /rank [Player id./Player name] [Value]</value>
+  </data>
+  <data name="reanimate" xml:space="preserve">
+    <value>USAGE: /reanimate [Player id./Player name]</value>
+  </data>
+  <data name="recon" xml:space="preserve">
+    <value>USAGE: /recon [Player id./Player name]</value>
+  </data>
+  <data name="recruit" xml:space="preserve">
+    <value>USAGE: /recruit [Player id./Player name]</value>
+  </data>
+  <data name="refuel" xml:space="preserve">
+    <value>USAGE: /refuel [Price (0 for full tank)]</value>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>USAGE: /remove [Cone|Beacon|Barrier|Spikes]</value>
+  </data>
+  <data name="rentable" xml:space="preserve">
+    <value>USAGE: /rentable [Amount]</value>
+  </data>
+  <data name="repaint" xml:space="preserve">
+    <value>USAGE: /repaint [Vehicle id.]</value>
+  </data>
+  <data name="repair" xml:space="preserve">
+    <value>USAGE: /repair [Vehicle id.] [Chassis|Doors|Tyres|Windows|Engine] [Price]</value>
+  </data>
+  <data name="revive" xml:space="preserve">
+    <value>USAGE: /revive [Player id./Player name]</value>
+  </data>
+  <data name="say" xml:space="preserve">
+    <value>USAGE: /say [Message]</value>
+  </data>
+  <data name="sell" xml:space="preserve">
+    <value>USAGE: /sell [Vehicle|House|Fish] [Vehicle id./House id.] [Player id./Player name] [Price]</value>
+  </data>
+  <data name="sell_house" xml:space="preserve">
+    <value>USAGE: /sell house [House id.] [Player id./Player name] [Price] (70% of its value when not filling player neither price)</value>
+  </data>
+  <data name="sell_vehicle" xml:space="preserve">
+    <value>USAGE: /sell vehicle [Vehicle id.] [Player id./Player name] [Price]</value>
+  </data>
+  <data name="service" xml:space="preserve">
+    <value>USAGE: /service [Sex|Oral] [Player id./Player name] [Price]</value>
+  </data>
+  <data name="show" xml:space="preserve">
+    <value>USAGE: /show [Player id./Player name] [Licenses|Identification|Insurance]</value>
+  </data>
+  <data name="skin" xml:space="preserve">
+    <value>USAGE: /skin [Ped model name]</value>
+  </data>
+  <data name="sms" xml:space="preserve">
+    <value>USAGE: /sms [Number] [Message]</value>
+  </data>
+  <data name="ticket" xml:space="preserve">
+    <value>USAGE: /ticket [Help message]</value>
+  </data>
+  <data name="tp" xml:space="preserve">
+    <value>USAGE: /tp [Player id./Player name]</value>
+  </data>
+  <data name="trunk" xml:space="preserve">
+    <value>USAGE: /trunk [Open|Close|Store|Withdraw]</value>
+  </data>
+  <data name="unpark" xml:space="preserve">
+    <value>USAGE: /unpark [Vehicle id.]</value>
+  </data>
+  <data name="vehicle" xml:space="preserve">
+    <value>USAGE: /vehicle [Info|Create|Modify|Remove|Repair|Lock|Start|Bring|Tp]</value>
+  </data>
+  <data name="vehicle_bring" xml:space="preserve">
+    <value>USAGE: /vehicle bring [Vehicle id.]</value>
+  </data>
+  <data name="vehicle_color" xml:space="preserve">
+    <value>USAGE: /vehicle modify color [Primary color (R,G,B)] [Secondary color (R,G,B)]</value>
+  </data>
+  <data name="vehicle_create" xml:space="preserve">
+    <value>USAGE: /vehicle create [Model] [Primary color (R,G,B)] [Secondary color (R,G,B)]</value>
+  </data>
+  <data name="vehicle_delete" xml:space="preserve">
+    <value>USAGE: /vehicle remove [Vehicle id.]</value>
+  </data>
+  <data name="vehicle_dimension" xml:space="preserve">
+    <value>USAGE: /vehicle modify dimension [Vehicle id.] [Value]</value>
+  </data>
+  <data name="vehicle_faction" xml:space="preserve">
+    <value>USAGE: /vehicle modify faction [Value]</value>
+  </data>
+  <data name="vehicle_goto" xml:space="preserve">
+    <value>USAGE: /vehicle tp [Vehicle id.]</value>
+  </data>
+  <data name="vehicle_modify" xml:space="preserve">
+    <value>USAGE: /vehicle modify [Color|Dimension|Owner|Faction|Position|Gas]</value>
+  </data>
+  <data name="vehicle_owner" xml:space="preserve">
+    <value>USAGE: /vehicle modify owner [Name] [Surname]</value>
+  </data>
+  <data name="weather" xml:space="preserve">
+    <value>USAGE: /weather [0-12]</value>
+  </data>
+  <data name="whisper" xml:space="preserve">
+    <value>USAGE: /whisper [Message]</value>
+  </data>
+  <data name="yell" xml:space="preserve">
+    <value>USAGE: /yell [Message]</value>
+  </data>
+  <data name="equipment_weapon" xml:space="preserve">
+    <value>USAGE: /equipment weapon [Pistol|Revolver|Asault|Machinegun|Sniper|Shotgun]</value>
+  </data>
+  <data name="enter_business" xml:space="preserve">
+    <value>Enter business</value>
+  </data>
+  <data name="vehicle_gas" xml:space="preserve">
+    <value>USAGE: /vehicle modify gas [Vehicle id.] [Value]</value>
+  </data>
+  <data name="access_atm" xml:space="preserve">
+    <value>Access ATM</value>
+  </data>
+  <data name="exit_lobby" xml:space="preserve">
+    <value>Exit lobby</value>
+  </data>
+  <data name="manage_characters" xml:space="preserve">
+    <value>Manage characters</value>
+  </data>
+  <data name="action_business" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="exit_business" xml:space="preserve">
+    <value>Exit business</value>
+  </data>
+  <data name="exit_house" xml:space="preserve">
+    <value>Exit house</value>
+  </data>
+  <data name="enter_house" xml:space="preserve">
+    <value>Enter house</value>
+  </data>
+  <data name="enter_building" xml:space="preserve">
+    <value>Enter building</value>
+  </data>
+  <data name="interior_create" xml:space="preserve">
+    <value>USAGE: /interior create [Type]</value>
+  </data>
+  <data name="exit_interior" xml:space="preserve">
+    <value>Exit interior</value>
+  </data>
+  <data name="action_tramitate" xml:space="preserve">
+    <value>Tramitate</value>
+  </data>
+  <data name="interior" xml:space="preserve">
+    <value>USAGE: /interior [Create|Modify|Remove|Tp]</value>
+  </data>
+  <data name="interior_goto" xml:space="preserve">
+    <value>USAGE: /interior tp [Interior id.]</value>
+  </data>
+  <data name="interior_modify" xml:space="preserve">
+    <value>USAGE: /interior modify [Type|Mark|Name] [Value]</value>
+  </data>
+  <data name="show_catalog" xml:space="preserve">
+    <value>Show catalog</value>
+  </data>
+  <data name="action_plant" xml:space="preserve">
+    <value>Cut plant</value>
+  </data>
+  <data name="house_create" xml:space="preserve">
+    <value>USAGE: /house [Type]</value>
+  </data>
+</root>

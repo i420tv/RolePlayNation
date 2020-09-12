@@ -1,0 +1,740 @@
+﻿body {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	color: #EFEFEF;
+	background-color: rgba(40, 40, 40, 0.6);
+	font-family: Myriad Pro, Open Sans, sans-serif;
+}
+
+* {
+    outline: none;
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+    box-sizing: border-box;
+    font-family: Myriad Pro, Open Sans, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+ul {
+	margin-top: 0px;
+	padding-top: 2vh;
+	list-style: none;
+}
+
+.catag	{
+
+	
+	height: 800px;
+}
+
+.col-lg-2 {
+	margin-top: 2px;
+	margin-left: 8px;
+	padding: 5px;
+	max-width: 150px;
+	max-height: 180px;
+	min-width: 150px;
+	min-height: 180px;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+	background-color: rgb(65, 65, 65);
+	overflow: hidden;
+	display: flex; 
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.col-lg-2:hover {
+
+	background-color: rgb(27, 27, 27);
+
+
+}
+
+.data-panel {
+	width: 1300px;
+	height: 900px;
+	top: 25%;
+	left: 28%;
+	overflow: hidden;
+	background-color: #4b4b4b98;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+
+.heading-center {
+	width: 100%;
+	height: 39px;
+	padding: 10px;
+	vertical-align: middle;
+    background-image: url('../img/ui/bg.jpg');
+    background-color: rgba(255, 255, 255, 0.13);
+    background-position: 1000px 800px;
+	background-color: rgba(255, 255, 255, 0.13);
+	border-radius: 15px 15px 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.heading-right {
+	position: absolute;
+	left: 30px;
+	top: -0.5vh;
+
+}
+
+.heading-right img {
+	margin-top: 15px;
+	margin-left: 1200px
+
+}
+
+.data-header {
+	
+	
+}
+
+.data-header * {
+	display: inline-block;
+	color: seashell;
+	text-align: center;
+}
+
+
+input.check:empty {
+	margin-left: -999px;
+}
+
+input.check:empty ~ label {
+	position: relative;
+	float: left;
+	line-height: 2.2em;
+	text-indent: 3.25em;
+	margin-top: 2em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input.check:empty ~ label:before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 2.2em;
+	background: #D1D3D4;
+}
+
+input.check:hover:not(:checked) ~ label:before {
+	content:'\2714';
+	text-indent: .7em;
+	color: #C2C2C2;
+}
+
+input.check:hover:not(:checked) ~ label {
+	color: #888;
+}
+
+input.check:checked ~ label:before {
+	content:'\2714';
+	text-indent: .7em;
+	color: #000;
+	background-color: #444;
+}
+
+input.check:checked ~ label {
+	color: #777;
+}
+
+input.check:focus ~ label:before {
+	box-shadow: 0 0 0 3px #999;
+}
+
+.hidden {
+	display: none;
+}
+
+.clear-checker {
+	clear: both;
+	margin: 0 50px;
+}
+
+.center-block {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.catalog-container {
+	position: absolute;
+	background-color: rgba(70, 0, 0, 0);
+	width: 1300px;
+}
+
+.catalog-header {
+	height: 5vh;
+	padding-left: 15px;
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+.catalog-menu {
+	position: absolute;
+	display: inline-block;
+	float: left;
+	height: 860px;
+	width: 300px;
+	
+	background-color: rgba(0, 0, 0, 0.342);
+}
+
+.catalog-categories {
+	margin-top: 0px;
+	width: 300px;
+	
+}
+
+.catalog-vehicles {
+	position: absolute;
+	left: 23%;
+	display: inline-block;
+	float: left;
+	width: 1000px;
+	height: 860px;
+	overflow-y: scroll;
+	background-color: rgba(0, 0, 0, 0.199);
+
+}
+
+.catalog-vehicles > div {
+	display: inline-block;
+}
+
+.vehicle-container {
+	
+
+	overflow-y: auto;
+}
+
+.catalog-exit {
+	position: absolute;
+	top: 93%;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	line-height: 5vh;
+	vertical-align: middle;
+	background-color: rgba(0, 0, 0, 0.85);
+
+}
+
+.catalog-exit:hover {
+	background-color: rgba(20, 20, 20, 0.75);
+}
+
+.adder { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -0px }
+.airbus { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -0px }
+.airtug { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -0px }
+.akuma { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -0px }
+.alpha { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -0px }
+.ambulance { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -0px }
+.annihilator { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -0px }
+.armytanker { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -0px }
+.armytrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -0px }
+.armytrailer2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -0px }
+.asea { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -0px }
+.asea2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -0px }
+.asterope { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -0px }
+.bf400 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -0px }
+.bjxl { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -0px }
+.btype { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -0px }
+.btype2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -0px }
+.btype3 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -0px }
+.bagger { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -0px }
+.baletrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -0px }
+.baller { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -90px }
+.baller2 { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -90px }
+.baller3 { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -90px }
+.baller4 { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -90px }
+.baller5 { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -90px }
+.baller6 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -90px }
+.banshee { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -90px }
+.banshee2 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -90px }
+.barracks { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -90px }
+.barracks2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -90px }
+.barracks3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -90px }
+.bati { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -90px }
+.bati2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -90px }
+.benson { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -90px }
+.besra { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -90px }
+.bestiagts { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -90px }
+.bfinjection { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -90px }
+.biff { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -90px }
+.bifta { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -90px }
+.bison { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -90px }
+.bison2 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -180px }
+.bison3 { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -180px }
+.blade { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -180px }
+.blazer { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -180px }
+.blazer2 { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -180px }
+.blazer3 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -180px }
+.blimp { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -180px }
+.blimp2 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -180px }
+.blista { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -180px }
+.blista2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -180px }
+.blista3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -180px }
+.bmx { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -180px }
+.boattrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -180px }
+.bobcatxl { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -180px }
+.bodhi2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -180px }
+.boxville { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -180px }
+.boxville2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -180px }
+.boxville3 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -180px }
+.boxville4 { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -180px }
+.brawler { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -180px }
+.brickade { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -270px }
+.brioso { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -270px }
+.buccaneer { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -270px }
+.buccaneer2 { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -270px }
+.buffalo { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -270px }
+.buffalo2 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -270px }
+.buffalo3 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -270px }
+.bulldozer { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -270px }
+.bullet { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -270px }
+.burrito { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -270px }
+.burrito2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -270px }
+.burrito3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -270px }
+.burrito4 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -270px }
+.burrito5 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -270px }
+.bus { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -270px }
+.buzzard { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -270px }
+.buzzard2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -270px }
+.cablecar { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -270px }
+.caddy { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -270px }
+.caddy2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -270px }
+.camper { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -360px }
+.carbonrs { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -360px }
+.carbonizzare { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -360px }
+.cargoplane { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -360px }
+.cargobob { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -360px }
+.cargobob2 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -360px }
+.cargobob3 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -360px }
+.cargobob4 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -360px }
+.casco { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -360px }
+.cavalcade { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -360px }
+.cavalcade2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -360px }
+.cheetah { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -360px }
+.chino { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -360px }
+.chino2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -360px }
+.cliffhanger { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -360px }
+.coach { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -360px }
+.cog55 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -360px }
+.cog552 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -360px }
+.cogcabrio { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -360px }
+.cognoscenti { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -360px }
+.cognoscenti2 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -450px }
+.comet2 { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -450px }
+.contender { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -450px }
+.coquette { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -450px }
+.coquette2 { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -450px }
+.coquette3 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -450px }
+.cruiser { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -450px }
+.crusader { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -450px }
+.cuban800 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -450px }
+.cutter { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -450px }
+.dloader { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -450px }
+.daemon { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -450px }
+.dilettante { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -450px }
+.dilettante2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -450px }
+.dinghy { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -450px }
+.dinghy2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -450px }
+.dinghy3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -450px }
+.dinghy4 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -450px }
+.docktrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -450px }
+.docktug { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -450px }
+.dodo { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -540px }
+.dominator { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -540px }
+.dominator2 { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -540px }
+.double { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -540px }
+.dubsta { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -540px }
+.dubsta2 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -540px }
+.dubsta3 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -540px }
+.dukes { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -540px }
+.dukes2 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -540px }
+.dump { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -540px }
+.dune { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -540px }
+.dune2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -540px }
+.duster { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -540px }
+.elegy2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -540px }
+.emperor { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -540px }
+.emperor2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -540px }
+.emperor3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -540px }
+.enduro { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -540px }
+.entityxf { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -540px }
+.exemplar { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -540px }
+.f620 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -630px }
+.fbi { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -630px }
+.fbi2 { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -630px }
+.fmj { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -630px }
+.fq2 { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -630px }
+.faction { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -630px }
+.faction2 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -630px }
+.faction3 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -630px }
+.faggio2 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -630px }
+.felon { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -630px }
+.felon2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -630px }
+.feltzer2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -630px }
+.feltzer3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -630px }
+.firetruck { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -630px }
+.fixter { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -630px }
+.flatbed { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -630px }
+.forklift { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -630px }
+.freight { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -630px }
+.freightcar { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -630px }
+.freightcont1 { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -630px }
+.freightcont2 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -720px }
+.freightgrain { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -720px }
+.freighttrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -720px }
+.frogger { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -720px }
+.frogger2 { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -720px }
+.fugitive { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -720px }
+.furoregt { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -720px }
+.fusilade { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -720px }
+.futo { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -720px }
+.gburrito { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -720px }
+.gburrito2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -720px }
+.gp1 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -720px }
+.gargoyle { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -720px }
+.gauntlet { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -720px }
+.gauntlet2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -720px }
+.glendale { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -720px }
+.graintrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -720px }
+.granger { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -720px }
+.gresley { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -720px }
+.guardian { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -720px }
+.habanero { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -810px }
+.hakuchou { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -810px }
+.handler { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -810px }
+.hauler { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -810px }
+.hexer { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -810px }
+.hotknife { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -810px }
+.huntley { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -810px }
+.hydra { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -810px }
+.infernus { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -810px }
+.infernus2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -810px }
+.ingot { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -810px }
+.innovation { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -810px }
+.insurgent { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -810px }
+.insurgent2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -810px }
+.intruder { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -810px }
+.issi2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -810px }
+.jb700 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -810px }
+.jackal { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -810px }
+.jester { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -810px }
+.jester2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -810px }
+.jet { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -900px }
+.jetmax { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -900px }
+.journey { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -900px }
+.kalahari { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -900px }
+.khamelion { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -900px }
+.kuruma { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -900px }
+.kuruma2 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -900px }
+.le7b { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -900px }
+.landstalker { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -900px }
+.lazer { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -900px }
+.lectro { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -900px }
+.lguard { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -900px }
+.limo2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -900px }
+.lurcher { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -900px }
+.luxor { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -900px }
+.luxor2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -900px }
+.lynx { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -900px }
+.mamba { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -900px }
+.mammatus { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -900px }
+.manana { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -900px }
+.marquis { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -990px }
+.marshall { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -990px }
+.massacro { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -990px }
+.massacro2 { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -990px }
+.maverick { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -990px }
+.mesa { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -990px }
+.mesa2 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -990px }
+.mesa3 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -990px }
+.miljet { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -990px }
+.minivan { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -990px }
+.minivan2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -990px }
+.mixer { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -990px }
+.mixer2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -990px }
+.monroe { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -990px }
+.monster { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -990px }
+.moonbeam { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -990px }
+.moonbeam2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -990px }
+.mower { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -990px }
+.mule { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -990px }
+.mule2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -990px }
+.mule3 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1080px }
+.nemesis { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1080px }
+.nightshade { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1080px }
+.nimbus { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1080px }
+.ninef { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1080px }
+.ninef2 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1080px }
+.omnis { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1080px }
+.oracle { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1080px }
+.oracle2 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1080px }
+.osiris { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1080px }
+.pbus { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1080px }
+.pcj { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1080px }
+.packer { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1080px }
+.panto { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1080px }
+.paradise { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1080px }
+.patriot { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1080px }
+.penumbra { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1080px }
+.peyote { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1080px }
+.pfister811 { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1080px }
+.phantom { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1080px }
+.phoenix { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1170px }
+.picador { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1170px }
+.pigalle { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1170px }
+.police { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1170px }
+.police2 { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1170px }
+.police3 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1170px }
+.police4 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1170px }
+.policeold1 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1170px }
+.policeold2 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1170px }
+.policet { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1170px }
+.policeb { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1170px }
+.polmav { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1170px }
+.pony { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1170px }
+.pony2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1170px }
+.pounder { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1170px }
+.prairie { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1170px }
+.pranger { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1170px }
+.predator { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1170px }
+.premier { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1170px }
+.primo { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1170px }
+.primo2 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1260px }
+.proptrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1260px }
+.prototipo { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1260px }
+.radi { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1260px }
+.raketrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1260px }
+.rancherxl { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1260px }
+.rancherxl2 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1260px }
+.rapidgt { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1260px }
+.rapidgt2 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1260px }
+.ratloader { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1260px }
+.ratloader2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1260px }
+.reaper { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1260px }
+.rebel { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1260px }
+.rebel2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1260px }
+.regina { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1260px }
+.rentalbus { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1260px }
+.rhapsody { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1260px }
+.rhino { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1260px }
+.riot { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1260px }
+.ripley { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1260px }
+.rocoto { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1350px }
+.romero { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1350px }
+.rubble { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1350px }
+.ruffian { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1350px }
+.ruiner { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1350px }
+.rumpo { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1350px }
+.rumpo2 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1350px }
+.rumpo3 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1350px }
+.ruston { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1350px }
+.sabregt { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1350px }
+.sabregt2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1350px }
+.sadler { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1350px }
+.sadler2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1350px }
+.sanchez { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1350px }
+.sanchez2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1350px }
+.sandking { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1350px }
+.sandking2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1350px }
+.savage { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1350px }
+.schafter2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1350px }
+.schafter3 { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1350px }
+.schafter4 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1440px }
+.schafter5 { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1440px }
+.schafter6 { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1440px }
+.schwarzer { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1440px }
+.scorcher { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1440px }
+.scrap { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1440px }
+.seashark { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1440px }
+.seashark2 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1440px }
+.seashark3 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1440px }
+.seminole { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1440px }
+.sentinel { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1440px }
+.sentinel2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1440px }
+.serrano { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1440px }
+.seven70 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1440px }
+.shamal { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1440px }
+.sheava { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1440px }
+.sheriff { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1440px }
+.sheriff2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1440px }
+.skylift { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1440px }
+.slamvan { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1440px }
+.slamvan2 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1530px }
+.slamvan3 { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1530px }
+.sovereign { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1530px }
+.speeder { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1530px }
+.speeder2 { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1530px }
+.speedo { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1530px }
+.speedo2 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1530px }
+.squalo { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1530px }
+.stalion { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1530px }
+.stalion2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1530px }
+.stanier { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1530px }
+.stinger { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1530px }
+.stingergt { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1530px }
+.stockade { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1530px }
+.stockade3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1530px }
+.stratum { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1530px }
+.stretch { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1530px }
+.stunt { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1530px }
+.submersible { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1530px }
+.submersible2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1530px }
+.sultan { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1620px }
+.sultanrs { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1620px }
+.suntrap { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1620px }
+.superd { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1620px }
+.supervolito { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1620px }
+.supervolito2 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1620px }
+.surano { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1620px }
+.surfer { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1620px }
+.surfer2 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1620px }
+.surge { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1620px }
+.swift { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1620px }
+.swift2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1620px }
+.t20 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1620px }
+.tr2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1620px }
+.tr3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1620px }
+.tr4 { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1620px }
+.trflat { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1620px }
+.tvtrailer { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1620px }
+.taco { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1620px }
+.tailgater { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1620px }
+.tampa { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1710px }
+.tampa2 { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1710px }
+.tanker { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1710px }
+.tanker2 { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1710px }
+.tankercar { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1710px }
+.taxi { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1710px }
+.technical { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1710px }
+.thrust { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1710px }
+.tiptruck { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1710px }
+.tiptruck2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1710px }
+.titan { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1710px }
+.tornado { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1710px }
+.tornado2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1710px }
+.tornado3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1710px }
+.tornado4 { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1710px }
+.tornado5 { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1710px }
+.toro { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1710px }
+.toro2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1710px }
+.tourbus { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1710px }
+.towtruck { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1710px }
+.towtruck2 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1800px }
+.tractor { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1800px }
+.tractor2 { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1800px }
+.tractor3 { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1800px }
+.trailerlogs { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1800px }
+.trailersmall { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1800px }
+.trailers { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1800px }
+.trailers2 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1800px }
+.trailers3 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1800px }
+.trash { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1800px }
+.trash2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1800px }
+.tribike { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1800px }
+.tribike2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1800px }
+.tribike3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1800px }
+.trophytruck { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1800px }
+.trophytruck2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1800px }
+.tropic { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1800px }
+.tropic2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1800px }
+.tropos { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1800px }
+.tug { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1800px }
+.turismo2 { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1890px }
+.turismor { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1890px }
+.tyrus { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1890px }
+.utilitytruck { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1890px }
+.utilitytruck3 { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1890px }
+.utillitruck2 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1890px }
+.vacca { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1890px }
+.vader { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1890px }
+.valkyrie { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1890px }
+.valkyrie2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1890px }
+.velum { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1890px }
+.velum2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1890px }
+.verlierer2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1890px }
+.vestra { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1890px }
+.vigero { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1890px }
+.vindicator { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1890px }
+.virgo { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1890px }
+.virgo2 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1890px }
+.virgo3 { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1890px }
+.volatus { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1890px }
+.voltic { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -1980px }
+.voodoo { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -1980px }
+.voodoo2 { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -1980px }
+.warrener { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -1980px }
+.washington { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -1980px }
+.windsor { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -1980px }
+.windsor2 { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -1980px }
+.xls { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -1980px }
+.xls2 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -1980px }
+.youga { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -1980px }
+.ztype { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -1980px }
+.zentorno { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -1980px }
+.zion { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -1980px }
+.zion2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -1980px }
+.blazer5 { background-image: url('../img/carshop/vehicles.png'); background-position:-1680px -1980px }
+.boxville5 { background-image: url('../img/carshop/vehicles.png'); background-position:-1800px -1980px }
+.comet3 { background-image: url('../img/carshop/vehicles.png'); background-position:-1920px -1980px }
+.dune4 { background-image: url('../img/carshop/vehicles.png'); background-position:-2040px -1980px }
+.dune5 { background-image: url('../img/carshop/vehicles.png'); background-position:-2160px -1980px }
+.elegy { background-image: url('../img/carshop/vehicles.png'); background-position:-2280px -1980px }
+.fcr { background-image: url('../img/carshop/vehicles.png'); background-position:-0px -2070px }
+.fcr2 { background-image: url('../img/carshop/vehicles.png'); background-position:-120px -2070px }
+.italiagtb { background-image: url('../img/carshop/vehicles.png'); background-position:-240px -2070px }
+.italiagtb2 { background-image: url('../img/carshop/vehicles.png'); background-position:-360px -2070px }
+.nero { background-image: url('../img/carshop/vehicles.png'); background-position:-480px -2070px }
+.nero2 { background-image: url('../img/carshop/vehicles.png'); background-position:-600px -2070px }
+.penetrator { background-image: url('../img/carshop/vehicles.png'); background-position:-720px -2070px }
+.phantom2 { background-image: url('../img/carshop/vehicles.png'); background-position:-840px -2070px }
+.ruiner2 { background-image: url('../img/carshop/vehicles.png'); background-position:-960px -2070px }
+.specter { background-image: url('../img/carshop/vehicles.png'); background-position:-1080px -2070px }
+.specter2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1200px -2070px }
+.technical2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1320px -2070px }
+.tempesta { background-image: url('../img/carshop/vehicles.png'); background-position:-1440px -2070px }
+.voltic2 { background-image: url('../img/carshop/vehicles.png'); background-position:-1560px -2070px }
+.avarus { background-image: url('../img/carshop/vehicles.png'); background-position: -1680px -2070px }
+.blazer4 { background-image: url('../img/carshop/vehicles.png'); background-position: -1800px -2070px }
+.chimera { background-image: url('../img/carshop/vehicles.png'); background-position: -1920px -2070px }
+.daemon2 { background-image: url('../img/carshop/vehicles.png'); background-position: -2040px -2070px }
+.defiler { background-image: url('../img/carshop/vehicles.png'); background-position: -2160px -2070px }
+.esskey { background-image: url('../img/carshop/vehicles.png'); background-position: -2280px -2070px }
+.faggio { background-image: url('../img/carshop/vehicles.png'); background-position: -2400px -2160px }
+.faggio3 { background-image: url('../img/carshop/vehicles.png'); background-position: -2520px -2160px }
+.hakuchou2 { background-image: url('../img/carshop/vehicles.png'); background-position: -2640px -2160px }
+.manchez { background-image: url('../img/carshop/vehicles.png'); background-position: -2760px -2160px }
+.nightblade { background-image: url('../img/carshop/vehicles.png'); background-position: -2880px -2160px }
+.ratbike { background-image: url('../img/carshop/vehicles.png'); background-position: -3000px -2160px }
+.sanctus { background-image: url('../img/carshop/vehicles.png'); background-position: -3120px -2160px }
+.vortex { background-image: url('../img/carshop/vehicles.png'); background-position: -3240px -2160px }
+.wolfsbane { background-image: url('../img/carshop/vehicles.png'); background-position: -3360px -2160px }
+.zombiea { background-image: url('../img/carshop/vehicles.png'); background-position: -3480px -2160px }
+.zombieb { background-image: url('../img/carshop/vehicles.png'); background-position: -3600px -2160px }

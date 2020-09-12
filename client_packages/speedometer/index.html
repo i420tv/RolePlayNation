@@ -1,0 +1,57 @@
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<div class="vehhud">
+
+    <div class="bar1">
+        <i class="fas fa-gas-pump"></i>
+        <div class="line1"><div class="inline1"></div></div>
+    </div>
+
+    <div class="bar2">
+        <i class="fas fa-tachometer-alt"></i>
+        <div class="kmh">0 KM/H</div>
+    </div>
+
+    <div class="bar3">
+        <i class="fas carhp-icon" id="caricon"></i>
+        <div class="line2"><div class="inline2"></div></div>
+    </div>
+
+</div>
+
+
+<script>
+
+function update(speed, gas, vehhp)
+{			
+    document.getElementsByClassName('kmh')[0].innerHTML = speed + " MPH";
+    document.getElementsByClassName('inline1')[0].style.width = gas + "%";
+    document.getElementsByClassName('inline2')[0].style.width = vehhp + " ";
+
+    if(vehhp < 150){
+        document.getElementById("caricon").style.color = "white"; 
+
+    }
+    if(vehhp < 52){
+        document.getElementById("caricon").style.color = "#ffa600"; 
+
+    }
+    if(vehhp < 20){
+        document.getElementById("caricon").style.color = "red"; 
+
+    }
+}
+
+
+function hideSpeedo() {
+    document.getElementsByTagName('body')[0].style.display = "none";
+}
+
+function showSpeedo() {
+    document.getElementsByTagName('body')[0].style.display = "block";
+}
+</script>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/catalog.css">
+  <link rel="stylesheet" href="../css/scrollbar.css" />
+</head>
+<body>
+  <div class="data-panel">
+    <header class="data-header">
+      <div class="heading-center" data-i18n="data.title">Vehicle Shop</div>
+    </header>
+
+  <div class="catalog-container">
+    <div class="catalog-menu">
+      <div class="catalog-categories">
+        <ul id="vehicle-list-cars" class="hidden catag">
+
+          <li><div class="clear-checker">
+            <input id="carCompacts" type="checkbox" class="check" name="radio" value="0"/>
+            <label for="carCompacts" data-i18n="cardealer.compacts"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="carsCoupes" type="checkbox" class="check" value="3"/>
+            <label for="carsCoupes" data-i18n="cardealer.coupes"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="carsSports" type="checkbox" class="check" value="5"/>
+            <label for="carsSports" data-i18n="cardealer.sports"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="carsMuscle" type="checkbox" class="check" value="4"/>
+            <label for="carsMuscle" data-i18n="cardealer.muscle"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="carsSuv" type="checkbox" class="check" value="2"/>
+            <label for="carsSuv" data-i18n="cardealer.suv"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="carsSedans" type="checkbox" class="check" value="1"/>
+            <label for="carsSedans" data-i18n="cardealer.sedans"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="carsOffroad" type="checkbox" class="check" value="9"/>
+            <label for="carsOffroad" data-i18n="cardealer.off-road"></label>
+          </div></li>
+        </ul>
+
+        <ul id="vehicle-list-motorbikes" class="hidden1 catag">
+          <li><div class="clear-checker">
+            <input id="carsSedans" type="checkbox" class="check" value="1"/>
+            <label for="carsSedans" data-i18n="cardealer.sedans"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="motorcycles" type="checkbox" class="check" value="8"/>
+            <label for="motorcycles" data-i18n="cardealer.motorcycles"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="motoOffroad" type="checkbox" class="check" value="9"/>
+            <label for="motoOffroad" data-i18n="cardealer.off-road"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="carsSuv" type="checkbox" class="check" value="2"/>
+            <label for="carsSuv" data-i18n="cardealer.suv"></label>
+          </div></li>
+          
+          <li><div class="clear-checker">
+            <input id="carsMuscle" type="checkbox" class="check" value="4"/>
+            <label for="carsMuscle" data-i18n="cardealer.muscle"></label>
+          </div></li>
+
+          <li><div class="clear-checker">
+            <input id="carsSports" type="checkbox" class="check" value="5"/>
+            <label for="carsSports" data-i18n="cardealer.sports"></label>
+          </div></li>
+
+
+
+        </ul>
+
+      </div>
+
+      <div class="catalog-exit" data-i18n="general.exit" onclick="catalogBack();"><span></span></div>
+
+    </div>
+
+    <div id="vehicle-container" class="catalog-vehicles"></div>
+
+  </div>
+</div>
+</body>
+
+<script src="../lib/jquery-3.4.0.min.js"></script>
+<script src="../lib/i18next.min.js"></script>
+<script src="../lib/jquery-i18next.min.js"></script>
+<script src="../lib/i18nextXHRBackend.min.js"></script>
+<script src="../js/functions.js"></script>
+</html>

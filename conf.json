@@ -1,0 +1,16 @@
+{
+	"maxplayers" : 1000,
+	"name" : "Oceanic Roleplay (Test Server 1)", 
+	"url" : "",
+	"limit-time-of-connections-per-ip" : 500,
+	"gamemode" : "roleplay",
+	"stream-distance" : 500.0,
+	"announce" : true,
+	"voice-chat" : true,
+  	"voice-chat-sample-rate": 48000,
+	"allow-cef-debugging": true,
+	"language" : "gb",
+	"csharp" : true,
+	"port": 22005
+	
+}

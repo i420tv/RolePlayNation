@@ -1,0 +1,152 @@
+/* Copyright © 2019 by CommanderDonkey */
+/* Read README.md for using */
+
+body {
+    display: none;
+}
+
+.fas {
+    font-size: 1vw;
+    margin-left: 0.25vw;
+}
+
+.carhp-icon:before {
+    content:"\f613"
+    
+}
+
+.mile-icon:before {
+    content:"\f5de"
+}
+
+.line1 {
+    
+    position: absolute;
+    background: rgb(80, 80, 80);
+    width: 6vw;
+    height: 0.4vw;
+    top: 0.55vw;
+    border-radius: 5vw;
+    left: 2vw;
+}
+
+.inline1 {
+    background: #b68500;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 5vw;
+    
+}
+
+.line2 {
+    
+    position: absolute;
+    background: rgb(80, 80, 80);
+    width: 6vw;
+    height: 0.4vw;
+    top: 0.55vw;
+    border-radius: 5vw;
+    left: 2vw;
+}
+
+.inline2 {
+    background: #024900;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 5vw;
+}
+
+.bar1 {
+    background: #2c2c2c;
+    position: absolute;
+    padding: 0.15vw;
+    color: #fff;
+    width: 8vw;
+    height: 1vw;
+    border-radius: 0.1vw;
+    bottom: 4.2vw;
+    left: 90%;
+}
+
+.bar2 {
+    background: #2c2c2c;
+    position: absolute;
+    padding: 0.15vw;
+    color: #fff;
+    width: 8vw;
+    height: 1vw;
+    border-radius: 0.1vw;
+    bottom: 5.6vw;
+    left: 90%;
+}
+.bar3 {
+    background: #2c2c2c;
+    position: absolute;
+    padding: 0.15vw;
+    color: #fff;
+    width: 8vw;
+    height: 1vw;
+    border-radius: 0.1vw;
+    bottom: 2.8vw;
+    left: 90%;
+}
+
+.bar4 {
+    background: #2c2c2c;
+    position: absolute;
+    padding: 0.15vw;
+    color: #fff;
+    width: 8vw;
+    height: 1vw;
+    border-radius: 0.1vw;
+    bottom: 1.4vw;
+    left: 90%;
+}
+
+.engicon{
+
+      background-image: url('../');
+      background-position: center;
+      background-size: 100%;
+      width: 70px;
+      height: 70px;
+}
+
+
+.kmh {
+    
+    position: absolute;
+    right: 1.25vw;
+    font-family: 'Open Sans';
+    font-size: 0.75vw;
+    top: 0.2vw;
+    font-weight: 600;
+    letter-spacing: -0.01vw;
+}
+.mile {
+    
+    position: absolute;
+    right: 1.25vw;
+    font-family: 'Open Sans';
+    font-size: 0.75vw;
+    top: 0.2vw;
+    font-weight: 600;
+    letter-spacing: -0.01vw;
+}
+.carhp {
+    
+    position: absolute;
+    right: 1.25vw;
+    font-family: 'Open Sans';
+    font-size: 0.75vw;
+    top: 0.2vw;
+    font-weight: 600;
+    letter-spacing: -0.01vw;
+}
+
+::selection {
+	color: none;
+	background: none;
+}

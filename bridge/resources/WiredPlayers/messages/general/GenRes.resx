@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="townhall" xml:space="preserve">
+    <value>Town hall</value>
+  </data>
+  <data name="hospital" xml:space="preserve">
+    <value>Hospital</value>
+  </data>
+  <data name="driving_school" xml:space="preserve">
+    <value>Driving school</value>
+  </data>
+  <data name="weazel_news" xml:space="preserve">
+    <value>Weazel News</value>
+  </data>
+  <data name="police_station" xml:space="preserve">
+    <value>Police station</value>
+  </data>
+  <data name="bank_op_withdraw" xml:space="preserve">
+    <value>Withdraw</value>
+  </data>
+  <data name="bank_op_deposit" xml:space="preserve">
+    <value>Deposit</value>
+  </data>
+  <data name="bank_op_transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="weapon_crate" xml:space="preserve">
+    <value>weapon crate</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>The state</value>
+  </data>
+  <data name="house_sale" xml:space="preserve">
+    <value>House sale</value>
+  </data>
+  <data name="vehicle_sale" xml:space="preserve">
+    <value>Vehicle sale</value>
+  </data>
+  <data name="payment_players" xml:space="preserve">
+    <value>Payment between players</value>
+  </data>
+  <data name="hooker" xml:space="preserve">
+    <value>Hooker service</value>
+  </data>
+  <data name="character_help" xml:space="preserve">
+    <value>Press F to change your character</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name: </value>
+  </data>
+  <data name="sex" xml:space="preserve">
+    <value>Sex: </value>
+  </data>
+  <data name="age" xml:space="preserve">
+    <value>Age: </value>
+  </data>
+  <data name="money" xml:space="preserve">
+    <value>Money: </value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Bank: </value>
+  </data>
+  <data name="job" xml:space="preserve">
+    <value>Job: </value>
+  </data>
+  <data name="faction" xml:space="preserve">
+    <value>Faction: </value>
+  </data>
+  <data name="rank" xml:space="preserve">
+    <value>Rank: </value>
+  </data>
+  <data name="houses" xml:space="preserve">
+    <value>Houses: </value>
+  </data>
+  <data name="owned_vehicles" xml:space="preserve">
+    <value>Owned vehicles: </value>
+  </data>
+  <data name="lent_vehicles" xml:space="preserve">
+    <value>Lent vehicles: </value>
+  </data>
+  <data name="played_time" xml:space="preserve">
+    <value>Played: </value>
+  </data>
+  <data name="role_points" xml:space="preserve">
+    <value>Role points: </value>
+  </data>
+  <data name="expiry" xml:space="preserve">
+    <value>Expiry date: </value>
+  </data>
+  <data name="police_faction" xml:space="preserve">
+    <value>Police department</value>
+  </data>
+  <data name="emergency_faction" xml:space="preserve">
+    <value>Emergency medical services</value>
+  </data>
+  <data name="news_faction" xml:space="preserve">
+    <value>Weazel News</value>
+  </data>
+  <data name="townhall_faction" xml:space="preserve">
+    <value>Town hall</value>
+  </data>
+  <data name="transport_faction" xml:space="preserve">
+    <value>Transport services</value>
+  </data>
+  <data name="no_rank" xml:space="preserve">
+    <value>No rank</value>
+  </data>
+  <data name="no_faction" xml:space="preserve">
+    <value>No faction</value>
+  </data>
+  <data name="unemployed" xml:space="preserve">
+    <value>Unemployed</value>
+  </data>
+  <data name="years" xml:space="preserve">
+    <value> years</value>
+  </data>
+  <data name="sex_male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="sex_female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="news_announce" xml:space="preserve">
+    <value>Weazel News announcement</value>
+  </data>
+  <data name="news_prize" xml:space="preserve">
+    <value>Weazel News prize</value>
+  </data>
+  <data name="identification" xml:space="preserve">
+    <value>Identification card</value>
+  </data>
+  <data name="medical_insurance" xml:space="preserve">
+    <value>Medical insurance</value>
+  </data>
+  <data name="taxi_license" xml:space="preserve">
+    <value>Taxi license</value>
+  </data>
+  <data name="fines_payment" xml:space="preserve">
+    <value>Payment of fines</value>
+  </data>
+  <data name="sms_from" xml:space="preserve">
+    <value>SMS from </value>
+  </data>
+  <data name="pawn_shop" xml:space="preserve">
+    <value>Pawn shop</value>
+  </data>
+  <data name="salary" xml:space="preserve">
+    <value>Salary: </value>
+  </data>
+  <data name="extra_income" xml:space="preserve">
+    <value>Extra income: </value>
+  </data>
+  <data name="bank_interest" xml:space="preserve">
+    <value>Bank interest: </value>
+  </data>
+  <data name="vehicle_taxes_from" xml:space="preserve">
+    <value>Taxes from </value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total: </value>
+  </data>
+  <data name="house_taxes_from" xml:space="preserve">
+    <value>House taxes from </value>
+  </data>
+  <data name="ipl" xml:space="preserve">
+    <value>IPL: </value>
+  </data>
+  <data name="owner" xml:space="preserve">
+    <value>Owner: </value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Price: </value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status: </value>
+  </data>
+  <data name="house_check_title" xml:space="preserve">
+    <value>__________Your House(ID: {0})__________</value>
+  </data>
+  <data name="vehicle_check_title" xml:space="preserve">
+    <value>_________Information about vehicle with ID {0}_________</value>
+  </data>
+  <data name="vehicle_model" xml:space="preserve">
+    <value>Model: </value>
+  </data>
+  <data name="vehicle_plate" xml:space="preserve">
+    <value>Plate: </value>
+  </data>
+  <data name="public_parking" xml:space="preserve">
+    <value>Public parking</value>
+  </data>
+  <data name="garage" xml:space="preserve">
+    <value>Garage</value>
+  </data>
+  <data name="scrapyard" xml:space="preserve">
+    <value>Scrapyard</value>
+  </data>
+  <data name="police_depot" xml:space="preserve">
+    <value>Police depot</value>
+  </data>
+  <data name="interviewer" xml:space="preserve">
+    <value>Interviewer </value>
+  </data>
+  <data name="guest" xml:space="preserve">
+    <value>Guest </value>
+  </data>
+  <data name="route_north" xml:space="preserve">
+    <value>You've been assigned north route.</value>
+  </data>
+  <data name="route_south" xml:space="preserve">
+    <value>You've been assigned south route.</value>
+  </data>
+  <data name="route_east" xml:space="preserve">
+    <value>You've been assigned east route.</value>
+  </data>
+  <data name="route_west" xml:space="preserve">
+    <value>You've been assigned west route.</value>
+  </data>
+  <data name="fastfood_job" xml:space="preserve">
+    <value>Fastfood deliverer job</value>
+  </data>
+  <data name="mechanic_job" xml:space="preserve">
+    <value>Mechanic job</value>
+  </data>
+  <data name="garbage_job" xml:space="preserve">
+    <value>Garbage man job</value>
+  </data>
+  <data name="members_online" xml:space="preserve">
+    <value>Online members:</value>
+  </data>
+  <data name="reports_header" xml:space="preserve">
+    <value>Emergency reports:</value>
+  </data>
+  <data name="faction_lspd" xml:space="preserve">
+    <value>LSPD</value>
+  </data>
+  <data name="faction_ems" xml:space="preserve">
+    <value>EMS</value>
+  </data>
+  <data name="faction_news" xml:space="preserve">
+    <value>Weazel News</value>
+  </data>
+  <data name="faction_townhall" xml:space="preserve">
+    <value>Town hall</value>
+  </data>
+  <data name="faction_transport" xml:space="preserve">
+    <value>Transport service</value>
+  </data>
+  <data name="time" xml:space="preserve">
+    <value>Time: </value>
+  </data>
+  <data name="place" xml:space="preserve">
+    <value>place: </value>
+  </data>
+  <data name="attended_by" xml:space="preserve">
+    <value>status: attended by </value>
+  </data>
+  <data name="unattended" xml:space="preserve">
+    <value>status: unattended</value>
+  </data>
+  <data name="state_occupied" xml:space="preserve">
+    <value>House state: Occupied</value>
+  </data>
+  <data name="state_rent" xml:space="preserve">
+    <value>House state: For rent</value>
+  </data>
+  <data name="state_sale" xml:space="preserve">
+    <value>House state: For sale</value>
+  </data>
+  <data name="chat_say" xml:space="preserve">
+    <value> says: </value>
+  </data>
+  <data name="chat_yell" xml:space="preserve">
+    <value>shouts:</value>
+  </data>
+  <data name="chat_whisper" xml:space="preserve">
+    <value> whispers: </value>
+  </data>
+  <data name="chat_phone" xml:space="preserve">
+    <value> at phone: </value>
+  </data>
+  <data name="chat_radio" xml:space="preserve">
+    <value> at radio: </value>
+  </data>
+  <data name="pm_to" xml:space="preserve">
+    <value>Private message to </value>
+  </data>
+  <data name="pm_from" xml:space="preserve">
+    <value>Private message from </value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>[Phone] </value>
+  </data>
+  <data name="radio" xml:space="preserve">
+    <value>[Radio] </value>
+  </data>
+  <data name="announcement" xml:space="preserve">
+    <value>[ANNOUNCEMENT] </value>
+  </data>
+  <data name="admin_notice" xml:space="preserve">
+    <value>~r~[ADMIN] </value>
+  </data>
+  <data name="car_dealer" xml:space="preserve">
+    <value>Car dealer</value>
+  </data>
+  <data name="motorcycle_dealer" xml:space="preserve">
+    <value>Motorcycle dealer</value>
+  </data>
+  <data name="boat_dealer" xml:space="preserve">
+    <value>Boat dealer</value>
+  </data>
+  <data name="catalog_help" xml:space="preserve">
+    <value>Type the command above to see the vehicle list</value>
+  </data>
+  <data name="job_help" xml:space="preserve">
+    <value>Type the command above to get more information about the job</value>
+  </data>
+  <data name="townhall_help" xml:space="preserve">
+    <value>Type the command above to get the available formalities</value>
+  </data>
+  <data name="house" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="business" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="welcome_message" xml:space="preserve">
+    <value>Welcome to ~b~Oceanic~w~ Roleplay. We hope you enjoy your time in the city!</value>
+  </data>
+  <data name="welcome_hint" xml:space="preserve">
+    <value>Use the ~y~/welcome ~w~ to find out more about the server.</value>
+  </data>
+  <data name="help_hint" xml:space="preserve">
+    <value>Use ~b~/help ~w~command whenever you want to get general information.</value>
+  </data>
+  <data name="ticket_hint" xml:space="preserve">
+    <value>Use ~b~/ticket ~w~command to ask for help from the staff.</value>
+  </data>
+  <data name="not_faction_warning" xml:space="preserve">
+    <value>There's no pending report to attend.</value>
+  </data>
+  <data name="equipment_help" xml:space="preserve">
+    <value>Type the command above to get the police equipment</value>
+  </data>
+  <data name="command_used" xml:space="preserve">
+    <value>[{0}] {1} used {2}</value>
+  </data>
+  <data name="sheriff_faction" xml:space="preserve">
+    <value>SASD</value>
+  </data>
+  <data name="thief_job" xml:space="preserve">
+    <value>Thief</value>
+  </data>
+  <data name="trucker_job" xml:space="preserve">
+    <value>Trucker</value>
+  </data>
+  <data name="lawyer" xml:space="preserve">
+    <value>Law Services</value>
+  </data>
+  <data name="oceancleaner_job" xml:space="preserve">
+    <value>Ocean Cleaner</value>
+  </data>
+  <data name="deliveryman_job" xml:space="preserve">
+    <value>dev</value>
+  </data>
+  <data name="casino" xml:space="preserve">
+    <value>Casino</value>
+  </data>
+  <data name="faction_i1" xml:space="preserve">
+    <value>Illegal Faction</value>
+  </data>
+</root>

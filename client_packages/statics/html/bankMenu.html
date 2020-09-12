@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="de" >
+<!-- Header -->
+<head>
+  <meta charset="UTF-8">
+
+ <link rel="stylesheet" href="../css/atm.css" />
+ <link rel="stylesheet" href="../css/scrollbar.css" />
+ <audio id="click">
+    <source src="sound/click.ogg" type="audio/ogg">
+  </audio>
+</head>
+<!-- Content gaay -->
+
+<body>
+<div class="atm" id="bank-menu">
+    <div class="content">
+        <div class="button">
+            <div class="b-left">
+                <div class="b" onclick="tosite(2), depositMoney()"></div>
+                <div class="b" onclick="tosite(3), withdrawMoney()"></div>
+                <div class="b"></div>
+                <div class="b"></div>
+            </div>
+            <div class="b-right">
+                <div class="b2" onclick="tosite(6), transferMoney()"></div>
+                <div class="b2" onclick="tosite(7), showBalance()"></div>
+                <div class="b2"></div>
+                <div class="b2" onclick="mp.trigger('closeATM')"></div>
+            </div>
+        </div>
+        <div class="screen">
+
+            <div class="site1 show">
+                <div class="header">
+                    <div class="title">Maze Bank</div>
+                    <div class="menus">
+                        <div class="bg-box1">Deposit</div>
+                        <div class="bg-box2">Withdraw</div>
+
+                        <div class="bg-box5">Transfer</div>
+                        <div class="bg-box6">Transactions</div>
+                        
+                        <div class="bg-box8">Exit</div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="site2 hidden">
+                <div class="header">
+                    <div class="title">Deposit</div>
+                    <div class="sub-title">
+                        Input the amount you would like to deposit
+                    </div>
+                    <div class="sub-title"><label data-i18n="bank.available-balance"></label><span id="bank-deposit-balance"></span></div>
+                    <input class="input" id="bank-deposit-amount" type="number" value="0" min="0" placeholder="Depost Amount">
+
+                </div>
+                <div class="back4">Back</div>
+                <div class="back8">Accept</div>
+
+
+            <div class="helper">
+                <div class="button">
+                  <div class="b-left">
+                    <div class="b"></div>
+                    <div class="b"></div>
+                    <div class="b"></div>
+                    <div class="b"onclick="tosite(2)" style="background-color: rgb(182, 0, 0);"></div>
+                </div>
+                <div class="b-right">
+                    <div class="b2"></div>
+                    <div class="b2"></div>
+                    <div class="b2"></div>
+                    <div class="b2" onclick="bankAccept();" style="background-color: green;"></div>
+            </div>
+        </div>
+            </div>
+
+            </div>
+
+            <div class="site3 hidden">
+                    <div class="header">
+                        <div class="title">Withdraw</div>
+                        <div class="sub-title">
+                            Withdraw Screen
+                        </div>
+                        <div class="sub-title"><label data-i18n="bank.available-balance"></label><span id="bank-withdraw-balance"></span></div>
+                        <input class="input" id="bank-withdraw-amount" type="number" value="0" min="0" placeholder="Withdraw Amount">
+                        <div class="sub-title"><span id="bank-withdraw-error" class="d-none alert alert-danger"></span></div>
+
+                        <div class="sub-title" role="group">
+                            
+                            
+                          </div>
+                    </div>
+                <div class="back4">Back</div>
+                <div class="back8">Accept</div>
+                <div class="helper">
+                        <div class="button">
+                    <div class="b-left">
+                        <div class="b"></div>
+                        <div class="b"></div>
+                        <div class="b"></div>
+                        <div class="b"onclick="tosite(3)" style="background-color: rgb(182, 0, 0);"></div>
+                    </div>
+                    <div class="b-right">
+                        <div class="b2"></div>
+                        <div class="b2"></div>
+                        <div class="b2"></div>
+                        <div class="b2" onclick="bankAccept();" style="background-color: green;"></div>
+                    </div>
+                </div>
+                    </div>
+            </div>
+
+            <div class="site6 hidden">
+                    <div class="header">
+                        <div class="title">Transfer Money</div>
+                        <div class="sub-title">
+                            Transfer money to a person
+                        </div>
+                        <div class="sub-title"><label data-i18n="bank.available-balance"></label><span id="bank-transfer-balance"></span></div>
+                        <div class="col-lg-5 col-lg-offset-2"><input class="input" id="bank-transfer-person" type="text" data-i18n="[placeholder]bank.receiver"/></div>
+                      </br>
+                        <div class="col-lg-5 col-lg-offset-2"><input class="input" id="bank-transfer-amount" type="number" value="0" min="0"/></div>
+
+                        <div class="sub-title"><span id="bank-transfer-error" class="d-none alert alert-danger"></span></div>
+
+                    </div>
+                    <div class="back4">Back</div>
+                    <div class="back8">Accept</div>
+                <div class="helper">
+                        <div class="button">
+                    <div class="b-left">
+                        <div class="b"></div>
+                        <div class="b"></div>
+                        <div class="b"></div>
+                        <div class="b"onclick="tosite(6)" style="background-color: rgb(182, 0, 0);"></div>
+                    </div>
+                    <div class="b-right">
+                        <div class="b2"></div>
+                        <div class="b2"></div>
+                        <div class="b2"></div>
+                        <div class="b2" onclick="bankAccept();" style="background-color: green;"></div>
+                    </div>
+                </div>
+                    </div>
+            </div>
+
+            <div class="site7 hidden">
+                <div class="header">
+                    <div class="title">Transactions</div>
+                    <div class="sub-title">
+                        Transaction Info
+                    </div>
+                    <div class="trans">
+                      <div id="bank-balance" class="panel-body d-none">
+                        <div class="col-lg-8 col-lg-offset-2" data-i18n="bank.account-balance"></div>
+                        <div class="table1">
+                        <table class="col-lg-8 col-lg-offset-2">
+                          <thead class="thead-default" style="overflow: hidden; !important">
+                            <tr>
+                              <th data-i18n="bank.day"></th>
+                              <th data-i18n="bank.operation"></th>
+                              <th data-i18n="bank.from-to-account"></th>
+                              <th data-i18n="bank.amount"></th>
+                            </tr>
+                          </thead>
+                          <tbody id="bankBalanceTableBody"></tbody>
+                        </table>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="back4-2">Back</div>
+                
+
+                <div class="helper">
+                        <div class="button">
+                    <div class="b-left">
+                        <div class="b"></div>
+                        <div class="b"></div>
+                        <div class="b"></div>
+                        <div class="b"onclick="tosite(7)" style="background-color: rgb(182, 0, 0);"></div>
+                    </div>
+                    <div class="b-right">
+                        <div class="b2"></div>
+                        <div class="b2"></div>
+                        <div class="b2"></div>
+                        <div class="b2"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+
+
+        </div>
+    </div>
+    <div class="hidden" style="display:none"></div>
+
+</div>
+
+<!-- Footer -->
+<div id="invisible" style="display:none"></div>
+<script src="../lib/jquery-3.4.0.min.js"></script>
+<script src="../lib/i18next.min.js"></script>
+<script src="../lib/jquery-i18next.min.js"></script>
+<script src="../lib/i18nextXHRBackend.min.js"></script>
+<script src="../js/functions.js"></script>
+<script src="../lib/jquery-3.1.1.min.js"></script>
+<script src="../lib/bootstrap.min.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<script type="text/javascript">
+
+
+    var currentSite;
+
+    function tosite(site) {
+        if($('.hidden').is(":hidden")) {
+            $('.site1').toggleClass("hidden");
+		    $('.site' + site).toggleClass("hidden");
+            $('.site' + site).toggleClass("show");
+            currentSite = site;
+            console.log(currentSite);
+            document.getElementsByClassName('input')[0].value = null;
+            document.getElementsByClassName('input')[1].value = null;
+            playClick();
+        }
+    }
+
+    function playClick() {
+        var audio = document.getElementById("click");
+        audio.play();
+    }
+
+    function receiveInformation(Kn, Ks, verlauf)
+    {
+        document.getElementsByClassName("kstand")[0].innerHTML = Ks;
+        document.getElementsByClassName("kinfo")[0].innerHTML = "Kontonummer: " + Kn;
+        document.getElementsByClassName("kverlauf")[0].innerHTML = verlauf;
+    }
+
+    function submit()
+    {
+        if (currentSite == 2) {
+            if (getCurrentInputValue() != undefined && getCurrentInputValue() != null && getCurrentInputValue() != "") {
+                console.log(getCurrentInputValue());
+                mp.trigger("atmAction", 0, getCurrentInputValue(), 0);
+            }
+        }
+        else if (currentSite == 3) {
+            if (getCurrentInputValue() != undefined && getCurrentInputValue() != null && getCurrentInputValue() != "") {
+                console.log(getCurrentInputValue());
+                mp.trigger("atmAction", 1, getCurrentInputValue(), 0);
+            }
+        }
+        else if (currentSite == 4) {
+            var Value = getCurrentInputValue();
+            if (Value != undefined && Value != null && Value != "") {
+                console.log(Value[0] + " " + Value[1]);
+                mp.trigger("atmAction", 2, Value[0], Value[1]);
+            }
+        }
+    }
+
+    function cancel() {
+        document.getElementsByName('einzahlen')[0].value = null;
+        document.getElementsByName('auszahlen')[0].value = null;
+    }
+
+    function getCurrentInputValue() {
+        if (currentSite == 2) {
+            return document.getElementsByName('einzahlen')[0].value;
+        }
+        else if (currentSite == 3) {
+            return document.getElementsByName('auszahlen')[0].value;
+        }
+        else if (currentSite == 4) {
+            var kontonum = document.getElementsByName('ueberweisen_kontonummer')[0].value;
+            var betrag = document.getElementsByName('ueberweisen_betrag')[0].value;
+            if (betrag != undefined && betrag != null && betrag != "" && kontonum != "" && kontonum != undefined && kontonum != null) {
+                var array = [kontonum, betrag];
+                return array;
+            }
+        }
+    }
+
+
+    function addToCurrentInput(number) {
+        if (currentSite == 2) {
+            document.getElementsByName('einzahlen')[0].value = document.getElementsByName('einzahlen')[0].value + '' + number;
+        }
+        else if (currentSite == 3) {
+            document.getElementsByName('auszahlen')[0].value = document.getElementsByName('auszahlen')[0].value + '' + number;
+        }
+    }
+
+    function ExitATM() {
+        playClick();
+        mp.trigger("closeATM");
+    }
+
+    function action(ac)
+    {
+	    mp.trigger("atmAction", ac);
+    }
+
+</script>
+</body>
+</html>

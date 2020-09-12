@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a" xml:space="preserve">
+    <value>FOMA CORRETA: /a [Mensagem]</value>
+  </data>
+  <data name="accept" xml:space="preserve">
+    <value>FOMA CORRETA: /aceitar [Orderens|Servico|Entrevista|Dinheiro|Repintar]</value>
+  </data>
+  <data name="admin" xml:space="preserve">
+    <value>FOMA CORRETA: /admin [Mensagem]</value>
+  </data>
+  <data name="ame" xml:space="preserve">
+    <value>FOMA CORRETA: /ame [Mensagem]</value>
+  </data>
+  <data name="announce" xml:space="preserve">
+    <value>FOMA CORRETA: /anunciar [Mensagem de Anuncio]</value>
+  </data>
+  <data name="attend" xml:space="preserve">
+    <value>FOMA CORRETA: /atender [ID da do Report]</value>
+  </data>
+  <data name="a_ticket" xml:space="preserve">
+    <value>FOMA CORRETA: /aticket [ID do Ticket] [Mensagem de ajuda]</value>
+  </data>
+  <data name="ban" xml:space="preserve">
+    <value>FOMA CORRETA: /ban [ID do Jogador/Nome do Jogador] [Motivo]</value>
+  </data>
+  <data name="breathalyzer" xml:space="preserve">
+    <value>FOMA CORRETA: /bafometro [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="bring" xml:space="preserve">
+    <value>FOMA CORRETA: /trazer [ID do jogador/Nome do jogador]</value>
+  </data>
+  <data name="business" xml:space="preserve">
+    <value>FOMA CORRETA: /negocio [Info|Create|Modify|Remove]]</value>
+  </data>
+  <data name="business_create" xml:space="preserve">
+    <value>FOMA CORRETA: /negocio create [Tipo de Negocio] [Inner|Outer]</value>
+  </data>
+  <data name="business_modify" xml:space="preserve">
+    <value>FOMA CORRETA: /negocio modify [Nome|Tipo]</value>
+  </data>
+  <data name="business_modify_name" xml:space="preserve">
+    <value>FOMA CORRETA: /negocio modificar nome [Texto]</value>
+  </data>
+  <data name="business_modify_type" xml:space="preserve">
+    <value>FOMA CORRETA: /negocio modificar tipo [Valor]</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>FOMA CORRETA: /cancelar [Ordens|Servico|Entrevista|Dinheiro|Repintar]</value>
+  </data>
+  <data name="character" xml:space="preserve">
+    <value>FOMA CORRETA: /jogador [Banco|Dinheiro|Faccao|Cargo|Emprego|Dimensao] [ID do Jogador/Nome do Jogador] [Valor]</value>
+  </data>
+  <data name="clear_report" xml:space="preserve">
+    <value>FOMA CORRETA: /limparrelatorio [ID do Report]</value>
+  </data>
+  <data name="complement" xml:space="preserve">
+    <value>FOMA CORRETA: /complemento [Mascara|Mochila|Acessorio|Chapeu|Oculos|Brincos] [Vestir|Remover]</value>
+  </data>
+  <data name="computer" xml:space="preserve">
+    <value>FOMA CORRETA: /computer [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="contacts" xml:space="preserve">
+    <value>FOMA CORRETA: /contatos [Numero|Ver|Add|Remover|SMS]</value>
+  </data>
+  <data name="control" xml:space="preserve">
+    <value>FOMA CORRETA: /controlar [Carregar|Salvar|Renomear|Deletar|Limpar]</value>
+  </data>
+  <data name="coord" xml:space="preserve">
+    <value>FORMA CORRETA: /coord [Pos. X] [Pos. Y] [Pos. Z]</value>
+  </data>
+  <data name="cut_interview" xml:space="preserve">
+    <value>FOMA CORRETA: /corteentrevista [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="dismiss" xml:space="preserve">
+    <value>FOMA CORRETA: /dispensar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="do" xml:space="preserve">
+    <value>FOMA CORRETA: /fazer [Mensagem]</value>
+  </data>
+  <data name="driving_school" xml:space="preserve">
+    <value>FOMA CORRETA: /autoescola [Carro|Motocicleta]</value>
+  </data>
+  <data name="ed" xml:space="preserve">
+    <value>FOMA CORRETA: /de [Mensagem]</value>
+  </data>
+  <data name="equipment" xml:space="preserve">
+    <value>FOMA CORRETA: /equipamento [Basico|Municao|Arma]</value>
+  </data>
+  <data name="extract" xml:space="preserve">
+    <value>FOMA CORRETA: /extrair [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="f" xml:space="preserve">
+    <value>FOMA CORRETA: /f [Mensagem]</value>
+  </data>
+  <data name="fine" xml:space="preserve">
+    <value>FOMA CORRETA: /multar [ID do Jogador/Nome do Jogador] [Preço] [Motivo]</value>
+  </data>
+  <data name="fr" xml:space="preserve">
+    <value>FOMA CORRETA: /fr [Mensagem]</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>FOMA CORRETA: /frequencia [Criar|Modificar|Remover|Conectar|Disconectar]</value>
+  </data>
+  <data name="frequency_connect" xml:space="preserve">
+    <value>FOMA CORRETA: /frequency conectar [ID da frequencia] [Senha]</value>
+  </data>
+  <data name="frequency_create" xml:space="preserve">
+    <value>FOMA CORRETA: /frequencia cria [Senha]</value>
+  </data>
+  <data name="frequency_modify" xml:space="preserve">
+    <value>FOMA CORRETA: /frequency modificar [Senha]</value>
+  </data>
+  <data name="frisk" xml:space="preserve">
+    <value>FOMA CORRETA: /brincar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="furniture" xml:space="preserve">
+    <value>FOMA CORRETA: /mobilia [Dar|Mover|Remover]</value>
+  </data>
+  <data name="garbage" xml:space="preserve">
+    <value>FOMA CORRETA: /lixo [Rota|Pegar|Cancelar]</value>
+  </data>
+  <data name="give" xml:space="preserve">
+    <value>FOMA CORRETA: /dar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="go" xml:space="preserve">
+    <value>FOMA CORRETA: /ir [Oficina | Eletronicos | Policia | Prefeitura | Licensa | Hospital | Mecanico | Noticias | Bahama | Lixao]</value>
+  </data>
+  <data name="gun" xml:space="preserve">
+    <value>FOMA CORRETA: /arma [ID do Jogador/Nome do Jogador] [Arma] [Balas]</value>
+  </data>
+  <data name="handcuff" xml:space="preserve">
+    <value>FOMA CORRETA: /algemar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="heal" xml:space="preserve">
+    <value>FOMA CORRETA: /curar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="health" xml:space="preserve">
+    <value>FOMA CORRETA: /curar [ID do Jogador/Nome do Jogador] [Amount]</value>
+  </data>
+  <data name="house" xml:space="preserve">
+    <value>FOMA CORRETA: /house [Info|Criar|Modificar|Remover|Tp]</value>
+  </data>
+  <data name="house_goto" xml:space="preserve">
+    <value>FOMA CORRETA: /casa tp [ID da casa.]</value>
+  </data>
+  <data name="house_info" xml:space="preserve">
+    <value>FOMA CORRETA: /casa info [(Opc.) ID da casa.]</value>
+  </data>
+  <data name="house_modify" xml:space="preserve">
+    <value>FOMA CORRETA: /casa modificar [Interior|Preco|Estado|Alugar|Dono|Nome]</value>
+  </data>
+  <data name="house_modify_int" xml:space="preserve">
+    <value>FOMA CORRETA: /casa modificar [Interior|Prreco|Estado|Alugar] [Valor]</value>
+  </data>
+  <data name="house_modify_string" xml:space="preserve">
+    <value>FOMA CORRETA: /casa modificar [Dono|Nome] [Texto]</value>
+  </data>
+  <data name="incriminate" xml:space="preserve">
+    <value>FOMA CORRETA: /incriminar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="info" xml:space="preserve">
+    <value>FOMA CORRETA: /info [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="interview" xml:space="preserve">
+    <value>FOMA CORRETA: /entrevistar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="jail" xml:space="preserve">
+    <value>FOMA CORRETA: /prender [ID do Jogador/Nome do Jogador] [Minutos] [Motivo]</value>
+  </data>
+  <data name="job" xml:space="preserve">
+    <value>FOMA CORRETA: /emprego [Info|Aceitar|Sair]</value>
+  </data>
+  <data name="keys" xml:space="preserve">
+    <value>FOMA CORRETA: /chave [Ver|Emprestar|Largar] [ID do Veículo] [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="kick" xml:space="preserve">
+    <value>FOMA CORRETA: /kick [ID do Jogador/Nome do Jogador] [Motivo]</value>
+  </data>
+  <data name="license" xml:space="preserve">
+    <value>FOMA CORRETA: /licensa [Dar|Remover] [Arma|Carro|Motocicleta] [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="locate" xml:space="preserve">
+    <value>FOMA CORRETA: /localizar [ID do Veículo]</value>
+  </data>
+  <data name="me" xml:space="preserve">
+    <value>FOMA CORRETA: /eu [Mensagem]</value>
+  </data>
+  <data name="megaphone" xml:space="preserve">
+    <value>FOMA CORRETA: /global [Mensagem]</value>
+  </data>
+  <data name="news" xml:space="preserve">
+    <value>FOMA CORRETA: /n [Mensagem de Noticia]</value>
+  </data>
+  <data name="ooc" xml:space="preserve">
+    <value>FOMA CORRETA: /ooc [Mensagem]</value>
+  </data>
+  <data name="parking" xml:space="preserve">
+    <value>FOMA CORRETA: /estacionamento [Info|Criar|Modificar|Remover]</value>
+  </data>
+  <data name="parking_create" xml:space="preserve">
+    <value>FOMA CORRETA: /estacionamento criar [0 Estacionamento Publico | 1 Garagem | 2 Ferro Velho | 3 Depósito policial]</value>
+  </data>
+  <data name="parking_modify" xml:space="preserve">
+    <value>FOMA CORRETA: /estacionamento modificar [Casa|Lugares|Tipo] [Valor]</value>
+  </data>
+  <data name="pay" xml:space="preserve">
+    <value>FOMA CORRETA: /pagar [ID do Jogador/Nome do Jogador] [Quantidade]</value>
+  </data>
+  <data name="pd" xml:space="preserve">
+    <value>FOMA CORRETA: /dp [Mensagem]</value>
+  </data>
+  <data name="pm" xml:space="preserve">
+    <value>FOMA CORRETA: /mp [ID do Jogador/Nome do Jogador] [Mensagem]</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>FOMA CORRETA: /pontos [Dar|Remover|Dar] [ID do Jogador/Nome do Jogador] [Amount]</value>
+  </data>
+  <data name="prize" xml:space="preserve">
+    <value>FOMA CORRETA: /premiar [ID do Jogador/Nome do Jogador] [Quantidade] [Motivo]</value>
+  </data>
+  <data name="purchase" xml:space="preserve">
+    <value>FOMA CORRETA: /comprar [Valor]</value>
+  </data>
+  <data name="put" xml:space="preserve">
+    <value>FOMA CORRETA: /Dar [Cone|Baliza|Barreira|Espinhos]</value>
+  </data>
+  <data name="r" xml:space="preserve">
+    <value>FOMA CORRETA: /r [Mensagem]</value>
+  </data>
+  <data name="rank" xml:space="preserve">
+    <value>FOMA CORRETA: /jogador cargo [ID do Jogador/Nome do Jogador] [Valor]</value>
+  </data>
+  <data name="reanimate" xml:space="preserve">
+    <value>FOMA CORRETA: /reanimar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="recon" xml:space="preserve">
+    <value>FOMA CORRETA: /recon [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="recruit" xml:space="preserve">
+    <value>FOMA CORRETA: /recrutar [ID do Jogador/Nome do Jogador]</value>
+  </data>
+  <data name="refuel" xml:space="preserve">
+    <value>FOMA CORRETA: /reabastecer [Price (0 para tanque cheio)]</value>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>FOMA CORRETA: /remover [Cone|Baliza|Barreira|Espinhos]</value>
+  </data>
+  <data name="rentable" xml:space="preserve">
+    <value>FOMA CORRETA: /alugavel [Valor]</value>
+  </data>
+  <data name="repaint" xml:space="preserve">
+    <value>FOMA CORRETA: /repintar [ID do Veículo]</value>
+  </data>
+  <data name="repair" xml:space="preserve">
+    <value>FOMA CORRETA: /reparar [ID do Veículo] [Chassis|Portas|Pneus|Janelas|Motor] [Preço]</value>
+  </data>
+  <data name="revive" xml:space="preserve">
+    <value>FOMA CORRETA: /reviver [ID do jogador/Nome do jogador]</value>
+  </data>
+  <data name="say" xml:space="preserve">
+    <value>FOMA CORRETA: /dizer [Mensagem]</value>
+  </data>
+  <data name="sell" xml:space="preserve">
+    <value>FOMA CORRETA: /vender [Veiculo|Casa|Peixe] [ID do Veículo/House id.] [ID do Jogador/Nome do Jogador] [Preço]</value>
+  </data>
+  <data name="sell_house" xml:space="preserve">
+    <value>FOMA CORRETA: /vender casa [ID da Casa] [ID do Jogador/Nome do Jogador] [Preço] (70% de seu valor ao não preencher o jogador nem o preço)</value>
+  </data>
+  <data name="sell_vehicle" xml:space="preserve">
+    <value>FOMA CORRETA: /vender veiculo [ID do Veículo] [ID do Jogador/Nome do Jogador] [Preço]</value>
+  </data>
+  <data name="service" xml:space="preserve">
+    <value>FOMA CORRETA: /servico [Sexo|Oral] [ID do Jogador/Nome do Jogador] [Preço]</value>
+  </data>
+  <data name="show" xml:space="preserve">
+    <value>FOMA CORRETA: /mostrar [ID do Jogador/Nome do Jogador] [Licensas|Identificacao|Seguro]</value>
+  </data>
+  <data name="skin" xml:space="preserve">
+    <value>FOMA CORRETA: /skin [Nome do modelo ped]</value>
+  </data>
+  <data name="sms" xml:space="preserve">
+    <value>FOMA CORRETA: /sms [Numero] [Mensagem]</value>
+  </data>
+  <data name="ticket" xml:space="preserve">
+    <value>FOMA CORRETA: /ticket [Mensagem de Ajuda]</value>
+  </data>
+  <data name="tp" xml:space="preserve">
+    <value>FOMA CORRETA: /tp [ID do jogador/Nome do jogador]</value>
+  </data>
+  <data name="trunk" xml:space="preserve">
+    <value>FOMA CORRETA: /tronco [Abrir|Fechar|Guardar|Retirar]</value>
+  </data>
+  <data name="unpark" xml:space="preserve">
+    <value>FOMA CORRETA: /desestacionar [ID do Veículo]</value>
+  </data>
+  <data name="vehicle" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo [Info|Criar|Modicar|Remover|Reparar|Trancar|Comecar|Trazer|Tp]</value>
+  </data>
+  <data name="vehicle_bring" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo trazer [ID do veículo]</value>
+  </data>
+  <data name="vehicle_color" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo modificar cor [Cor primaria (R,G,B)] [Cor secundaria (R,G,B)]</value>
+  </data>
+  <data name="vehicle_create" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo criar [Model] [Primary color (R,G,B)] [Secondary color (R,G,B)]</value>
+  </data>
+  <data name="vehicle_delete" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo remover [ID do veículo]</value>
+  </data>
+  <data name="vehicle_dimension" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo modificar dimensao [ID do veículo] [Valor]</value>
+  </data>
+  <data name="vehicle_faction" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo modificar facção [Valor]</value>
+  </data>
+  <data name="vehicle_goto" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo tp [ID do veículo]</value>
+  </data>
+  <data name="vehicle_modify" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo modificar [Cor|Dimensao|Dono|Faccao|Posicao]</value>
+  </data>
+  <data name="vehicle_owner" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo modificar dono [Nome] [Surname]</value>
+  </data>
+  <data name="weather" xml:space="preserve">
+    <value>FOMA CORRETA: /clima [0-12]</value>
+  </data>
+  <data name="whisper" xml:space="preserve">
+    <value>FOMA CORRETA: /sussurar [Mensagem]</value>
+  </data>
+  <data name="yell" xml:space="preserve">
+    <value>FOMA CORRETA: /gritar [Mensagem]</value>
+  </data>
+  <data name="equipment_weapon" xml:space="preserve">
+    <value>FOMA CORRETA: /equipamento arma [Pistola|Revolver|Assalto|Machinegun|Sniper|Espingarda]</value>
+  </data>
+  <data name="enter_business" xml:space="preserve">
+    <value>enter_business</value>
+  </data>
+  <data name="vehicle_gas" xml:space="preserve">
+    <value>FOMA CORRETA: /veiculo modificar gas [ID do veículo] [Valor]</value>
+  </data>
+  <data name="access_atm" xml:space="preserve">
+    <value>access_atm</value>
+  </data>
+  <data name="exit_lobby" xml:space="preserve">
+    <value>exit_lobby</value>
+  </data>
+  <data name="manage_characters" xml:space="preserve">
+    <value>manage_characters</value>
+  </data>
+  <data name="action_business" xml:space="preserve">
+    <value>action_business</value>
+  </data>
+  <data name="exit_business" xml:space="preserve">
+    <value>exit_business</value>
+  </data>
+  <data name="exit_house" xml:space="preserve">
+    <value>exit_house</value>
+  </data>
+  <data name="enter_house" xml:space="preserve">
+    <value>enter_house</value>
+  </data>
+  <data name="enter_building" xml:space="preserve">
+    <value>enter_building</value>
+  </data>
+  <data name="interior_create" xml:space="preserve">
+    <value>interior_create</value>
+  </data>
+  <data name="exit_interior" xml:space="preserve">
+    <value>exit_interior</value>
+  </data>
+  <data name="action_tramitate" xml:space="preserve">
+    <value>action_tramitate</value>
+  </data>
+  <data name="interior" xml:space="preserve">
+    <value>interior</value>
+  </data>
+  <data name="interior_goto" xml:space="preserve">
+    <value>interior_goto</value>
+  </data>
+  <data name="action_plant" xml:space="preserve">
+    <value>Cut plant</value>
+  </data>
+  <data name="house_create" xml:space="preserve">
+    <value>FOMA CORRETA: /casa [Tipo]</value>
+  </data>
+</root>

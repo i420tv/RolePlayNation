@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<meta>
+  <info name="WiredPlayers" author="Xabi" type="gamemode"/>
+  
+  <!-- Gamemode library -->
+  <script src="bin/Debug/netcoreapp2.2/WiredPlayers.dll" />
+
+  <settings>
+    <!-- Database host, 120.0.0.1 if localhost -->
+    <setting name="host" value="localhost"/>
+    <!-- Database username -->
+    <setting name="username" value="Ruben"/>
+    <!-- Database password -->
+    <setting name="password" value="Frantzen123"/>
+    <!-- Database name -->
+    <setting name="database" value="gtav"/>
+    <!-- Can take NONE or REQUIRED values -->
+    <setting name="ssl" value="none"/>
+
+    <!-- Gamemode language settings -->
+    <setting name="culture" value="en-GB"/>
+  </settings>
+
+</meta>

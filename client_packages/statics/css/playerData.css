@@ -1,0 +1,253 @@
+﻿* {
+    outline: none;
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+    box-sizing: border-box;
+    font-family: Myriad Pro, Open Sans, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+label, h1 {
+	align-content: center;
+	font-size: 0.85vw;
+	font-weight: bold;
+}
+
+.box {
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;	
+	background-color: rgb(117, 117, 117);
+	list-style-type: none;
+	max-width: 200px;
+	min-width: 50px;
+	max-height: 30px;
+	text-align: center;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.invisible {
+	visibility: hidden !important;
+}
+
+.li::marker{
+	list-style-type: none;
+}
+.data-panel {
+	width: 900px;
+	height: 300px;
+	top: 25%;
+	left: 28%;
+	overflow: hidden;
+	background-color: #4b4b4b98;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.data-panel > div {
+	position: absolute;
+	height: 200px;
+	width: 900px;
+	left: 0px;
+	top: 90px;
+	padding: 0px;
+	display: flex;  
+	flex-wrap: nowrap;
+	
+}
+
+.Infoinside{
+	padding-left:80px ;
+	
+	display: flex; 
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	width: 900px;
+
+	font-size: 26px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.divc{
+	width: auto;
+	text-align: center;
+}
+.data-header {
+	height: 100px;
+	
+}
+
+.data-header * {
+	display: inline-block;
+	color: seashell;
+	text-align: center;
+}
+
+.vehiclebox{
+	margin-top: 3px;
+	background-color: #4b4b4b98;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+	width: 780px;
+	text-align: center;
+	line-height: 28px;
+
+}
+
+.vehiclediv{
+	
+	overflow: auto;
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+	display: flex; 
+	text-align: center;
+}
+
+li {
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;	
+	background-color: rgb(117, 117, 117);
+	list-style-type: none;
+	max-width: 560px;
+	min-width: 700px;
+
+	max-height: 100px;
+	min-height: 30px;
+	
+	text-align: center;
+	line-height: 26px;
+	
+	margin-left: -40px;
+	margin-top: 3px;
+
+	display: flex; 
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.propbox{
+	background-color: #4b4b4b98;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid black;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.playerp {
+	color: seashell;
+	max-width: 20px;
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+	display: flex; 
+	text-align: center;
+}
+.playerph{
+	width: 150px;
+	color: seashell;
+	display: flex; 
+	justify-items: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.playericon{
+	border-radius: 15px; 
+	background-color: rgba(85, 85, 85, 0.678);
+	display: flex;  
+
+
+}
+
+.header-logo img { 
+	max-height: 4vh;
+	padding: 0.5vh 0px 0.5vh 10px;
+}
+
+.heading-left {
+	width: 25vw;
+	height: 7vh;
+	padding: 10px;
+    vertical-align: middle;
+}
+
+
+.heading-center {
+	width: 100%;
+	height: 39px;
+	padding: 10px;
+	vertical-align: middle;
+    background-image: url('../img/ui/bg.jpg');
+    background-color: rgba(255, 255, 255, 0.13);
+    background-position: 1000px 800px;
+	background-color: rgba(255, 255, 255, 0.13);
+	border-radius: 15px 15px 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.heading-right {
+	position: absolute;
+	left: 30px;
+	top: -0.5vh;
+
+}
+
+.heading-right img {
+	margin-top: 15px;
+	height: 20px;
+	margin-left: 820px
+
+}
+
+.navigation-menu {
+	position: relative;
+	top: -61px;
+	width: 900px;
+	height: 50px;
+	display: table;
+	z-index: 10;
+	display: flex;  
+	flex-wrap: nowrap;
+	font-weight: bold;
+}
+
+.navigation-menu div {
+	vertical-align: center;
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+	background-color: rgba(41, 41, 41, 0.486);
+	color: rgb(255, 255, 255);
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	
+}
+
+
+.navigation-menu div:hover {
+	cursor: pointer;
+	background-color: rgba(40, 40, 40, 0.75);
+}

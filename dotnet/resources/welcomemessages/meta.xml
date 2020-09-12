@@ -1,0 +1,4 @@
+<meta>
+    <info name="Welcome Messages" type="script" />
+    <script src="welcomemessages.cs" />
+</meta>
